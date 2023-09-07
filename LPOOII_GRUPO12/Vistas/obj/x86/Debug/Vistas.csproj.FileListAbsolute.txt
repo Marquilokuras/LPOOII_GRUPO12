@@ -1,0 +1,15 @@
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.exe
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.pdb

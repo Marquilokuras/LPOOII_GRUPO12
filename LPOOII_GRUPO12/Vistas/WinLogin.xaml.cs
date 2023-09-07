@@ -22,5 +22,16 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void textUsuario_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnSession_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow oMainWindow = new MainWindow();
+            oMainWindow.Show();
+        }
     }
 }
