@@ -14,3 +14,19 @@ C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vis
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.dll
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.pdb
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.exe
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.exe
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.pdb
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.dll
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.pdb
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache

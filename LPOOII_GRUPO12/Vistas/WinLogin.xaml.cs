@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -30,8 +31,28 @@ namespace Vistas
 
         private void btnSession_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow oMainWindow = new MainWindow();
-            oMainWindow.Show();
+
+            string username = textUsuario.Text.Trim();
+            string password = textPassword.Text.Trim();
+
+            username = "admin";
+            password = "admin";
+
+            Usuario usuarioLogueado = new Usuario();
+            usuarioLogueado.Usr_UserName = username;
+            usuarioLogueado.Usr_Password = password;
+
+            if (usuarioLogueado != null)
+            {
+                Console.WriteLine("Login exitoso.\nUsuario: " + username);
+                MainWindow oMainWindow = new MainWindow();
+                oMainWindow.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario no encontrado", "Ingresar Usuario");
+                Console.WriteLine("No se encontro el usuario: " + username);
+            }
         }
     }
 }
