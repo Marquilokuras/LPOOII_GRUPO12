@@ -55,12 +55,43 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ABMCliente.xaml.cs">
+      <DependentUpon>ABMCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABMEstacionamiento.xaml.cs">
+      <DependentUpon>ABMEstacionamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABMSector.xaml.cs">
+      <DependentUpon>ABMSector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABMVehiculo.xaml.cs">
+      <DependentUpon>ABMVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipalWindow.xaml.cs">
+      <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VEP.xaml.cs">
       <DependentUpon>VEP.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinLogin.xaml.cs">
       <DependentUpon>WinLogin.xaml</DependentUpon>
     </Compile>
+    <Page Include="ABMCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABMEstacionamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABMSector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABMVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,6 +104,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuPrincipalWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="VEP.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

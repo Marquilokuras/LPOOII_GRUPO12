@@ -49,5 +49,12 @@ namespace ClasesBase
             get { return usr_UserName; }
             set { usr_UserName = value; }
         }
+
+
+        //public Usuario(int id, int rol, string nombre, string apellido, string password,string username){
+      
+           
+
+        //}
     }
 }
