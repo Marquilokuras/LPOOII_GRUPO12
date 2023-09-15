@@ -1,0 +1,17 @@
+﻿<Window x:Class="Vistas.MenuPrincipalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ClasesBase;assembly=ClasesBase"
+        Title="MenuPrincipalWindow" Height="300" Width="730" Loaded="Window_Loaded">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Sectores" x:Name="menuSectores" Click="menuSectores_Click" />
+            <MenuItem Header="Tipos de Vehiculo" x:Name="menuTiposVehiculo" Click="menuTiposVehiculo_Click" />
+            <MenuItem Header="Gestion Clientes" x:Name="menuGestionClientes" Click="menuGestionClientes_Click" />
+            <MenuItem Header="Gestion Estacionamiento" x:Name="menuGestionEstacionamiento" Click="menuGestionEstacionamiento_Click" />
+            <Separator />
+            <MenuItem Header="Salir" x:Name="menuSalir" Click="menuSalir_Click" />
+        </Menu>
+
+    </Grid>
+</Window>

@@ -19,6 +19,9 @@ namespace Vistas
     /// </summary>
     public partial class WinWelcome : Window
     {
+
+        private Usuario usuarioLogueado = new Usuario();
+
         public WinWelcome()
         {
             InitializeComponent();
@@ -35,24 +38,41 @@ namespace Vistas
             string username = textUsuario.Text.Trim();
             string password = textPassword.Text.Trim();
 
-            username = "admin";
-            password = "admin";
+            Console.WriteLine(username + " " + password);
 
-            Usuario usuarioLogueado = new Usuario();
-            usuarioLogueado.Usr_UserName = username;
-            usuarioLogueado.Usr_Password = password;
+            //username = "admin";
+            //password = "admin";
 
-            if (usuarioLogueado != null)
-            {
-                Console.WriteLine("Login exitoso.\nUsuario: " + username);
-                MainWindow oMainWindow = new MainWindow();
-                oMainWindow.Show();
+
+            //ToDo validar username y password
+
+            if (username != "" && password != "") {
+                //Usuario usuarioLogueado = new Usuario();
+                usuarioLogueado.Usr_UserName = username;
+                usuarioLogueado.Usr_Password = password;
+                usuarioLogueado.Rol_id = 1;
+
+                //1 = Admin
+                //2 = Operador
+
+
+                if (usuarioLogueado != null)
+                {
+
+                    MenuPrincipalWindow menuWindow = new MenuPrincipalWindow(usuarioLogueado);
+                    menuWindow.Show();
+
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario no encontrado", "Ingresar Usuario");
+                    Console.WriteLine("No se encontro el usuario: " + username);
+                }
             }
+
             else
-            {
-                MessageBox.Show("Usuario no encontrado", "Ingresar Usuario");
-                Console.WriteLine("No se encontro el usuario: " + username);
-            }
+                MessageBox.Show("Ingrese un usuario y contraseña");
         }
     }
 }
