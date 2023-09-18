@@ -3,6 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ABMCliente" Height="300" Width="300">
     <Grid>
-        
+        <Label Content="Formulario de Clientes" Height="36" HorizontalAlignment="Stretch" Margin="31,12,33,0" Name="label1" VerticalAlignment="Top" FontSize="20" Width="213" />
+        <Label Content="DNI" Height="28" HorizontalAlignment="Left" Margin="12,57,0,0" Name="dni" VerticalAlignment="Top" Width="54" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="76,61,0,0" Name="textDni" VerticalAlignment="Top" Width="120" />
+        <Label Content="Apellido" Height="28" HorizontalAlignment="Left" Margin="12,91,0,0" Name="apellido" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="76,95,0,0" Name="textApellido" VerticalAlignment="Top" Width="120" />
+        <Label Content="Nombre" Height="28" HorizontalAlignment="Left" Margin="12,125,0,0" Name="nombre" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="76,129,0,0" Name="textNombre" VerticalAlignment="Top" Width="120" />
+        <Label Content="Telefono" Height="28" HorizontalAlignment="Left" Margin="12,159,0,0" Name="telefono" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="76,163,0,0" Name="textTelefono" VerticalAlignment="Top" Width="120" />
+        <Button Content="Registrar" Height="23" HorizontalAlignment="Center" Margin="98,212,105,0" Name="btnRegistrar" VerticalAlignment="Top" Width="75" Click="btnRegistrar_Click" />
     </Grid>
 </Window>

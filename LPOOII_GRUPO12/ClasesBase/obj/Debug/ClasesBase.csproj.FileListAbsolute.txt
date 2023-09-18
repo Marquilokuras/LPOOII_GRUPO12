@@ -18,3 +18,8 @@ C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRU
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
