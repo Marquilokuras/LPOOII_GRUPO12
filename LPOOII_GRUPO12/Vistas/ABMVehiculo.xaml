@@ -2,6 +2,16 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ABMVehiculo" Height="300" Width="300">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Agrega la referencia al ResourceDictionary de ButtonStyles.xaml -->
+                <ResourceDictionary Source="ButtonStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
     <Grid>
         <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="26,12,25,0" Name="label1" VerticalAlignment="Top" />
         <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="12,71,0,0" Name="codigo" VerticalAlignment="Top" Width="54" />
@@ -10,6 +20,8 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,109,0,0" Name="textDescripcion" VerticalAlignment="Top" Width="120" />
         <Label Content="Tarifa" Height="28" HorizontalAlignment="Left" Margin="12,139,0,0" Name="tarifa" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,143,0,0" Name="textTarifa" VerticalAlignment="Top" Width="120" />
-        <Button Content="Registrar" Height="23" HorizontalAlignment="Center" Margin="103,226,100,0" Name="btnRegistrar" VerticalAlignment="Top" Width="75" Click="btnRegistrar_Click" />
+        <!--<Button Content="Registrar" Height="23" HorizontalAlignment="Center" Margin="103,226,100,0" Name="btnRegistrar" VerticalAlignment="Top" Width="75" Click="btnRegistrar_Click" />-->
+        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}"/>
     </Grid>
+   
 </Window>
