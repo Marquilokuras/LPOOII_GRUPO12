@@ -9,11 +9,8 @@
         <Setter Property="Background" Value="Black"/>
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="FontSize" Value="16"/>
-        <Setter Property="Height" Value="23"/>
-        <Setter Property="HorizontalAlignment" Value="Center"/>
-        <Setter Property="Margin" Value="103,226,100,0"/>
-        <Setter Property="VerticalAlignment" Value="Top"/>
-        <Setter Property="Width" Value="75"/>
+        <Setter Property="Height" Value="29"/>
+        <Setter Property="Width" Value="97"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">

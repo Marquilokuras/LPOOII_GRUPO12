@@ -6,14 +6,17 @@
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
     <Grid>
-        <Menu HorizontalAlignment="Left" Width="507">
+        <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top" Width="Auto" Margin="0,0,0,0" Background="#FFFFE775">
             <MenuItem Header="Sectores" x:Name="menuSectores" Click="menuSectores_Click" />
             <MenuItem Header="Tipos de Vehiculo" x:Name="menuTiposVehiculo" Click="menuTiposVehiculo_Click" />
             <MenuItem Header="Gestion Clientes" x:Name="menuGestionClientes" Click="menuGestionClientes_Click" />
             <MenuItem Header="Gestion Estacionamiento" x:Name="menuGestionEstacionamiento" Click="menuGestionEstacionamiento_Click" />
             <Separator />
-            <MenuItem Header="Salir" x:Name="menuSalir" Click="menuSalir_Click" />
+            <MenuItem Header="Salir" x:Name="menuSalir" Click="menuSalir_Click"/>
         </Menu>
+        <ContentControl x:Name="contentControl" Margin="0,18,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <!-- El contenido se cargará aquí -->
+        </ContentControl>
 
     </Grid>
 </Window>
