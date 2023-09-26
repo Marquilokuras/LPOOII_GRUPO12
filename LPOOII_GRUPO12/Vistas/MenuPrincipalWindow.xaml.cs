@@ -38,8 +38,8 @@ namespace Vistas
                     case 1: // Administrador
                         // Oculta elementos del menú que no necesita
         
-                        menuGestionClientes.Visibility = Visibility.Collapsed;
-                        menuGestionEstacionamiento.Visibility = Visibility.Collapsed;
+                       // menuGestionClientes.Visibility = Visibility.Collapsed;
+                       // menuGestionEstacionamiento.Visibility = Visibility.Collapsed;
                 
                         break;
 

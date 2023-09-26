@@ -67,9 +67,6 @@
     <Compile Include="ABMVehiculo.xaml.cs">
       <DependentUpon>ABMVehiculo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ButtonStyles.xaml.cs">
-      <DependentUpon>ButtonStyles.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MenuPrincipalWindow.xaml.cs">
       <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
     </Compile>
