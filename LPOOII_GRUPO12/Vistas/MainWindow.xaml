@@ -2,7 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Menú" Height="350" Width="525" Loaded="Window_Loaded"
-         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png">
+         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}">
     <Grid>
         <Button Content="Vehículos en Playa" Height="23" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="115" Click="button1_Click" Margin="24,12,0,0" />
     </Grid>

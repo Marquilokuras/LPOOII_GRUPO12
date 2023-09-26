@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:ClasesBase;assembly=ClasesBase"
         Title="MenuPrincipalWindow" Height="300" Width="730" Loaded="Window_Loaded"
-         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png">
+         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}">
     <Grid>
         <Menu HorizontalAlignment="Left" Width="507">
             <MenuItem Header="Sectores" x:Name="menuSectores" Click="menuSectores_Click" />

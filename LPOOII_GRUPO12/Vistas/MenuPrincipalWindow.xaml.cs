@@ -65,7 +65,6 @@ namespace Vistas
         private void menuSalir_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
-
         }
 
         private void menuSectores_Click(object sender, RoutedEventArgs e)

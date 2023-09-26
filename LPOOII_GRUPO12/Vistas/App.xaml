@@ -4,7 +4,7 @@
              StartupUri="WinLogin.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <Style TargetType="Window">
+            <Style TargetType="Window" x:Key="MyWindowDefault">
                 <Setter Property="Background" Value="#FC993C"/>
             </Style>
             <ResourceDictionary.MergedDictionaries>
