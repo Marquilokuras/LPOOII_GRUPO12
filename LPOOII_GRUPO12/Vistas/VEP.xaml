@@ -1,7 +1,8 @@
 ﻿<Window x:Class="Vistas.VEP"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Vehículos en Playa" Height="537" Width="298"  Loaded="Window_Loaded">
+        Title="Vehículos en Playa" Height="537" Width="298"  Loaded="Window_Loaded"
+         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png">
     <Grid>
         <Button Content="E1" Height="56" HorizontalAlignment="Left" Margin="12,12,0,0" Name="btnE1" VerticalAlignment="Top" Width="76" Click="btnE1_Click" />
         <Button Content="E2" Height="56" HorizontalAlignment="Left" Margin="12,84,0,0" Name="btnE2" VerticalAlignment="Top" Width="76" Click="btnE2_Click" />

@@ -4,9 +4,11 @@
              StartupUri="WinLogin.xaml">
     <Application.Resources>
         <ResourceDictionary>
+            <Style TargetType="Window">
+                <Setter Property="Background" Value="#FC993C"/>
+            </Style>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/ButtonStyles.xaml"/>
-                <!-- Asegúrate de que la ruta sea correcta -->
+                <ResourceDictionary Source="ButtonStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

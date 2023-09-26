@@ -1,17 +1,8 @@
 ﻿<Window x:Class="Vistas.ABMVehiculo"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMVehiculo" Height="300" Width="300">
-
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <!-- Agrega la referencia al ResourceDictionary de ButtonStyles.xaml -->
-                <ResourceDictionary Source="ButtonStyles.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
-    
+        Title="ABMVehiculo" Height="300" Width="300"
+         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png">
     <Grid>
         <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="26,12,25,0" Name="label1" VerticalAlignment="Top"  Foreground="#FF454444" />
         <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="12,71,0,0" Name="codigo" VerticalAlignment="Top" Width="54" />
@@ -20,8 +11,6 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,0,0,129" Name="textDescripcion" VerticalAlignment="Bottom" Width="163" />
         <Label Content="Tarifa" Height="28" HorizontalAlignment="Left" Margin="12,139,0,0" Name="tarifa" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,143,0,0" Name="textTarifa" VerticalAlignment="Top" Width="163" />
-        <!--<Button Content="Registrar" Height="23" HorizontalAlignment="Center" Margin="103,226,100,0" Name="btnRegistrar" VerticalAlignment="Top" Width="75" Click="btnRegistrar_Click" />-->
-        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="90,189,91,0" Height="29" Width="97" />
+        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="122,189,59,0" Height="29" Width="97" />
     </Grid>
-   
 </Window>
