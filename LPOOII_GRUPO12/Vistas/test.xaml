@@ -1,14 +1,13 @@
-﻿<Window x:Class="Vistas.ABMCliente"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMCliente" Height="300" Width="300" Loaded="Window_Loaded"
-         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
-        Style="{StaticResource MyWindowDefault}" >
-
-
-    <Window.Resources>
-          <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+﻿<UserControl x:Class="Vistas.test"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Background="#BD4682">
+    <UserControl.Resources>
+        <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
             <Style TargetType="Label" x:Key="MyTitle">
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="Foreground" Value="Black" />
@@ -21,13 +20,13 @@
                 <Setter Property="BorderBrush" Value="Purple" />
                 <Setter Property="BorderThickness" Value="2" />
                 <Setter Property="FontSize" Value="14" />
-            </Style>     
+            </Style>
         </ResourceDictionary>
-     </Window.Resources>
+    </UserControl.Resources>
 
-     <Grid>     
+    <Grid>
         <Rectangle Fill="{x:Null}" />
-        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="58,12,44,0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#FF454444" />
+        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}"/>
         <Label Content="DNI" Height="28" HorizontalAlignment="Left" Margin="12,57,0,0" Name="dni" VerticalAlignment="Top" Width="54" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="83,60,0,0" Name="textDni" VerticalAlignment="Top" Width="140" />
         <Label Content="Apellido" Height="28" HorizontalAlignment="Left" Margin="12,91,0,0" Name="apellido" VerticalAlignment="Top" />
@@ -36,6 +35,7 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="83,125,0,0" Name="textNombre" VerticalAlignment="Top" Width="140" />
         <Label Content="Telefono" Height="28" HorizontalAlignment="Left" Margin="12,159,0,0" Name="telefono" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="83,159,0,0" Name="textTelefono" VerticalAlignment="Top" Width="140" />
-        <Button Content="Registrar" Height="30" HorizontalAlignment="Center" Margin="105,216,78,0" Name="btnRegistrar" VerticalAlignment="Top" Width="92" Style="{StaticResource ButtonStyle}" Click="btnRegistrar_Click"/>
+        <Button Content="Registrar" Name="btnRegistrar" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" Margin="126,197,0,0" />
     </Grid>
-</Window>
+</UserControl>
+

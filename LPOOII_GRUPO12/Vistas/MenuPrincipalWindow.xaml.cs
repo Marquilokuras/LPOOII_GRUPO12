@@ -81,8 +81,15 @@ namespace Vistas
 
         private void menuGestionClientes_Click(object sender, RoutedEventArgs e)
         {
-            ABMCliente clienteWindow = new ABMCliente();
-            clienteWindow.Show();
+            // Cargar el UserControl de gestión de clientes
+            test test = new test();
+            contentControl.Content = test;
+
+            
+            // Crea una instancia de la página ABMCliente y la establece en el Frame
+            //moduloFrame.Navigate(new ABMCliente());
+            //ABMCliente clienteWindow = new ABMCliente();
+            //clienteWindow.Show();
         }
 
         private void menuGestionEstacionamiento_Click(object sender, RoutedEventArgs e)
