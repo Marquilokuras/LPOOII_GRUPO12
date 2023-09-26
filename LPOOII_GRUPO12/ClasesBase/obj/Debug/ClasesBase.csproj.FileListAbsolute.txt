@@ -3,11 +3,6 @@ C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\Cla
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
 C:\Users\Martín\Escritorio\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
 C:\Users\Martín\Escritorio\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
 C:\Users\Martín\Escritorio\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
@@ -23,3 +18,8 @@ C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a 
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
