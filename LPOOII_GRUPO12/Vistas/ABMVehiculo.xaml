@@ -12,6 +12,6 @@
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,0,0,129" Name="textDescripcion" VerticalAlignment="Bottom" Width="163" />
         <Label Content="Tarifa" Height="28" HorizontalAlignment="Left" Margin="12,139,0,0" Name="tarifa" VerticalAlignment="Top" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="90,143,0,0" Name="textTarifa" VerticalAlignment="Top" Width="163" />
-        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="122,189,59,0"/>
+        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="122,189,59,0" Click="btnRegistrar_Click" />
     </Grid>
 </Window>
