@@ -73,6 +73,9 @@
     <Compile Include="test.xaml.cs">
       <DependentUpon>test.xaml</DependentUpon>
     </Compile>
+    <Compile Include="User Controls\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VEP.xaml.cs">
       <DependentUpon>VEP.xaml</DependentUpon>
     </Compile>
@@ -116,6 +119,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Controls\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -167,6 +174,7 @@
   <ItemGroup>
     <Resource Include="Images\logoParking.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

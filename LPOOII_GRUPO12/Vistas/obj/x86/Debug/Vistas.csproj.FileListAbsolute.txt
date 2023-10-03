@@ -131,3 +131,10 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.exe
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.pdb
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII-GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs

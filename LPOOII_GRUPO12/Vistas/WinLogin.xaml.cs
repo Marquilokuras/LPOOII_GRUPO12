@@ -35,8 +35,12 @@ namespace Vistas
         private void btnSession_Click(object sender, RoutedEventArgs e)
         {
 
-            string username = textUsuario.Text.Trim();
-            string password = textPassword.Text.Trim();
+            //string username = textUsuario.Text.Trim();
+            //string password = textPassword.Text.Trim();
+
+            //Asigna lo escrito en el control de usuario
+            string username = login.Usuario;
+            string password = login.Password;
 
             Console.WriteLine(username + " " + password);
 
