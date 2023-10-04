@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.ComponentModel;
 
 namespace ClasesBase
-{
-    public class Cliente
+{ 
+
+    public class Cliente : IDataErrorInfo
     {
         private int cli_ClienteDNI;
         private string cli_Apellido;
@@ -35,5 +37,35 @@ namespace ClasesBase
             get { return cli_ClienteDNI; }
             set { cli_ClienteDNI = value; }
         }
+
+        public string this[string columnName]
+        {
+            get
+            {
+                string error = null;
+                switch (columnName)
+                {
+                    case "Cli_ClienteDNI":
+                        if (cli_ClienteDNI <= 0)
+                            error = "El DNI del cliente debe ser mayor que cero.";
+                        break;
+                    case "Cli_Apellido":
+                        if (string.IsNullOrEmpty(cli_Apellido))
+                            error = "El apellido del cliente es obligatorio.";
+                        break;
+                    case "Cli_Nombre":
+                        if (string.IsNullOrEmpty(cli_Nombre))
+                            error = "El nombre del cliente es obligatorio.";
+                        break;
+                    case "Cli_Telefono":
+                        if (string.IsNullOrEmpty(cli_Telefono))
+                            error = "El teléfono del cliente es obligatorio.";
+                        break;
+                }
+                return error;
+            }
+        }
+
+        public string Error { get { return null; } }
     }
 }
