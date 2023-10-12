@@ -2,23 +2,42 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ClasesBase;
+using System.Data.SqlClient;
 
 namespace ClasesBase
 {
+
     class TrabajarCliente
     {
-        public Cliente TraerCliente(string dni)
+
+        public Cliente TraerCliente(string clienteDNI)
         {
-            // Aquí debes escribir el código para consultar la base de datos y obtener los datos del cliente.
-            // Puedes utilizar Entity Framework u otra tecnología de acceso a datos.
-            // Luego, crea un objeto Cliente y devuelve los datos.
-            Cliente oCliente = new Cliente();
-            // Llena los datos del cliente desde la base de datos.
-            oCliente.ClienteDNI = dni;
-            oCliente.Apellido = "Apellido desde la base de datos";
-            oCliente.Nombre = "Nombre desde la base de datos";
-            oCliente.Telefono = "Teléfono desde la base de datos";
-            return oCliente;
+
+            using (var dbContext = new playa())
+            {
+                // Realiza una consulta para obtener los datos del cliente con el DNI especificado
+                var clienteEncontrado = dbContext.Clientes
+                    .Where(c => c.ClienteDNI == clienteDNI)
+                    .FirstOrDefault();
+
+                if (clienteEncontrado != null)
+                {
+                    // Mapea los datos del cliente encontrado en la base de datos a un objeto Cliente
+                    Cliente oCliente = new Cliente
+                    {
+                        ClienteDNI = clienteEncontrado.ClienteDNI,
+                        Apellido = clienteEncontrado.Apellido,
+                        Nombre = clienteEncontrado.Nombre,
+                        Telefono = clienteEncontrado.Telefono
+                    };
+                    return oCliente;
+                }
+                else
+                {
+                    return null; // Cliente no encontrado
+                }
+            }
         }
     }
 }

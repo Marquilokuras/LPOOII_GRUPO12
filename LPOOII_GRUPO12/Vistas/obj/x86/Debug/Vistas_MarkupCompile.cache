@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
-101262378721
+11-130342323
 
-14-1917936014
+15-1864881903
 13-246830503
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMVehiculo.xaml;MainWindow.xaml;MenuPrincipalWindow.xaml;test.xaml;User Controls\Login.xaml;VEP.xaml;WinLogin.xaml;
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMVehiculo.xaml;MainWindow.xaml;MenuPrincipalWindow.xaml;test.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;WinLogin.xaml;
 
-False
+True
 

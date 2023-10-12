@@ -76,6 +76,9 @@
     <Compile Include="User Controls\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ValidarCliente.xaml.cs">
+      <DependentUpon>ValidarCliente.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VEP.xaml.cs">
       <DependentUpon>VEP.xaml</DependentUpon>
     </Compile>
@@ -123,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="User Controls\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ValidarCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

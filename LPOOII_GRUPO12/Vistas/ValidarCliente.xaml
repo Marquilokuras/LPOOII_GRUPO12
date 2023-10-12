@@ -1,15 +1,12 @@
 ﻿<Window x:Class="Vistas.ValidarCliente"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ValidarCliente" Height="300" Width="300">
+         Title="Validar Cliente" Height="300" Width="400" WindowStartupLocation="CenterScreen" Style="{StaticResource MyWindowDefault}">
     <Grid>
-        <Label Content="Validar Usuario" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="26,12,25,0" Name="label1" VerticalAlignment="Top"  Foreground="#FF454444" />
-        <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="12,71,0,0" Name="codigo" VerticalAlignment="Top" Width="54" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,75,0,0" Name="textCodigo" VerticalAlignment="Top" Width="163" />
-        <Label Content="Descripcion" Height="28" HorizontalAlignment="Left" Margin="12,105,0,0" Name="descripcion" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,0,0,129" Name="textDescripcion" VerticalAlignment="Bottom" Width="163" />
-        <Label Content="Tarifa" Height="28" HorizontalAlignment="Left" Margin="12,139,0,0" Name="tarifa" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,143,0,0" Name="textTarifa" VerticalAlignment="Top" Width="163" />
-        <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="122,189,59,0" Click="btnRegistrar_Click" />
+        <Label Content="Validar Usuario" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="63,32,63,0" Name="validar" VerticalAlignment="Top" Foreground="#FF454444" />
+        <Label Content="Ingrese DNI:" Height="28" HorizontalAlignment="Left" Margin="99,85,0,0" Name="DNI" VerticalAlignment="Top" Width="78" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="63,135,0,0" Name="dni" VerticalAlignment="Top" Width="163" />
+        <Button Content="Verificar" Name="btnVerificar" Style="{StaticResource ButtonStyle}" Margin="99,194,82,39" Click="btnVerificar_Click" />
+        <TextBlock Name="txtResultado" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20, 100, 0, 0"/>
     </Grid>
 </Window>
