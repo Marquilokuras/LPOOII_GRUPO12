@@ -9,7 +9,7 @@ namespace ClasesBase
 
     public class Cliente : IDataErrorInfo
     {
-        private int cli_ClienteDNI;
+        private string cli_ClienteDNI;
         private string cli_Apellido;
         private string cli_Nombre;
         private string cli_Telefono;
@@ -32,7 +32,7 @@ namespace ClasesBase
             set { cli_Apellido = value; }
         }
 
-        public int Cli_ClienteDNI
+        public string Cli_ClienteDNI
         {
             get { return cli_ClienteDNI; }
             set { cli_ClienteDNI = value; }
