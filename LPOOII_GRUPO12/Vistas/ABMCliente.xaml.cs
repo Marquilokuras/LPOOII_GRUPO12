@@ -33,7 +33,7 @@ namespace Vistas
 
             if (textDni.Text != "" && textApellido.Text != "" && textNombre.Text != "" && textTelefono.Text != "") {
 
-                nuevoCliente.Cli_ClienteDNI = int.Parse(textDni.Text);
+                nuevoCliente.Cli_ClienteDNI = textDni.Text;
                 nuevoCliente.Cli_Apellido = textApellido.Text;
                 nuevoCliente.Cli_Nombre = textNombre.Text;
                 nuevoCliente.Cli_Telefono = textTelefono.Text;

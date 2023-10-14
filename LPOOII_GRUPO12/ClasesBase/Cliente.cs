@@ -46,8 +46,8 @@ namespace ClasesBase
                 switch (columnName)
                 {
                     case "Cli_ClienteDNI":
-                        if (cli_ClienteDNI <= 0)
-                            error = "El DNI del cliente debe ser mayor que cero.";
+                        if (string.IsNullOrEmpty(cli_ClienteDNI))
+                            error = "El DNI del cliente es obligatorio.";
                         break;
                     case "Cli_Apellido":
                         if (string.IsNullOrEmpty(cli_Apellido))
