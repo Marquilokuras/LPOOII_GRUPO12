@@ -22,5 +22,20 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void btnVerificar_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (txtDni.Text != "")
+            {
+                TrabajarCliente.TraerCliente(txtDni.Text);
+               // dgwClientes.DataSource = dtClientes;
+            }
+            /*else
+            {
+                load_clientes();
+            }*/
+        }
+
     }
 }
