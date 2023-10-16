@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 namespace ClasesBase
 {
 
-    class TrabajarCliente
+    public class TrabajarCliente
     {
 
         public Cliente TraerCliente(string cdni)

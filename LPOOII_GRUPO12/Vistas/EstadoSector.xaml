@@ -1,0 +1,19 @@
+﻿<Window x:Class="Vistas.EstadoSector"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EstadoSector" Height="300" Width="300">
+    
+    <Window.Resources>
+        <!-- Especifica la ruta completa al archivo Tiempos.xml en el otro proyecto -->
+        <XmlDataProvider x:Key="TiemposXml" Source="pack://application:,,,/ClasesBase;component/Tiempos.xml" XPath="/Tiempos/Tiempo"/>
+    </Window.Resources>
+
+    <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200"
+          ItemsSource="{Binding Source={StaticResource TiemposXml}}"
+          SelectedIndex="0" />
+
+
+        <!-- Resto del código -->
+    </Grid>
+</Window>
