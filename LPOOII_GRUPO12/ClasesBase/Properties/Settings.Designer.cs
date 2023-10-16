@@ -26,9 +26,9 @@ namespace ClasesBase.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;AttachDbFilename=\"C:\\Users\\facur\\Desktop\\School\\APU III\\" +
-            "LPOO II\\Projects\\LPOOII_GRUPO12\\LPOOII_GRUPO12\\playa.mdf\";Integrated Security=Tr" +
-            "ue;Connect Timeout=30;User Instance=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Users\\Marcos\\Documents\\LPOOII_GRUPO1" +
+            "2\\LPOOII_GRUPO12\\playa.mdf;Integrated Security=True;Connect Timeout=30;User Inst" +
+            "ance=True")]
         public string playaConnection {
             get {
                 return ((string)(this["playaConnection"]));

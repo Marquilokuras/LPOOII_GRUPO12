@@ -98,6 +98,12 @@ namespace Vistas
             estacionamientoWindow.Show();
         }
 
+        private void menuValidarUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            ValidarCliente validarClienteWindow = new ValidarCliente();
+            validarClienteWindow.Show();
+        }
+
 
 
 
