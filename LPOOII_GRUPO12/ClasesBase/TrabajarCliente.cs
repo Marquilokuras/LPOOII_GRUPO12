@@ -32,6 +32,7 @@ namespace ClasesBase
                  cliente.Cli_Nombre = reader["Cli_Nombre"].ToString();
                  cliente.Cli_Telefono = reader["Cli_Telefono"].ToString();
               }
+
               reader.Close();
               cnn.Close();
               return cliente;
