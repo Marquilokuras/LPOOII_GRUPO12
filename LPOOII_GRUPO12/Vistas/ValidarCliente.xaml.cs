@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -25,17 +26,17 @@ namespace Vistas
 
         private void btnVerificar_Click(object sender, RoutedEventArgs e)
         {
-
             if (txtDni.Text != "")
             {
-                TrabajarCliente.TraerCliente(txtDni.Text);
-               // dgwClientes.DataSource = dtClientes;
+                // Crear una instancia de TrabajarCliente
+                TrabajarCliente trabajarCliente = new TrabajarCliente();
+
+                // Llamar al método TraerCliente en la instancia creada
+                Cliente cliente = trabajarCliente.TraerCliente(txtDni.Text);
             }
-            /*else
-            {
-                load_clientes();
-            }*/
         }
+
+       
 
     }
 }
