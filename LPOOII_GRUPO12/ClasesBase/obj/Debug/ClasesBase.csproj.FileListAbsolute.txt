@@ -27,3 +27,9 @@ C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRU
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
