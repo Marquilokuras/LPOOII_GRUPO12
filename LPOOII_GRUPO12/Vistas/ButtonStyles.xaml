@@ -1,10 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <!-- Establece el estilo de los input (suponiendo que los inputs sean TextBox) -->
+    <!-- Establece el estilo de los input (suponiendo que los inputs sean TextBox) 
     <Style TargetType="TextBox">
         <Setter Property="BorderBrush" Value="Purple"/>
     </Style>
-
+-->
     <Style x:Key="ButtonStyle" TargetType="Button">
         <Setter Property="Background" Value="Black"/>
         <Setter Property="Foreground" Value="White"/>

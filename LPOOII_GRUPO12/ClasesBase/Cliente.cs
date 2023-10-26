@@ -67,5 +67,10 @@ namespace ClasesBase
         }
 
         public string Error { get { return null; } }
+
+        public override string ToString()
+        {
+            return "DNI: "+Cli_ClienteDNI+",\nApellido: "+Cli_Apellido+",\nNombre: "+Cli_Nombre;
+        }
     }
 }
