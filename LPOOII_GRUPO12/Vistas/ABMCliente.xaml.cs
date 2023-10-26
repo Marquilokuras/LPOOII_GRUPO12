@@ -19,43 +19,64 @@ namespace Vistas
     /// </summary>
     public partial class ABMCliente : Window
     {
-        private Cliente nuevoCliente = new Cliente();
+        private Cliente nuevoCliente;
 
         public ABMCliente()
         {
             InitializeComponent();
+            this.nuevoCliente = new Cliente();
+            this.DataContext = nuevoCliente;
         }
 
         private void btnRegistrar_Click(object sender, RoutedEventArgs e)
         {
-
-            Console.WriteLine(textDni.Text + " - " + textApellido.Text + ", " + textNombre.Text + " - " + textTelefono.Text);
-
-            if (textDni.Text != "" && textApellido.Text != "" && textNombre.Text != "" && textTelefono.Text != "") {
-
-                nuevoCliente.Cli_ClienteDNI = textDni.Text;
-                nuevoCliente.Cli_Apellido = textApellido.Text;
-                nuevoCliente.Cli_Nombre = textNombre.Text;
-                nuevoCliente.Cli_Telefono = textTelefono.Text;
-
-                if (nuevoCliente != null) {
-
-                    if (MessageBox.Show("¿Desea registrar al cliente?", "Registrar Cliente", MessageBoxButton.YesNo) == MessageBoxResult.Yes) {
-                        textDni.Text = "";
-                        textApellido.Text = "";
-                        textNombre.Text = "";
-                        textTelefono.Text = "";
-                        MessageBox.Show("DNI: " + nuevoCliente.Cli_ClienteDNI + "\r\n" + "Apellido: " + nuevoCliente.Cli_Apellido + "\r\n" + "Cliente: " + nuevoCliente.Cli_Nombre + "\r\n" + "Telefono: " + nuevoCliente.Cli_Telefono, "Cliente Registrado");
-                        this.Close();
-                    }
-
-                }
-
+            
+            if (Validation.GetHasError(textDni) || Validation.GetHasError(textApellido) || Validation.GetHasError(textNombre) || Validation.GetHasError(textTelefono))
+            {
+                MessageBox.Show("Por favor ingrese datos validos", "Error de Validación");
             }
             else
-                MessageBox.Show("Ingrese datos", "Error");
+            {
+                if (MessageBox.Show("¿Desea registrar al cliente?", "Registrar Cliente", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                {
 
+                    Console.WriteLine(nuevoCliente.ToString());
+
+                    textDni.Text = "";
+                    textApellido.Text = "";
+                    textNombre.Text = "";
+                    textTelefono.Text = "";
+                    MessageBox.Show("Cliente Registrado");
+
+                }
+            }   
         }
+        private void textDni_LostFocus(object sender, RoutedEventArgs e)
+        {
+            string dni = textDni.Text;
+
+            if (!string.IsNullOrEmpty(dni))
+            {
+                TrabajarCliente trabajarCliente = new TrabajarCliente();
+                Cliente clienteEncontrado = new Cliente();
+                clienteEncontrado = trabajarCliente.TraerCliente(dni);
+                if (clienteEncontrado != null)
+                {
+                    textApellido.Text = clienteEncontrado.Cli_Apellido;
+                    textNombre.Text = clienteEncontrado.Cli_Nombre;
+                    textTelefono.Text = clienteEncontrado.Cli_Telefono;
+                }
+                else
+                {
+                    textApellido.Text = "";
+                    textNombre.Text = "";
+                    textTelefono.Text = "";
+                }
+            }
+     
+        }
+
+        
 
     }
 }
