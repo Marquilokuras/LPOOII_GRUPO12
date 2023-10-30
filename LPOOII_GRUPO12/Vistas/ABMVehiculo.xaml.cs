@@ -58,5 +58,11 @@ namespace Vistas
 
         }
 
+        private void btnVerVehiculos_Click(object sender, RoutedEventArgs e)
+        {
+            GrillaVehiculos grillaVehiculos = new GrillaVehiculos();
+            grillaVehiculos.Show();
+        }
+
     }
 }

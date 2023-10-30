@@ -34,3 +34,9 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBa
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll.config
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
