@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Windows;
 using System.Windows.Controls;
-using ClasesBase; // Asegúrate de importar la clase Usuario
+using ClasesBase;
+using System.Collections.ObjectModel; // Asegúrate de importar la clase Usuario
 
 namespace Vistas
 {
@@ -60,6 +61,13 @@ namespace Vistas
                     row["Usr_Password"].ToString(),
                     row["Usr_UserName"].ToString()
                 ));
+            }
+
+            // TRAER USUARIOS traerUsuarios
+            ObservableCollection<Usuario> usuarios2 = TrabajarUsuario.traerUsuarios();
+            foreach (Usuario usuario in usuarios2)
+            {
+                Console.WriteLine(usuario.ToString());
             }
         }
 

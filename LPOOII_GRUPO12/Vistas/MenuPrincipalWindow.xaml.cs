@@ -33,7 +33,7 @@ namespace Vistas
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
          
-                switch (usuarioLogeado.Rol_id)
+                switch (usuarioLogeado.Rol_Id)
                 {
                     case 1: // Administrador
                         // Oculta elementos del menú que no necesita
