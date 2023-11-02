@@ -1,9 +1,9 @@
 ﻿<Window x:Class="Vistas.ABMCliente"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMCliente" Height="300" Width="300"
+        Title="ABMCliente" Height="382" Width="715"
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
-        Style="{StaticResource MyWindowDefault}" MinHeight="300" MinWidth="300">
+        Style="{StaticResource MyWindowDefault}">
     
     <Window.Resources>
         <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -38,16 +38,16 @@
     </Window.Resources>
 
     <Grid>
-        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="61,0,0,0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#FF454444" />
-        <Label Content="DNI" Height="28" HorizontalAlignment="Left" Margin="36,42,0,0" Name="dni" VerticalAlignment="Top" Width="54" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="107,45,0,0" Name="textDni" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_ClienteDNI, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True }"  Validation.ErrorTemplate="{StaticResource ErrorTemplate}" LostFocus="textDni_LostFocus" />
-        <Label Content="Apellido" Height="28" HorizontalAlignment="Left" Margin="36,76,0,0" Name="apellido" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="107,76,0,0" Name="textApellido" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Apellido, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
-        <Label Content="Nombre" Height="28" HorizontalAlignment="Left" Margin="36,110,0,0" Name="nombre" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="107,110,0,0" Name="textNombre" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
-        <Label Content="Telefono" Height="28" HorizontalAlignment="Left" Margin="36,144,0,0" Name="telefono" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="107,144,0,0" Name="textTelefono" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Telefono, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
-        <Button Content="Registrar" Height="30"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Click="btnRegistrar_Click" VerticalAlignment="Top" Margin="45,198,135,0" />
-        <Button Content="Modificar" Height="30"  Name="btnModificar" Style="{StaticResource ButtonStyle}" VerticalAlignment="Top" Margin="168,198,12,0" />
+        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#FF454444" />
+        <Label Content="DNI" Height="28" HorizontalAlignment="Left" Margin="30,97,0,0" Name="dni" VerticalAlignment="Top" Width="54" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="101,100,0,0" Name="textDni" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_ClienteDNI, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True }"  Validation.ErrorTemplate="{StaticResource ErrorTemplate}" LostFocus="textDni_LostFocus" />
+        <Label Content="Apellido" Height="28" HorizontalAlignment="Left" Margin="30,131,0,0" Name="apellido" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="101,131,0,0" Name="textApellido" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Apellido, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
+        <Label Content="Nombre" Height="28" HorizontalAlignment="Left" Margin="30,165,0,0" Name="nombre" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="101,165,0,0" Name="textNombre" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Nombre, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
+        <Label Content="Telefono" Height="28" HorizontalAlignment="Left" Margin="30,199,0,0" Name="telefono" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="101,199,0,0" Name="textTelefono" VerticalAlignment="Top" Width="140" Text="{Binding Path=Cli_Telefono, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}"/>
+        <Button Content="Registrar" Height="30" HorizontalAlignment="Center" Margin="57,257,544,0" Name="btnRegistrar" VerticalAlignment="Top" Width="92" Click="btnRegistrar_Click" Style="{StaticResource ButtonStyle}"/>
+        <Button Content="Modificar" Height="30" HorizontalAlignment="Center" Margin="224,258,377,0" Name="btnModificar" Style="{StaticResource ButtonStyle}" VerticalAlignment="Top" Width="92" />
     </Grid>
 </Window>

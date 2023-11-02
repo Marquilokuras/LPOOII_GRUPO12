@@ -25,8 +25,6 @@ namespace Vistas
         public WinWelcome()
         {
             InitializeComponent();
-            //VentanaManager.Instance.agregarVentana(this);
-            //VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void textUsuario_TextChanged(object sender, TextChangedEventArgs e)
@@ -67,7 +65,8 @@ namespace Vistas
 
                     MenuPrincipalWindow menuWindow = new MenuPrincipalWindow(usuarioLogueado);
                     menuWindow.Show();
-                    this.Hide();
+
+                    this.Close();
                 }
                 else
                 {

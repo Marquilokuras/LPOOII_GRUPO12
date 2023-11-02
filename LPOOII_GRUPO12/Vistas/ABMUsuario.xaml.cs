@@ -16,8 +16,6 @@ namespace Vistas
         public ABMUsuario()
         {
             InitializeComponent();
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
             CargarUsuarios();
             MostrarUsuarioActual();
         }

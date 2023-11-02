@@ -23,8 +23,6 @@ namespace Vistas
         public GrillaVehiculos()
         {
             InitializeComponent();
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void load_Vehiculos(object sender, RoutedEventArgs e) 
