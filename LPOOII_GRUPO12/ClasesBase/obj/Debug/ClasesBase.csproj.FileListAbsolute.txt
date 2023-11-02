@@ -45,3 +45,10 @@ C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\Clases
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
