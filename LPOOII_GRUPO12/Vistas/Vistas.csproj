@@ -76,6 +76,9 @@
     <Compile Include="GrillaVehiculos.xaml.cs">
       <DependentUpon>GrillaVehiculos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListadoUsuario.xaml.cs">
+      <DependentUpon>ListadoUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipalWindow.xaml.cs">
       <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
     </Compile>
@@ -125,6 +128,10 @@
     <Page Include="GrillaVehiculos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoUsuario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
