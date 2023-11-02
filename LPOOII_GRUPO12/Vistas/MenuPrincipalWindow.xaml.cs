@@ -83,10 +83,12 @@ namespace Vistas
 
         private void menuGestionClientes_Click(object sender, RoutedEventArgs e)
         {
-            // Cargar el UserControl de gestión de clientes
-            test test = new test();
-            contentControl.Content = test;
+            // Cargar el UserControl de gestión de clientes EJEMPLO DE USER CONTROL
+           // test test = new test();
+           // contentControl.Content = test;
 
+            ABMCliente clienteWindow = new ABMCliente();
+            clienteWindow.Show();
         }
 
         private void menuGestionEstacionamiento_Click(object sender, RoutedEventArgs e)
@@ -99,6 +101,24 @@ namespace Vistas
         {
             ValidarCliente validarClienteWindow = new ValidarCliente();
             validarClienteWindow.Show();
+        }
+
+        private void menuGestionUsuarios_Click(object sender, RoutedEventArgs e)
+        {
+            ABMUsuario abmUsuario = new ABMUsuario();
+            abmUsuario.Show();
+        }
+
+        private void menuVehiculosEnPlaya_Click(object sender, RoutedEventArgs e)
+        {
+            VEP vep = new VEP();
+            vep.Show();
+        }
+
+        private void menuEstadoSector_Click(object sender, RoutedEventArgs e)
+        {
+            EstadoSector estadoSector = new EstadoSector();
+            estadoSector.Show();
         }
 
         private void usuarioDatos_Click(object sender, RoutedEventArgs e)

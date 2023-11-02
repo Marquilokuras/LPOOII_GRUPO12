@@ -57,7 +57,9 @@ namespace Vistas
         {
             string dni = textDni.Text;
 
-            if (!string.IsNullOrEmpty(dni))
+            Console.WriteLine(IsNumeric(dni));
+
+            if (!string.IsNullOrEmpty(dni) && IsNumeric(dni))
             {
                 TrabajarCliente trabajarCliente = new TrabajarCliente();
                 Cliente clienteEncontrado = new Cliente();
@@ -76,6 +78,12 @@ namespace Vistas
                 }
             }
      
+        }
+
+        private bool IsNumeric(string text)
+        {
+            int numero;
+            return int.TryParse(text, out numero);
         }
 
         

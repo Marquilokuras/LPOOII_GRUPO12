@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ABMVehiculo" Height="300" Width="300"
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
-        Style="{StaticResource MyWindowDefault}">
+        Style="{StaticResource MyWindowDefault}" MinHeight="300" MinWidth="300">
     <Grid>
         <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="26,12,25,0" Name="label1" VerticalAlignment="Top"  Foreground="#FF454444" />
         <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="12,71,0,0" Name="codigo" VerticalAlignment="Top" Width="54" />
