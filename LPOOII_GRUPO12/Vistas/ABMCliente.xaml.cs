@@ -26,8 +26,6 @@ namespace Vistas
             InitializeComponent();
             this.nuevoCliente = new Cliente();
             this.DataContext = nuevoCliente;
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void btnRegistrar_Click(object sender, RoutedEventArgs e)
@@ -57,9 +55,7 @@ namespace Vistas
         {
             string dni = textDni.Text;
 
-            Console.WriteLine(IsNumeric(dni));
-
-            if (!string.IsNullOrEmpty(dni) && IsNumeric(dni))
+            if (!string.IsNullOrEmpty(dni))
             {
                 TrabajarCliente trabajarCliente = new TrabajarCliente();
                 Cliente clienteEncontrado = new Cliente();
@@ -78,12 +74,6 @@ namespace Vistas
                 }
             }
      
-        }
-
-        private bool IsNumeric(string text)
-        {
-            int numero;
-            return int.TryParse(text, out numero);
         }
 
         

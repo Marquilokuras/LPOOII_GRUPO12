@@ -24,8 +24,6 @@ namespace Vistas
         public EstadoSector()
         {
             InitializeComponent();
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
 
             int defaultIndex = 0;
 

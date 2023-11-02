@@ -35,7 +35,6 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,7 +59,6 @@
     <Compile Include="TrabajarTiposVehiculo.cs" />
     <Compile Include="TrabajarUsuario.cs" />
     <Compile Include="Usuario.cs" />
-    <Compile Include="VentanaManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

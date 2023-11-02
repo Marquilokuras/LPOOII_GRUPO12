@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ClasesBase;
+
 namespace Vistas
 {
     /// <summary>
@@ -22,8 +22,6 @@ namespace Vistas
         public test()
         {
             InitializeComponent();
-            //VentanaManager.Instance.agregarVentana(this);
-            //VentanaManager.Instance.mostrarVentanasAbiertas();
         }
     }
 }
