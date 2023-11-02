@@ -64,5 +64,21 @@ namespace Vistas
                 Console.WriteLine("Usuario seleccionado: " + userName);
             }
         }
+
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            FilterUsers();
+        }
+
+        private void FilterUsers()
+        {
+            string filterText = txtFilter.Text.ToLower();
+
+            // Filtra los usuarios que contienen la palabra clave en el nombre de usuario
+            var filteredUsers = usuarios.Where(user => user.Usr_UserName.ToLower().Contains(filterText)).ToList();
+
+            userGrid.ItemsSource = filteredUsers;
+        }
+
     }
 }
