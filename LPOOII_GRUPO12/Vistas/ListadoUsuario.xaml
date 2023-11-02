@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ListadoUsuario" Height="300" Width="300">
     <Grid>
-        <DataGrid AutoGenerateColumns="False" Height="200" HorizontalAlignment="Left" Margin="0,61,0,0" Name="userGrid" VerticalAlignment="Top" Width="278" SelectionChanged="userGrid_SelectionChanged">
+        <DataGrid AutoGenerateColumns="False" Height="261" HorizontalAlignment="Left" Name="userGrid" VerticalAlignment="Top" Width="278" SelectionChanged="userGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding Usr_Nombre}" />
                 <DataGridTextColumn Header="Nombre de Usuario" Binding="{Binding Usr_UserName}" />
