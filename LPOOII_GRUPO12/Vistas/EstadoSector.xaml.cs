@@ -24,7 +24,8 @@ namespace Vistas
         public EstadoSector()
         {
             InitializeComponent();
-
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
             int defaultIndex = 0;
 
             if (defaultIndex >= 0 && defaultIndex < comboBox.Items.Count)

@@ -47,7 +47,13 @@ namespace ClasesBase
                 {
                     case "Cli_ClienteDNI":
                         if (string.IsNullOrEmpty(cli_ClienteDNI))
+                        {
                             error = "El DNI del cliente es obligatorio.";
+                        }
+                        else if (!IsNumeric(cli_ClienteDNI))
+                        {
+                            error = "El DNI debe contener solo números.";
+                        }
                         break;
                     case "Cli_Apellido":
                         if (string.IsNullOrEmpty(cli_Apellido))
@@ -67,6 +73,12 @@ namespace ClasesBase
         }
 
         public string Error { get { return null; } }
+
+        private bool IsNumeric(string text)
+        {
+            int numero;
+            return int.TryParse(text, out numero);
+        }
 
         public override string ToString()
         {

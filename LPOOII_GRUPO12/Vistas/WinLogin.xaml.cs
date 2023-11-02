@@ -66,7 +66,7 @@ namespace Vistas
                     MenuPrincipalWindow menuWindow = new MenuPrincipalWindow(usuarioLogueado);
                     menuWindow.Show();
 
-                    this.Close();
+                    this.Hide();
                 }
                 else
                 {
