@@ -26,6 +26,8 @@ namespace Vistas
         public ListadoUsuario()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
             // Configurar el evento de selección en la grilla
             userGrid.SelectionChanged += userGrid_SelectionChanged;
 

@@ -22,6 +22,8 @@ namespace Vistas
         public ValidarCliente()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void btnVerificar_Click(object sender, RoutedEventArgs e)
@@ -33,10 +35,17 @@ namespace Vistas
 
                 // Llamar al método TraerCliente en la instancia creada
                 Cliente cliente = trabajarCliente.TraerCliente(txtDni.Text);
-                Console.WriteLine("Apellido: "+cliente.Cli_Apellido);
-                Console.WriteLine("DNI: "+cliente.Cli_ClienteDNI);
-                Console.WriteLine("Nombre: "+cliente.Cli_Nombre);
-                Console.WriteLine("Telefono: "+cliente.Cli_Telefono);
+                if (cliente != null)
+                {
+                    Console.WriteLine("Apellido: " + cliente.Cli_Apellido);
+                    Console.WriteLine("DNI: " + cliente.Cli_ClienteDNI);
+                    Console.WriteLine("Nombre: " + cliente.Cli_Nombre);
+                    Console.WriteLine("Telefono: " + cliente.Cli_Telefono);
+                }
+                else
+                {
+                    Console.WriteLine("Cliente no encontrado");
+                }
             }
         }
 

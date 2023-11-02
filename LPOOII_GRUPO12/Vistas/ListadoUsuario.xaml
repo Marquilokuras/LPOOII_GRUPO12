@@ -1,7 +1,9 @@
 ﻿<Window x:Class="Vistas.ListadoUsuario"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ListadoUsuario" Height="390" Width="487">
+        Title="ListadoUsuario" Height="390" Width="487" MinHeight="390" MinWidth="487"
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}">
     <Grid>
         <TextBox Name="txtFilter" Width="211" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,22,0,0" Height="26" />
         <Button Content="Buscar" Width="61" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,22,89,0" Click="BtnSearch_Click"/>

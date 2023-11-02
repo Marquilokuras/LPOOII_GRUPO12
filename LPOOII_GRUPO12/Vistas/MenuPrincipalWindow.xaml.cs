@@ -23,17 +23,20 @@ namespace Vistas
     public partial class MenuPrincipalWindow : Window
     {
 
-        private Usuario usuarioLogeado;
+        private Usuario usuarioLogueado;
         public MenuPrincipalWindow(Usuario u)
         {
             InitializeComponent();
-            usuarioLogeado = u;
+            usuarioLogueado = u;
+            Console.WriteLine(u.ToString());
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-         
-                switch (usuarioLogeado.Rol_Id)
+
+            switch (usuarioLogueado.Rol_Id)
                 {
                     case 1: // Administrador
                         // Oculta elementos del menú que no necesita
@@ -62,9 +65,23 @@ namespace Vistas
     
         }
 
+        private void usuarioDatos_Click(object sender, RoutedEventArgs e)
+        {
+            if (usuarioLogueado != null)
+            {
+                MessageBox.Show(usuarioLogueado.ToString(), "Datos del Usuario Logueado");
+            }
+            else
+            {
+                MessageBox.Show("No hay usuario logueado.", "Error");
+            }
+        }
+
         private void menuSalir_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            VentanaManager.Instance.cerrarTodasLasVentanas();
+            WinWelcome loginWindow = new WinWelcome();
+            loginWindow.Show();
         }
 
         private void menuSectores_Click(object sender, RoutedEventArgs e)
@@ -82,14 +99,11 @@ namespace Vistas
         private void menuGestionClientes_Click(object sender, RoutedEventArgs e)
         {
             // Cargar el UserControl de gestión de clientes
-            test test = new test();
-            contentControl.Content = test;
+            // ABMCliente clienteWindow = new ABMCliente();
+            // contentControl.Content = clienteUserControl;
 
-            
-            // Crea una instancia de la página ABMCliente y la establece en el Frame
-            //moduloFrame.Navigate(new ABMCliente());
-            //ABMCliente clienteWindow = new ABMCliente();
-            //clienteWindow.Show();
+            ABMCliente clienteWindow = new ABMCliente();
+            clienteWindow.Show();
         }
 
         private void menuGestionEstacionamiento_Click(object sender, RoutedEventArgs e)
@@ -103,10 +117,31 @@ namespace Vistas
             ValidarCliente validarClienteWindow = new ValidarCliente();
             validarClienteWindow.Show();
         }
+        private void menuGestionUsuarios_Click(object sender, RoutedEventArgs e)
+        {
+            ABMUsuario abmUsuario = new ABMUsuario();
+            abmUsuario.Show();
+        }
 
+        private void menuVehiculosEnPlaya_Click(object sender, RoutedEventArgs e)
+        {
+            VEP vep = new VEP();
+            vep.Show();
+        }
 
+        private void menuEstadoSector_Click(object sender, RoutedEventArgs e)
+        {
+            EstadoSector estadoSector = new EstadoSector();
+            estadoSector.Show();
+        }
 
+        private void menuListadoUsuarios_Click(object sender, RoutedEventArgs e)
+        {
+            ListadoUsuario listadoUsuario = new ListadoUsuario();
+            listadoUsuario.Show();
+        }
 
-
+        
+      
     }
 }
