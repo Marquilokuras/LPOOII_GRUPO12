@@ -24,6 +24,8 @@ namespace Vistas
         public ABMVehiculo()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void btnRegistrar_Click(object sender, RoutedEventArgs e)

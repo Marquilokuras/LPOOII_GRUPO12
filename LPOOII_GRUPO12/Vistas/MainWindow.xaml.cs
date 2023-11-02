@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -22,6 +23,8 @@ namespace Vistas
         public MainWindow()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

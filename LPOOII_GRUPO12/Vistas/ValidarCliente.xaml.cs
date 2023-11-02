@@ -22,6 +22,8 @@ namespace Vistas
         public ValidarCliente()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void btnVerificar_Click(object sender, RoutedEventArgs e)

@@ -26,6 +26,8 @@ namespace Vistas
             InitializeComponent();
             this.nuevoCliente = new Cliente();
             this.DataContext = nuevoCliente;
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void btnRegistrar_Click(object sender, RoutedEventArgs e)

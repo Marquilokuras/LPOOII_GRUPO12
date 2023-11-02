@@ -23,17 +23,20 @@ namespace Vistas
     public partial class MenuPrincipalWindow : Window
     {
 
-        private Usuario usuarioLogeado;
+        private Usuario usuarioLogueado;
         public MenuPrincipalWindow(Usuario u)
         {
             InitializeComponent();
-            usuarioLogeado = u;
+            usuarioLogueado = u;
+            Console.WriteLine(u.ToString());
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-         
-                switch (usuarioLogeado.Rol_Id)
+
+            switch (usuarioLogueado.Rol_Id)
                 {
                     case 1: // Administrador
                         // Oculta elementos del menú que no necesita
@@ -55,16 +58,15 @@ namespace Vistas
                         menuTiposVehiculo.Visibility = Visibility.Collapsed;
                         menuGestionClientes.Visibility = Visibility.Collapsed;
                         menuGestionEstacionamiento.Visibility = Visibility.Collapsed;
-             
                         break;
                 }
-            
-    
         }
 
         private void menuSalir_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            VentanaManager.Instance.cerrarTodasLasVentanas();
+            WinWelcome loginWindow = new WinWelcome();
+            loginWindow.Show();
         }
 
         private void menuSectores_Click(object sender, RoutedEventArgs e)
@@ -85,11 +87,6 @@ namespace Vistas
             test test = new test();
             contentControl.Content = test;
 
-            
-            // Crea una instancia de la página ABMCliente y la establece en el Frame
-            //moduloFrame.Navigate(new ABMCliente());
-            //ABMCliente clienteWindow = new ABMCliente();
-            //clienteWindow.Show();
         }
 
         private void menuGestionEstacionamiento_Click(object sender, RoutedEventArgs e)
@@ -104,9 +101,17 @@ namespace Vistas
             validarClienteWindow.Show();
         }
 
-
-
-
+        private void usuarioDatos_Click(object sender, RoutedEventArgs e)
+        {
+            if (usuarioLogueado != null)
+            {
+                MessageBox.Show(usuarioLogueado.ToString(), "Datos del Usuario Logueado");
+            }
+            else
+            {
+                MessageBox.Show("No hay usuario logueado.", "Error");
+            }
+        }
 
     }
 }
