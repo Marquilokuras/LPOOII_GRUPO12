@@ -19,14 +19,14 @@ namespace ClasesBase
             }
         }
 
-        private int rol_id;
-        public int Rol_Id
+        private string usr_Rol;
+        public string Usr_Rol
         {
-            get { return rol_id; }
+            get { return usr_Rol; }
             set
             {
-                rol_id = value;
-                OnPropertyChanged("Rol_Id");
+                usr_Rol = value;
+                OnPropertyChanged("Usr_Rol");
             }
         }
 
@@ -86,10 +86,10 @@ namespace ClasesBase
         {
         }
 
-        public Usuario(int usrId, int rolId, string usrNombre, string usrApellido, string usrPassword, string usrUserName)
+        public Usuario(int usrId, string usrRol, string usrNombre, string usrApellido, string usrPassword, string usrUserName)
         {
             Usr_Id = usrId;
-            Rol_Id = rolId;
+            Usr_Rol = usrRol;
             Usr_Nombre = usrNombre;
             Usr_Apellido = usrApellido;
             Usr_Password = usrPassword;
@@ -97,7 +97,7 @@ namespace ClasesBase
         }
         public override string ToString()
         {
-            return "Usr_Id: " + Usr_Id + ",\nRol_Id: " + Rol_Id + ",\nUsr_Nombre: " + Usr_Nombre + ",\nUsr_Apellido: " + Usr_Apellido + ",\nUsr_UserName: " + Usr_UserName;
+            return "Usr_Id: " + Usr_Id + ",\nUsr_Rol: " + Usr_Rol + ",\nUsr_Nombre: " + Usr_Nombre + ",\nUsr_Apellido: " + Usr_Apellido + ",\nUsr_UserName: " + Usr_UserName;
         }
     }
 }

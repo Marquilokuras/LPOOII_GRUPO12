@@ -20,6 +20,8 @@ namespace Vistas
     /// </summary>
     public partial class GrillaVehiculos : Window
     {
+        private CollectionView Vista;
+
         public GrillaVehiculos()
         {
             InitializeComponent();
@@ -30,7 +32,10 @@ namespace Vistas
         private void load_Vehiculos(object sender, RoutedEventArgs e) 
         {
             DataTable dtVehiculos = TrabajarTiposVehiculo.TraerTiposVehiculo();
-            dgVehiculos.DataContext = dtVehiculos;
+            //dgVehiculos.DataContext = dtVehiculos;
+            //Vehiculos.DataContext = dtVehiculos;
+            //ObjectDataProvider odp = (ObjectDataProvider)this.Resources["list_vehiculo"];
+
         }
 
     }

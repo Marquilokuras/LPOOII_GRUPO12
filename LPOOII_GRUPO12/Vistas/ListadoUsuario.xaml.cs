@@ -43,7 +43,7 @@ namespace Vistas
             {
                 usuarios.Add(new Usuario(
                     Convert.ToInt32(row["Usr_Id"]),
-                    Convert.ToInt32(row["Rol_id"]),
+                    row["Usr_Rol"].ToString(),
                     row["Usr_Nombre"].ToString(),
                     row["Usr_Apellido"].ToString(),
                     row["Usr_Password"].ToString(),
