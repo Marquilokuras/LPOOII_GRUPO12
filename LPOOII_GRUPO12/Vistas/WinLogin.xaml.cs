@@ -54,7 +54,7 @@ namespace Vistas
                 //Usuario usuarioLogueado = new Usuario();
                 usuarioLogueado.Usr_UserName = username;
                 usuarioLogueado.Usr_Password = password;
-                usuarioLogueado.Rol_Id = 1;
+                usuarioLogueado.Usr_Rol = "Admin";
 
                 //1 = Admin
                 //2 = Operador

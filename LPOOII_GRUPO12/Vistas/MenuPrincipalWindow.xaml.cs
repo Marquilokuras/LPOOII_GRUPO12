@@ -36,9 +36,9 @@ namespace Vistas
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
-            switch (usuarioLogueado.Rol_Id)
+            switch (usuarioLogueado.Usr_Rol)
                 {
-                    case 1: // Administrador
+                    case "Admin": // Administrador
                         // Oculta elementos del menú que no necesita
         
                        // menuGestionClientes.Visibility = Visibility.Collapsed;
@@ -46,7 +46,7 @@ namespace Vistas
                 
                         break;
 
-                    case 2: // Operador
+                    case "Operador": // Operador
                         // Oculta elementos del menú que no necesita
                         menuSectores.Visibility = Visibility.Collapsed;
                         menuTiposVehiculo.Visibility = Visibility.Collapsed;

@@ -18,8 +18,7 @@ namespace ClasesBase
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = "SELECT *";
 
-            cmd.CommandText += " FROM Usuario as U ";
-            cmd.CommandText += " LEFT JOIN Rol as R ON (R.rol_id=U.rol_id)";
+            cmd.CommandText += " FROM Usuario";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = cnn;
 
@@ -41,7 +40,7 @@ namespace ClasesBase
             SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
 
             // Definir la consulta SQL para obtener los usuarios
-            string sqlQuery = "SELECT * FROM Usuario as U LEFT JOIN Rol as R ON (R.rol_id=U.rol_id)";
+            string sqlQuery = "SELECT * FROM Usuario";
 
             // Crear un objeto SqlCommand y configurarlo
             SqlCommand cmd = new SqlCommand(sqlQuery, cnn);
@@ -60,7 +59,7 @@ namespace ClasesBase
                     Usuario usuario = new Usuario
                     {
                         Usr_Id = Convert.ToInt32(reader["Usr_Id"]),
-                        Rol_Id = Convert.ToInt32(reader["Rol_Id"]),
+                        Usr_Rol = reader["Usr_Rol"].ToString(),
                         Usr_Nombre = reader["Usr_Nombre"].ToString(),
                         Usr_Apellido = reader["Usr_Apellido"].ToString(),
                         Usr_Password = reader["Usr_Password"].ToString(),
@@ -81,6 +80,66 @@ namespace ClasesBase
             }
 
             return usuarios;
+        }
+
+        public static void saveUser(Usuario user)
+        {
+
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "INSERT INTO Usuario(usr_Apellido, usr_Nombre, usr_UserName, usr_Password, usr_Rol) ";
+            cmd.CommandText += "  VALUES (@usrApellido, @usrNombre, @usrUserName, @usrPassword, @usr_Rol)";
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+
+            cmd.Parameters.AddWithValue("@usrApellido", user.Usr_Apellido);
+            cmd.Parameters.AddWithValue("@usrNombre", user.Usr_Nombre);
+            cmd.Parameters.AddWithValue("@usrUserName", user.Usr_UserName);
+            cmd.Parameters.AddWithValue("@usrPassword", user.Usr_Password);
+            cmd.Parameters.AddWithValue("@usr_Rol", user.Usr_Rol);
+
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        public static Boolean deleteUser(int usrId)
+        {
+
+            bool userFound = false;
+
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+
+            SqlCommand cmd = new SqlCommand();
+
+            string deleteStatement = "DELETE FROM Usuario WHERE usr_Id = @id";
+
+            cmd.CommandText = deleteStatement;
+
+            using (SqlCommand command = new SqlCommand(deleteStatement, cnn))
+            {
+                command.Parameters.AddWithValue("@id", usrId);
+
+                cnn.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+
+                if (rowsAffected > 0)
+                {
+                    Console.WriteLine("Se eliminó el usuario con id: ", usrId);
+                    userFound = true;
+                }
+                else
+                {
+                    Console.WriteLine("No se encontró ningún usuario con id: ", usrId);
+                }
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                cnn.Close();
+            }
+            return userFound;
         }
 
     }

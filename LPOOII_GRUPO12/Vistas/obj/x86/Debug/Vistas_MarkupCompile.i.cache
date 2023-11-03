@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\App.xaml
 131289845817
 
-18-2138612626
-13-1158000455
+181194462901
+13-35268074
 ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;WinLogin.xaml;
 
-False
+True
 
