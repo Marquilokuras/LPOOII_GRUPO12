@@ -19,22 +19,25 @@
         </CollectionViewSource>
     </Window.Resources>
 
-    <Grid>
-        <ListView ItemsSource="{Binding Source={StaticResource ResourceKey=VIEW_LIST_USERS}}" Height="101" Width="325" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
-            <ListView.View>
-                <GridView>
-                    <GridView.Columns>
-                        <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Path=Usr_Id}"></GridViewColumn>
-                        <GridViewColumn Header="Rol" DisplayMemberBinding="{Binding Path=Usr_Rol}"></GridViewColumn>
-                        <GridViewColumn Header="Apellido" DisplayMemberBinding="{Binding Path=Usr_Apellido}"></GridViewColumn>
-                        <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Path=Usr_Nombre}"></GridViewColumn>
-                        <GridViewColumn Header="Username" DisplayMemberBinding="{Binding Path=Usr_UserName}"></GridViewColumn>
-                        <GridViewColumn Header="Password" DisplayMemberBinding="{Binding Path=Usr_Password}"></GridViewColumn>
-                    </GridView.Columns>
-                </GridView>
-            </ListView.View>
-        </ListView>
+    <StackPanel Width="539" Height="346">
 
-        <Button Content="Imprimir" Name="btnImprimir" Style="{StaticResource ButtonStyle}" Margin="221,156,248,177" />
-    </Grid>
+        <FlowDocumentReader Canvas.Left="12" Canvas.Top="28"  Height="280">
+            <FlowDocument Name="DocPrueba" >
+                <Paragraph FontWeight="Bold" Margin="0" TextAlignment="Center">Listado de Usuarios</Paragraph>
+                <BlockUIContainer>
+                    <ListView Grid.Row="1" ItemsSource="{Binding Source={StaticResource ResourceKey=VIEW_LIST_USERS}}"  Margin="10,20,10,10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Apellido" Width="105" DisplayMemberBinding="{Binding Path=Usr_Apellido}"/>
+                                <GridViewColumn Header="Nombre" Width="110" DisplayMemberBinding="{Binding Path=Usr_Apellido}"/>
+                                <GridViewColumn Header="Rol" Width="105" DisplayMemberBinding="{Binding Path=Usr_UserName}"/>
+                                <GridViewColumn Header="Password" DisplayMemberBinding="{Binding Path=Usr_Password}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentReader>
+        <Button Content="Imprimir" Name="btnImprimir" Margin="0" Click="btnImprimir_Click" />
+    </StackPanel>
 </Window>

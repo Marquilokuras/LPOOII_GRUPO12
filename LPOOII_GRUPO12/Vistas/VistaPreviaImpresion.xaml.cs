@@ -24,5 +24,21 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void btnImprimir_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog printDialog = new PrintDialog();
+            if (printDialog.ShowDialog() == true)
+            {
+                printDialog.PrintDocument(((IDocumentPaginatorSource)DocPrueba).DocumentPaginator, "Impresión Documento Dinámico");
+            } 
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Handle the selection changed event here
+            // You can access the selected items using e.Added and e.Removed
+        }
+
     }
 }
