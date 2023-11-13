@@ -1,8 +1,6 @@
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.exe
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.pdb
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.baml
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.baml
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
@@ -184,12 +182,10 @@ C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRU
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\EstadoSector.baml
 C:\Users\facur\Desktop\School\APU III\LPOO II\Projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\EstadoSector.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\EstadoSector.baml
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.baml
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.baml
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\EstadoSector.g.cs
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.g.cs
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
@@ -341,3 +337,11 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ListadoUsuario.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ListadoUsuario.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMUsuario.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaVehiculos.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ListadoUsuario.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.baml
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMUsuario.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaVehiculos.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ListadoUsuario.g.cs
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs

@@ -82,6 +82,7 @@
     <Compile Include="MenuPrincipalWindow.xaml.cs">
       <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PrintDocumentPaginator.cs" />
     <Compile Include="User Controls\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
