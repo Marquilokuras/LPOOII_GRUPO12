@@ -13,6 +13,7 @@
             <MenuItem Header="Gestion Estacionamiento" x:Name="menuGestionEstacionamiento" Click="menuGestionEstacionamiento_Click" />
             <MenuItem Header="Validar Usuario" x:Name="menuValidarUsuario" Click="menuValidarUsuario_Click" />
             <MenuItem Header="Vehiculos En Playa" x:Name="menuVehiculosEnPlaya" Click="menuVehiculosEnPlaya_Click" />
+            <MenuItem Header="Zonas" x:Name="menuZonas" Click="menuZonas_Click" />
             <MenuItem Header="Gestion Usuarios" x:Name="menuGestionUsuarios" Click="menuGestionUsuarios_Click" />
             <MenuItem Header="Estado Sector" x:Name="menuEstadoSector" Click="menuEstadoSector_Click" />
             <MenuItem Header="Listado Usuarios" x:Name="menuListadoUsuarios" Click="menuListadoUsuarios_Click" />

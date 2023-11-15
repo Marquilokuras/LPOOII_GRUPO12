@@ -22,6 +22,7 @@
                     <GridViewColumn Width="50" Header="Codigo" DisplayMemberBinding="{Binding Path=tv_TVCodigo}"/>
                     <GridViewColumn Width="100" Header="Descripcion" DisplayMemberBinding="{Binding Path=tv_Descripcion}"/>
                     <GridViewColumn Width="50" Header="Tarifa" DisplayMemberBinding="{Binding Path=tv_Tarifa}"/>
+                    <GridViewColumn Width="50" Header="Imagen" DisplayMemberBinding="{Binding Path=tv_Imagen}"/>
                 </GridView>
             </ListView.View>
         </ListView>
