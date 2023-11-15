@@ -206,7 +206,6 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\o
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.baml
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.baml
-C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.baml
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.g.cs
@@ -217,7 +216,6 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\o
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.g.cs
-C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
@@ -351,3 +349,5 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\o
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaVehiculos.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ListadoUsuario.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.baml
+C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
