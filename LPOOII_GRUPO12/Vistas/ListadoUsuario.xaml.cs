@@ -72,7 +72,7 @@ namespace Vistas
             FilterUsers();
         }
 
-        private void FilterUsers()
+        private List<Usuario> FilterUsers()
         {
             string filterText = txtFilter.Text.ToLower();
 
@@ -80,6 +80,18 @@ namespace Vistas
             var filteredUsers = usuarios.Where(user => user.Usr_UserName.ToLower().Contains(filterText)).ToList();
 
             userGrid.ItemsSource = filteredUsers;
+
+            return filteredUsers;
+        }
+
+        private void BtnVistaPrevia_Click(object sender, RoutedEventArgs e)
+        {
+            // Crear e mostrar la ventana VistaPreviaImpresion
+            VistaPreviaImpresion ventanaVistaPrevia = new VistaPreviaImpresion();
+
+            ventanaVistaPrevia.UsuariosFiltrados = FilterUsers();
+
+            ventanaVistaPrevia.ShowDialog();
         }
 
     }
