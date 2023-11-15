@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
-141623800510
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\App.xaml
+151009369377
 
-20-1128771793
-13-592690117
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+21-731054428
+132124898362
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
 
