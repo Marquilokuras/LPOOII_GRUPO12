@@ -89,8 +89,8 @@
     <Compile Include="ValidarCliente.xaml.cs">
       <DependentUpon>ValidarCliente.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VEP.xaml.cs">
-      <DependentUpon>VEP.xaml</DependentUpon>
+    <Compile Include="Sectores.xaml.cs">
+      <DependentUpon>Sectores.xaml</DependentUpon>
     </Compile>
     <Compile Include="VistaPreviaImpresion.xaml.cs">
       <DependentUpon>VistaPreviaImpresion.xaml</DependentUpon>
@@ -157,7 +157,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="VEP.xaml">
+    <Page Include="Sectores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
