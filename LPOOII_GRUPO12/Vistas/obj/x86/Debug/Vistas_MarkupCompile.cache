@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
-141623800510
+15-516965768
 
-191391848390
+20-2122149493
 13-592690117
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;VEP.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
 

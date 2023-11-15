@@ -15,8 +15,8 @@ namespace ClasesBase
         private string tkt_Patente;
         private int sec_SectorCodigo;
         private double tkt_Duracion;
-        private decimal tv_Tarifa;
-        private decimal tkt_Total;
+        public decimal tv_Tarifa;
+        public decimal tkt_Total;
 
         public decimal Tkt_Total
         {

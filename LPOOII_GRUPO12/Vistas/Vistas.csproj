@@ -83,6 +83,9 @@
       <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="PrintDocumentPaginator.cs" />
+    <Compile Include="RegistrarSalida.xaml.cs">
+      <DependentUpon>RegistrarSalida.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MenuPrincipalWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarSalida.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
