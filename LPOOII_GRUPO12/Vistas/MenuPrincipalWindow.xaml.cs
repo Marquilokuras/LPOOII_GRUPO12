@@ -141,12 +141,6 @@ namespace Vistas
             listadoUsuario.Show();
         }
 
-        private void menuZonas_Click(object sender, RoutedEventArgs e)
-        {
-            Zonas zonas = new Zonas();
-            zonas.Show();
-        }
-
         
       
     }

@@ -25,8 +25,7 @@
             <FlowDocument Name="DocPrueba" >
                 <Paragraph FontWeight="Bold" Margin="0" TextAlignment="Center">Listado de Usuarios</Paragraph>
                 <BlockUIContainer>
-                    <!-- <ListView Grid.Row="1" ItemsSource="{Binding Source={StaticResource ResourceKey=VIEW_LIST_USERS}}"  Margin="10,20,10,10"> -->
-                        <ListView Grid.Row="1" ItemsSource="{Binding UsuariosFiltrados}" Margin="10,20,10,10" Name="ListViewUsuarios">
+                    <ListView Grid.Row="1" ItemsSource="{Binding Source={StaticResource ResourceKey=VIEW_LIST_USERS}}"  Margin="10,20,10,10">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="Apellido" Width="105" DisplayMemberBinding="{Binding Path=Usr_Apellido}"/>

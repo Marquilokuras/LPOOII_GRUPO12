@@ -10,8 +10,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Data;
-using System.Data.SqlClient;
 using ClasesBase;
 
 namespace Vistas
@@ -24,9 +22,6 @@ namespace Vistas
         private SolidColorBrush greenBrush;
         private SolidColorBrush redBrush;
         private SolidColorBrush grayBrush;
-
-        public int zona = 1;
-        
 
         public VEP()
         {
@@ -217,78 +212,5 @@ namespace Vistas
         {
             this.Close();
         }
-
-        private void btnE1_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E1");
-        }
-
-        private void btnE2_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E2");
-        }
-
-        private void btnE3_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E3");
-        }
-
-        private void btnE4_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E4");
-        }
-
-        private void btnE5_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E5");
-        }
-
-        private void btnE6_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E6");
-        }
-
-        private void btnE7_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E7");
-        }
-
-        private void btnE8_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E8");
-        }
-
-        private void btnE9_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E9");
-        }
-
-        private void btnE10_MouseEnter(object sender, MouseEventArgs e)
-        {
-            mostrarEstadoSector("E10");
-        }
-
-
-        private void mostrarEstadoSector(string identificadorSector)
-        {
-
-            Sector sector = ClasesBase.TrabajarSector.TraerSectorPorZonaYIdentificador(zona, identificadorSector);
-
-
-            Console.Write("Sector Descripcion: " + sector.Sec_Descripcion);
-
-            // Lógica para obtener la información del tiempo que lleva libre el sector.
-            // Puedes consultar la base de datos para obtener esta información.
-
-            //DateTime fechaInicioReferencia = ObtenerFechaInicioReferencia(identificadorSector);
-            DateTime fechaActual = DateTime.Now;
-
-            //TimeSpan tiempoLibre = fechaActual - fechaInicioReferencia;
-
-            // Muestra la información en un cuadro de diálogo o en algún control visual.
-            //   MessageBox.Show($"El sector {identificadorSector} está libre desde {fechaInicioReferencia}. Tiempo libre: {tiempoLibre}");
-        }
-
-
     }
 }

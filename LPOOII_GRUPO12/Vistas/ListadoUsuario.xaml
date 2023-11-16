@@ -4,17 +4,15 @@
         Title="ListadoUsuario" Height="390" Width="487" MinHeight="390" MinWidth="487"
         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
-    <Grid Height="362" Width="465">
-        <TextBox Name="txtFilter" Width="211" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,12,0,0" Height="26" />
-        <Button Content="Buscar" Width="61" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,12,89,0" Click="BtnSearch_Click"/>
-        <DataGrid AutoGenerateColumns="False" Height="261" HorizontalAlignment="Left" Name="userGrid" VerticalAlignment="Top" Width="278" SelectionChanged="userGrid_SelectionChanged" Margin="98,44,0,0">
+    <Grid>
+        <TextBox Name="txtFilter" Width="211" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,22,0,0" Height="26" />
+        <Button Content="Buscar" Width="61" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,22,89,0" Click="BtnSearch_Click"/>
+        <DataGrid AutoGenerateColumns="False" Height="261" HorizontalAlignment="Left" Name="userGrid" VerticalAlignment="Top" Width="278" SelectionChanged="userGrid_SelectionChanged" Margin="98,63,0,0">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding Usr_Nombre}" />
                 <DataGridTextColumn Header="Nombre de Usuario" Binding="{Binding Usr_UserName}" />
                 <!-- Agrega más columnas según las propiedades de Usuario que deseas mostrar -->
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Vista Previa" Click="BtnVistaPrevia_Click" Margin="98,320,88,23" />
-
     </Grid>
 </Window>

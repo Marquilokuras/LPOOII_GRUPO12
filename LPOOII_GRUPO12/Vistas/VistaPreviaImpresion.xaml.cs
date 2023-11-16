@@ -17,23 +17,12 @@ namespace Vistas
     /// <summary>
     /// Interaction logic for VistaPreviaImpresion.xaml
     /// </summary>
-    /// 
-
-
-
     public partial class VistaPreviaImpresion : Window
     {
-        public List<Usuario> UsuariosFiltrados { get; set; }
 
         public VistaPreviaImpresion()
         {
             InitializeComponent();
-
-            UsuariosFiltrados = new List<Usuario>();
-
-            Loaded += VistaPreviaImpresion_Loaded;
-
-      
         }
 
         private void btnImprimir_Click(object sender, RoutedEventArgs e)
@@ -49,13 +38,6 @@ namespace Vistas
         {
             // Handle the selection changed event here
             // You can access the selected items using e.Added and e.Removed
-        }
-
-        private void VistaPreviaImpresion_Loaded(object sender, RoutedEventArgs e)
-        {
-            // Cuando se carga la ventana, asigna los usuarios filtrados al control correspondiente.
-            ListViewUsuarios.ItemsSource = UsuariosFiltrados;
-            Console.Write("Cantidad Usuarios Filtrados: " + UsuariosFiltrados.Count);
         }
 
     }

@@ -51,3 +51,4 @@ C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Clases
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.g.resources
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Marcos\Documents\LPOOII_GRUPO12\LPOOII_GRUPO12\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache

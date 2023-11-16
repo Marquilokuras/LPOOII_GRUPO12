@@ -57,13 +57,11 @@
     <Compile Include="Ticket.cs" />
     <Compile Include="TipoVehiculo.cs" />
     <Compile Include="TrabajarCliente.cs" />
-    <Compile Include="TrabajarSector.cs" />
     <Compile Include="TrabajarTicket.cs" />
     <Compile Include="TrabajarTiposVehiculo.cs" />
     <Compile Include="TrabajarUsuario.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="VentanaManager.cs" />
-    <Compile Include="Zona.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
