@@ -4,7 +4,5 @@
         Title="ABMSector" Height="300" Width="300"
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
-    <Grid>
-        
-    </Grid>
+    <Grid></Grid>
 </Window>

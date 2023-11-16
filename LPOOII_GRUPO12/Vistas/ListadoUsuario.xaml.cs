@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +10,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using ClasesBase;
 using System.Data;
+using System.Data.SqlClient;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -50,7 +51,7 @@ namespace Vistas
                     row["Usr_UserName"].ToString()
                 ));
             }
-            userGrid.ItemsSource = usuarios; 
+            userGrid.ItemsSource = usuarios;
         }
 
         private void userGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -72,7 +73,7 @@ namespace Vistas
             FilterUsers();
         }
 
-        private void FilterUsers()
+        private List<Usuario> FilterUsers()
         {
             string filterText = txtFilter.Text.ToLower();
 
@@ -80,6 +81,18 @@ namespace Vistas
             var filteredUsers = usuarios.Where(user => user.Usr_UserName.ToLower().Contains(filterText)).ToList();
 
             userGrid.ItemsSource = filteredUsers;
+
+            return filteredUsers;
+        }
+
+        private void BtnVistaPrevia_Click(object sender, RoutedEventArgs e)
+        {
+            // Crear e mostrar la ventana VistaPreviaImpresion
+            VistaPreviaImpresion ventanaVistaPrevia = new VistaPreviaImpresion();
+
+            ventanaVistaPrevia.UsuariosFiltrados = FilterUsers();
+
+            ventanaVistaPrevia.ShowDialog();
         }
 
     }

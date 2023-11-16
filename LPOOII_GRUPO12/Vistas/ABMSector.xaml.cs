@@ -25,5 +25,10 @@ namespace Vistas
             VentanaManager.Instance.agregarVentana(this);
             VentanaManager.Instance.mostrarVentanasAbiertas();
         }
+
+        private void BtnVistaPrevia_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
