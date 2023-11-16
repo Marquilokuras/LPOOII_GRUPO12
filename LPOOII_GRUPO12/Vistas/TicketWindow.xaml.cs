@@ -35,15 +35,22 @@ namespace Vistas
             {
                 string ultimoClienteDNI = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["cli_ClienteDNI"]);
                  ultimoClienteDNI_TextBlock.Text = ultimoClienteDNI;
-                Console.WriteLine("Último valor de ClienteDNI en el último ticket: " + ultimoClienteDNI);
+                 string ultimoCodigoSector = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["sec_SectorCodigo"]);
+                 ultimoCodigoSector_TextBlock.Text = ultimoCodigoSector;
                 string ultimoTicketNro = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_TicketNro"]);
                 ultimoTicketNro_TextBlock.Text = ultimoTicketNro;
                 string ultimoPatente= Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_Patente"]);
                 ultimoPatente_TextBlock.Text = ultimoTicketNro;
                 string ultimoEntrada = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_FechaHoraEnt"]);
                 ultimoEntrada_TextBlock.Text = ultimoEntrada;
-
-
+                string ultimoSalida = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_FechaHoraSal"]);
+                ultimoSalida_TextBlock.Text = ultimoSalida;
+                string ultimoDuracion = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_Duracion"]);
+                ultimoDuracion_TextBlock.Text = ultimoDuracion;
+                string ultimoCodigoVehiculo = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tv_TVCodigo"]);
+                ultimoCodigoVehiculo_TextBlock.Text = ultimoCodigoVehiculo;
+                string ultimoTarifa = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tv_Tarifa"]);
+                ultimoTarifa_TextBlock.Text = ultimoTarifa;
                 string ultimoTotal = Convert.ToString(tablaTickets.Rows[tablaTickets.Rows.Count - 1]["tkt_Total"]);
                 ultimoTotal_TextBlock.Text = ultimoTotal;
             }

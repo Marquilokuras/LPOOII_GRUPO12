@@ -11,18 +11,26 @@
             <ColumnDefinition Width="306*" />
         </Grid.ColumnDefinitions>
         <TextBlock Text="TICKET DE ESTACIONAMIENTO" FontWeight="Bold" FontSize="16" Margin="67,0,83,432" Grid.ColumnSpan="2" />
-            <TextBlock Text="Cliente DNI:" Margin="12,92,233,355" Grid.ColumnSpan="2" />
-            <TextBlock x:Name="ultimoClienteDNI_TextBlock" Height="19" Margin="78,92,285,355" Grid.ColumnSpan="2" />
-        <TextBlock Text="Ticket:" Margin="12,117,233,330" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="ultimoTicketNro_TextBlock" Height="19" Margin="48,117,9,330" />
-        <TextBlock Text="Patente:" Margin="12,142,233,305" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="ultimoPatente_TextBlock" Height="19" Margin="57,142,0,305" />
-        <TextBlock Text="Fecha de Entrada:" Margin="12,167,233,280" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="ultimoEntrada_TextBlock" Height="19" Margin="17,167,254,280" Grid.Column="1" />
-
-
-        <TextBlock Text="Importe Total:" Margin="12,281,233,166" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="ultimoTotal_TextBlock" Height="19" Margin="0,281,271,166" Grid.Column="1" />
+        <TextBlock Text="Cliente DNI:" Margin="12,92,233,355" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoClienteDNI_TextBlock" Height="19" Margin="78,92,285,355" Grid.ColumnSpan="2" />
+        <TextBlock Text="Codigo Sector:" Margin="12,28,233,419" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoCodigoSector_TextBlock" Height="19" Margin="0,28,271,419" Grid.Column="1" />
+        <TextBlock Text="Ticket:" Margin="12,54,233,393" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoTicketNro_TextBlock" Height="19" Margin="48,54,9,393" />
+        <TextBlock Text="Patente:" Margin="12,117,233,330" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoPatente_TextBlock" Height="19" Margin="57,117,0,330" />
+        <TextBlock Text="Fecha de Entrada:" Margin="12,142,233,305" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoEntrada_TextBlock" Height="19" Margin="17,142,254,305" Grid.Column="1" />
+        <TextBlock Text="Fecha de Salida:" Margin="12,167,233,280" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoSalida_TextBlock" Height="19" Margin="9,167,262,280" Grid.Column="1" />
+        <TextBlock Text="Duracion en Horas:" Margin="12,192,233,255" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoDuracion_TextBlock" Height="19" Margin="25,192,246,255" Grid.Column="1" />
+        <TextBlock Text="Codigo Tipo Vehiculo:" Margin="12,217,233,230" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoCodigoVehiculo_TextBlock" Height="19" Margin="38,217,233,230" Grid.Column="1" />
+        <TextBlock Text="Tarifa:" Margin="12,239,233,208" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoTarifa_TextBlock" Height="19" Margin="48,239,9,0" VerticalAlignment="Top" />
+        <TextBlock Text="Importe Total:" Margin="12,264,233,183" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoTotal_TextBlock" Height="19" Margin="0,264,271,183" Grid.Column="1" />
 
         <Border BorderBrush="Silver" BorderThickness="1" Height="7" HorizontalAlignment="Left" Margin="12,79,0,0" Name="border1" VerticalAlignment="Top" Width="374" Grid.ColumnSpan="2" />
     </Grid>
