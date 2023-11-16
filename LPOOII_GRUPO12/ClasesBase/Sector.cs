@@ -11,6 +11,7 @@ namespace ClasesBase
         private string sec_Descripcion;
         private string sec_Identificador;
         private bool sec_Habilitado;
+        private int sec_ZonaCodigo;
 
         public bool Sec_Habilitado
         {
@@ -34,6 +35,23 @@ namespace ClasesBase
         {
             get { return sec_SectorCodigo; }
             set { sec_SectorCodigo = value; }
+        }
+
+        public int Sec_ZonaCodigo
+        {
+            get { return sec_ZonaCodigo; }
+            set { sec_ZonaCodigo = value; }
+        }
+
+        public Sector(){ }
+
+        public Sector(int sectorCodigo, string descripcion, string identificador, bool habilitado, int zonaCodigo)
+        {
+            Sec_SectorCodigo = sectorCodigo;
+            Sec_Descripcion = descripcion;
+            Sec_Identificador = identificador;
+            Sec_Habilitado = habilitado;
+            Sec_ZonaCodigo = zonaCodigo;
         }
     }
 }

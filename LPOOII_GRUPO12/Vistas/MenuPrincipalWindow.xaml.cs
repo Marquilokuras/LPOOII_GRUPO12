@@ -123,11 +123,6 @@ namespace Vistas
             abmUsuario.Show();
         }
 
-        private void menuVehiculosEnPlaya_Click(object sender, RoutedEventArgs e)
-        {
-            VEP vep = new VEP();
-            vep.Show();
-        }
 
         private void menuEstadoSector_Click(object sender, RoutedEventArgs e)
         {
@@ -139,6 +134,12 @@ namespace Vistas
         {
             ListadoUsuario listadoUsuario = new ListadoUsuario();
             listadoUsuario.Show();
+        }
+
+        private void menuZonas_Click(object sender, RoutedEventArgs e)
+        {
+            Zonas zonasVista = new Zonas();
+            zonasVista.Show();
         }
 
         
