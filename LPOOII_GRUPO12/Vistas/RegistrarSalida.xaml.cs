@@ -51,22 +51,16 @@ namespace Vistas
 
             try
             {
-                // Guardar el ticket en la base de datos
                 TrabajarTicket.saveTicket(oTicket);
                 Console.WriteLine("Ticket guardado exitosamente.");
+                TicketWindow ticketWindow = new TicketWindow();
+                ticketWindow.Show();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error al guardar el ticket: " + ex.Message);
-                // Manejo de excepciones: puedes mostrar un mensaje al usuario u otro tipo de manejo de error aquí
             }
-            // Crear el ticket con la información recopilada
-            //string ticket = GenerateTicket(dniCliente, patente, fechaSalida, horaSalida);
-
-            // Asentar los detalles del registro en una tabla (aquí deberías implementar la lógica de tu base de datos)
-
-            // Mostrar el ticket en un documento fijo (puedes usar una ventana nueva, un cuadro de diálogo o algún otro control)
-            //MostrarTicket(ticket);
+           
         }
 
         private DateTime ObtenerFechaHoraEntrada()
@@ -76,7 +70,8 @@ namespace Vistas
             int minutos = int.Parse(((ComboBoxItem)comboMinutosEntrada.SelectedItem).Content.ToString());
 
             // Obtener la fecha y hora actual
-            DateTime fechaHoraActual = DateTime.Now;
+            DateTime? fechaSeleccionada = datePickerFechaEntrada.SelectedDate;
+            DateTime fechaHoraActual = fechaSeleccionada.Value;
 
             // Crear un nuevo objeto DateTime con la fecha actual y la hora seleccionada
             DateTime fechaHoraEntrada = new DateTime(
