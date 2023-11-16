@@ -1,0 +1,30 @@
+﻿<Window x:Class="Vistas.TicketWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ticket" Height="505" Width="420" MinHeight="401" MinWidth="200"
+        WindowStartupLocation="CenterScreen" 
+        Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="92*" />
+            <ColumnDefinition Width="306*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="TICKET DE ESTACIONAMIENTO" FontWeight="Bold" FontSize="16" Margin="67,0,83,432" Grid.ColumnSpan="2" />
+            <TextBlock Text="Cliente DNI:" Margin="12,92,233,355" Grid.ColumnSpan="2" />
+            <TextBlock x:Name="ultimoClienteDNI_TextBlock" Height="19" Margin="78,92,285,355" Grid.ColumnSpan="2" />
+        <TextBlock Text="Ticket:" Margin="12,117,233,330" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoTicketNro_TextBlock" Height="19" Margin="48,117,9,330" />
+        <TextBlock Text="Patente:" Margin="12,142,233,305" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoPatente_TextBlock" Height="19" Margin="57,142,0,305" />
+        <TextBlock Text="Fecha de Entrada:" Margin="12,167,233,280" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoEntrada_TextBlock" Height="19" Margin="17,167,254,280" Grid.Column="1" />
+
+
+        <TextBlock Text="Importe Total:" Margin="12,281,233,166" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="ultimoTotal_TextBlock" Height="19" Margin="0,281,271,166" Grid.Column="1" />
+
+        <Border BorderBrush="Silver" BorderThickness="1" Height="7" HorizontalAlignment="Left" Margin="12,79,0,0" Name="border1" VerticalAlignment="Top" Width="374" Grid.ColumnSpan="2" />
+    </Grid>
+    
+</Window>

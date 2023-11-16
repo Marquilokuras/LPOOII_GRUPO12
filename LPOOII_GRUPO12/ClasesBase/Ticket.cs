@@ -10,7 +10,7 @@ namespace ClasesBase
         private int tkt_TicketNro;
         private DateTime tkt_FechaHoraEnt;
         private DateTime tkt_FechaHoraSal;
-        private int cli_ClienteDNI;
+        public int cli_ClienteDNI;
         private int tv_TVCodigo;
         private string tkt_Patente;
         private int sec_SectorCodigo;

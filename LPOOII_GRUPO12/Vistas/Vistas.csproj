@@ -86,6 +86,10 @@
     <Compile Include="RegistrarSalida.xaml.cs">
       <DependentUpon>RegistrarSalida.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TicketViewModel.cs" />
+    <Compile Include="TicketWindow.xaml.cs">
+      <DependentUpon>TicketWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -146,6 +150,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RegistrarSalida.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
