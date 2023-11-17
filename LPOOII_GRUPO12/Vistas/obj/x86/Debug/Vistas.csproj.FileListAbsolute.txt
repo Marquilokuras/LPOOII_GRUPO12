@@ -108,7 +108,6 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.baml
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.g.cs
@@ -116,7 +115,6 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.g.cs
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
@@ -353,3 +351,11 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\o
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.baml
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs

@@ -86,6 +86,9 @@
     <Compile Include="RegistrarSalida.xaml.cs">
       <DependentUpon>RegistrarSalida.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TicketWindow.xaml.cs">
+      <DependentUpon>TicketWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -123,6 +126,10 @@
     <Page Include="ABMVehiculo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Zonas.xaml">
       <SubType>Designer</SubType>
