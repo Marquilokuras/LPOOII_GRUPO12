@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
-16494553319
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\App.xaml
+171994968590
 
-222089405834
-13-523702794
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+231298487935
+132124898362
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
 

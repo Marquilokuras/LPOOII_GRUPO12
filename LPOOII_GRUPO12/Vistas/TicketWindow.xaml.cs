@@ -65,7 +65,7 @@ namespace Vistas
             if (listaTickets != null && listaTickets.Count > 0)
             {
                 Ticket ultimoTicket = listaTickets[listaTickets.Count - 1];
-                return ultimoTicket.cli_ClienteDNI;
+                return ultimoTicket.Cli_ClienteDNI;
             }
             else
             {
