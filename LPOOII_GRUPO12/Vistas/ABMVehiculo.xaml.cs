@@ -30,40 +30,66 @@ namespace Vistas
 
         private void btnRegistrar_Click(object sender, RoutedEventArgs e)
         {
+            if (textCodigo.Text != "" && textDescripcion.Text != "" && textTarifa.Text != "" && textImagen.Text != "")
+            {
+                int codigo= 0;
+                decimal tarifa = 0;
 
-            Console.WriteLine(textCodigo.Text + " - " + textDescripcion.Text + " - " + textTarifa.Text);
+                if (int.TryParse(textCodigo.Text, out codigo) && decimal.TryParse(textTarifa.Text, out tarifa))
+                {
+                    nuevoVehiculo.Tv_TVCodigo = codigo;
+                    nuevoVehiculo.Tv_Descripcion = textDescripcion.Text;
+                    nuevoVehiculo.Tv_Tarifa = tarifa;
+                    nuevoVehiculo.Tv_Imagen = textImagen.Text;
 
-            if (textCodigo.Text != "" && textDescripcion.Text != "" && textTarifa.Text != "") {
+                    Console.WriteLine(nuevoVehiculo);
 
-                nuevoVehiculo.Tv_TVCodigo = int.Parse(textCodigo.Text);
-                nuevoVehiculo.Tv_Descripcion = textDescripcion.Text;
-                nuevoVehiculo.Tv_Tarifa = decimal.Parse(textTarifa.Text);
-
-                if (nuevoVehiculo != null) {
-
-                    if (MessageBox.Show("¿Desea registrar al vehiculo?", "Registrar Vehiculo", MessageBoxButton.YesNo) == MessageBoxResult.Yes) {
-
-                        textCodigo.Text = "";
-                        textDescripcion.Text = "";
-                        textTarifa.Text = "";
-
-                        MessageBox.Show("Codigo: " + nuevoVehiculo.Tv_TVCodigo + "\r\n" + "Descripcion: " + nuevoVehiculo.Tv_Descripcion + "\r\n" + "Tarifa: " + nuevoVehiculo.Tv_Tarifa, "Vehiculo Registrado");
-                        this.Close();
-
+                    if (nuevoVehiculo != null)
+                    {
+                        if (MessageBox.Show("¿Desea registrar al vehiculo?", "Registrar Vehiculo", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                        {
+                            TrabajarTiposVehiculo.AgregarTipoVehiculo(nuevoVehiculo);
+                            textCodigo.Text = "";
+                            textDescripcion.Text = "";
+                            textTarifa.Text = "";
+                            textImagen.Text = "";
+                            MessageBox.Show("Tipo Vehiculo Guardado con Exito!\nDatos del Vehiculo Guardado: \n"+nuevoVehiculo, "Exito");
+                        }
                     }
-
                 }
-
+                else
+                {
+                    MessageBox.Show("Ingrese valores numéricos válidos para Código y Tarifa", "Error");
+                }
             }
             else
-                MessageBox.Show("Ingrese datos", "Error");
-
+            {
+                MessageBox.Show("Ingrese datos en todos los campos", "Error");
+            }
         }
+
+
 
         private void btnVerVehiculos_Click(object sender, RoutedEventArgs e)
         {
             GrillaVehiculos grillaVehiculos = new GrillaVehiculos();
             grillaVehiculos.Show();
+        }
+
+        private void textCodigo_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!char.IsDigit(e.Text, e.Text.Length - 1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textTarifa_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!char.IsDigit(e.Text, e.Text.Length - 1) && !char.IsPunctuation(e.Text, e.Text.Length - 1))
+            {
+                e.Handled = true;
+            }
         }
 
     }

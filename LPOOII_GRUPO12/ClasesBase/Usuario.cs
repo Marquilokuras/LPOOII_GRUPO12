@@ -95,6 +95,7 @@ namespace ClasesBase
             Usr_Password = usrPassword;
             Usr_UserName = usrUserName;
         }
+
         public override string ToString()
         {
             return "Usr_Id: " + Usr_Id + ",\nUsr_Rol: " + Usr_Rol + ",\nUsr_Nombre: " + Usr_Nombre + ",\nUsr_Apellido: " + Usr_Apellido + ",\nUsr_UserName: " + Usr_UserName;

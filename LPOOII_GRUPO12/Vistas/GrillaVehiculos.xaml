@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:svc="clr-namespace:ClasesBase;assembly=ClasesBase"
-        Title="GrillaVehiculos" Height="300" Width="300"
+        Title="GrillaVehiculos" Height="300" Width="511"
         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}" Loaded="load_Vehiculos">
 
@@ -15,13 +15,20 @@
     </Window.Resources>
 
     <Grid>
-        <ListView Name="Vehiculos" Height="150" Width="250" Margin="15,42,12,77"
-                  ItemsSource="{Binding Source={StaticResource list_vehiculo}}">
+        <ListView Name="Vehiculos" Height="Auto" ItemsSource="{Binding Source={StaticResource list_vehiculo}}" VerticalAlignment="Top" Margin="0,10,0,0">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="50" Header="Codigo" DisplayMemberBinding="{Binding Path=tv_TVCodigo}"/>
-                    <GridViewColumn Width="100" Header="Descripcion" DisplayMemberBinding="{Binding Path=tv_Descripcion}"/>
-                    <GridViewColumn Width="50" Header="Tarifa" DisplayMemberBinding="{Binding Path=tv_Tarifa}"/>
+                    <GridViewColumn Width="80" Header="Codigo" DisplayMemberBinding="{Binding Path=tv_TVCodigo}"/>
+                    <GridViewColumn Width="150" Header="Descripcion" DisplayMemberBinding="{Binding Path=tv_Descripcion}"/>
+                    <GridViewColumn Width="80" Header="Tarifa" DisplayMemberBinding="{Binding Path=tv_Tarifa}"/>
+                    <GridViewColumn Width="150" Header="Imagen">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Path=tv_Imagen}" Width="50" Height="50"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
                 </GridView>
             </ListView.View>
         </ListView>
