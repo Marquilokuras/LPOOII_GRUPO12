@@ -1,8 +1,9 @@
 ﻿<Window x:Class="Vistas.WinWelcome"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Vistas.User_Controls"
         Title="WinWelcome" Height="317" Width="372"  MinHeight="317" MinWidth="372"
-        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png" xmlns:my="clr-namespace:Vistas.User_Controls">
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png" >
     <Window.Background>
         <ImageBrush ImageSource="/Vistas;component/Images/Fondo%20Login.png" />
     </Window.Background>
@@ -18,7 +19,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Vistas;component/Images/Fondo%20Login1.png" />
         </Grid.Background>
-        <my:Login Grid.ColumnSpan="2" Height="81" HorizontalAlignment="Left" Margin="0,58,0,0" x:Name="login" VerticalAlignment="Bottom" Width="192" />
+        <my:Login Grid.ColumnSpan="2" Height="107" HorizontalAlignment="Left" Margin="0,0,0,113" x:Name="login" VerticalAlignment="Bottom" Width="224" Grid.RowSpan="2" />
         <Button Content="Ingresar" Height="20" HorizontalAlignment="Left" Margin="53,6,0,0" Name="btnSession" VerticalAlignment="Top" Width="84" Click="btnSession_Click" FontSize="10" ClickMode="Release" Background="White" BorderBrush="#FFAB7D00" Foreground="#FF030305" Grid.Row="1" />
     </Grid>
 </Window>

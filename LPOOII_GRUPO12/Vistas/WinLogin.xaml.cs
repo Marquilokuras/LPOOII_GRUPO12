@@ -20,52 +20,26 @@ namespace Vistas
     public partial class WinWelcome : Window
     {
 
-        private Usuario usuarioLogueado = new Usuario();
+        private Usuario usuarioLogueado;
 
         public WinWelcome()
         {
             InitializeComponent();
         }
 
-        private void textUsuario_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
         private void btnSession_Click(object sender, RoutedEventArgs e)
         {
-
-            //string username = textUsuario.Text.Trim();
-            //string password = textPassword.Text.Trim();
-
-            //Asigna lo escrito en el control de usuario
             string username = login.Usuario;
             string password = login.Password;
-
-            Console.WriteLine(username + " " + password);
-
-            //username = "admin";
-            //password = "admin";
-
-
-            //ToDo validar username y password
-
-            if (username != "" && password != "") {
-                //Usuario usuarioLogueado = new Usuario();
-                usuarioLogueado.Usr_UserName = username;
-                usuarioLogueado.Usr_Password = password;
-                usuarioLogueado.Usr_Rol = "Admin";
-
-                //1 = Admin
-                //2 = Operador
-
-
+            Console.WriteLine("\nCredenciales: "+username + " " + password+"\n");
+            if (username != "" && password != "")
+            {
+                usuarioLogueado = ClasesBase.TrabajarUsuario.findUserByCredentials(username, password);
                 if (usuarioLogueado != null)
                 {
-
+                    Console.WriteLine(usuarioLogueado.ToString());
                     MenuPrincipalWindow menuWindow = new MenuPrincipalWindow(usuarioLogueado);
                     menuWindow.Show();
-
                     this.Hide();
                 }
                 else

@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" FontWeight="Normal" Height="81" Width="192">
+             mc:Ignorable="d" FontWeight="Normal" Height="114" Width="214">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Label Content="Usuario" FontSize="10" Foreground="Black" HorizontalAlignment="Left" Margin="12,12,0,0" Name="usuario" Width="47" Height="22" VerticalAlignment="Top" />
-        <TextBox BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,12,12,0" Name="textUsuario" VerticalAlignment="Top" Width="103" />
-        <Label Content="Contraseña" FontSize="10" Foreground="Black" Height="22" HorizontalAlignment="Left" Margin="12,0,0,12" Name="password" VerticalAlignment="Bottom" Width="59" />
-        <PasswordBox BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,0,12,12" Name="textPassword" VerticalAlignment="Bottom" Width="103" />
+        <TextBox BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,12,12,0" Name="textUsuario" VerticalAlignment="Top" Width="129" />
+        <Label Content="Contraseña" FontSize="10" Foreground="Black" Height="22" HorizontalAlignment="Left" Margin="12,0,0,44" Name="password" VerticalAlignment="Bottom" Width="59" />
+        <PasswordBox BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,0,12,44" Name="textPassword" VerticalAlignment="Bottom" Width="129" />
+        <TextBox  Name="PasswordUnmask" Visibility="Hidden" BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,0,12,44" VerticalAlignment="Bottom" Width="129"  />
+        <CheckBox Content="Mostrar Contraseña" FontSize="10" Name="chkMostrarContrasena" VerticalAlignment="Bottom" Margin="92,0,12,23" Checked="chkMostrarContrasena_Checked" Unchecked="chkMostrarContrasena_Unchecked"/>
+        
     </Grid>
 </UserControl>

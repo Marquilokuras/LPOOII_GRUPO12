@@ -24,14 +24,25 @@ namespace Vistas.User_Controls
             InitializeComponent();
         }
 
-        //Obtener el texto del TextBox textUsuario
         public String Usuario{
             get { return textUsuario.Text; }
         }
 
-        //Obtener la password del PasswordBox textPassword
         public String Password{
             get { return textPassword.Password; }
+        }
+
+        private void chkMostrarContrasena_Checked(object sender, RoutedEventArgs e)
+        {
+            PasswordUnmask.Visibility = Visibility.Visible;
+            textPassword.Visibility = Visibility.Hidden;
+            PasswordUnmask.Text = textPassword.Password;
+        }
+
+        private void chkMostrarContrasena_Unchecked(object sender, RoutedEventArgs e)
+        {
+            PasswordUnmask.Visibility = Visibility.Hidden;
+            textPassword.Visibility = Visibility.Visible;
         }
     }
 }
