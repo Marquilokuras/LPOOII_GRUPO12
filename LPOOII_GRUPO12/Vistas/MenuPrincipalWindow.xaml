@@ -16,6 +16,7 @@
             <MenuItem Header="Gestion Usuarios" x:Name="menuGestionUsuarios" Click="menuGestionUsuarios_Click" />
             <MenuItem Header="Estado Sector" x:Name="menuEstadoSector" Click="menuEstadoSector_Click" />
             <MenuItem Header="Listado Usuarios" x:Name="menuListadoUsuarios" Click="menuListadoUsuarios_Click" />
+            <MenuItem Header="Registrar Salida" x:Name="menuRegistroSalida" Click="menuRegistroSalida_Click" />
             <MenuItem Header="Usuario" x:Name="usuarioDatos" Click="usuarioDatos_Click" />
             <MenuItem Header="Cerrar Sesion" x:Name="menuSalir" Click="menuSalir_Click"/>
         </Menu>
