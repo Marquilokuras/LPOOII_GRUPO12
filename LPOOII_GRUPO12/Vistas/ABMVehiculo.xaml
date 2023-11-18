@@ -1,18 +1,21 @@
 ﻿<Window x:Class="Vistas.ABMVehiculo"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMVehiculo" Height="300" Width="300"
+        Title="ABMVehiculo" Height="374" Width="300"
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
     <Grid>
         <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Stretch" Margin="26,12,25,0" Name="label1" VerticalAlignment="Top"  Foreground="#FF454444" />
         <Label Content="Codigo" Height="28" HorizontalAlignment="Left" Margin="12,71,0,0" Name="codigo" VerticalAlignment="Top" Width="54" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,75,0,0" Name="textCodigo" VerticalAlignment="Top" Width="163" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,75,0,0" Name="textCodigo" VerticalAlignment="Top" Width="163" PreviewTextInput="textCodigo_PreviewTextInput" />
         <Label Content="Descripcion" Height="28" HorizontalAlignment="Left" Margin="12,105,0,0" Name="descripcion" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,0,0,129" Name="textDescripcion" VerticalAlignment="Bottom" Width="163" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="92,0,0,203" Name="textDescripcion" VerticalAlignment="Bottom" Width="163" />
         <Label Content="Tarifa" Height="28" HorizontalAlignment="Left" Margin="12,139,0,0" Name="tarifa" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="90,143,0,0" Name="textTarifa" VerticalAlignment="Top" Width="163" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="92,144,0,0" Name="textTarifa" VerticalAlignment="Top" Width="163" PreviewTextInput="textTarifa_PreviewTextInput" />
+        <Label Content="Imagen" Height="28" HorizontalAlignment="Left" Margin="12,173,0,0" Name="lblImagen" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="92,0,0,135" Name="textImagen" VerticalAlignment="Bottom" Width="163" />
         <Button Content="Registrar"  Name="btnRegistrar" Style="{StaticResource ButtonStyle}" Margin="156,210,25,22" Click="btnRegistrar_Click" />
         <Button Content="Ver Vehiculos" Margin="12,210,169,22" Name="btnVerVehiculos" Style="{StaticResource ButtonStyle}" Click="btnVerVehiculos_Click" />
+       
     </Grid>
 </Window>

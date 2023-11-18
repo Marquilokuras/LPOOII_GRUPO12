@@ -10,6 +10,7 @@ namespace ClasesBase
         private int tv_TVCodigo;
         private string tv_Descripcion;
         private decimal tv_Tarifa;
+        private string tv_Imagen;
 
         public decimal Tv_Tarifa
         {
@@ -27,6 +28,17 @@ namespace ClasesBase
         {
             get { return tv_TVCodigo; }
             set { tv_TVCodigo = value; }
+        }
+
+        public string Tv_Imagen
+        {
+            get { return tv_Imagen; }
+            set { tv_Imagen = value; }
+        }
+
+        public override string ToString()
+        {
+            return "Tv_TVCodigo: " + Tv_TVCodigo + ",Tv_Descripcion: " + Tv_Descripcion + ",Tv_Tarifa: " + Tv_Tarifa + ",Tv_Imagen: " + Tv_Imagen;
         }
     }
 }
