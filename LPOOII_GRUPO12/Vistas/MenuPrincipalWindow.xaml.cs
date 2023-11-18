@@ -28,7 +28,6 @@ namespace Vistas
         {
             InitializeComponent();
             usuarioLogueado = u;
-            Console.WriteLine(u.ToString());
             VentanaManager.Instance.agregarVentana(this);
             VentanaManager.Instance.mostrarVentanasAbiertas();
         }
