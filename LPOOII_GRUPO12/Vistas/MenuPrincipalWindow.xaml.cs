@@ -142,6 +142,12 @@ namespace Vistas
             zonasVista.Show();
         }
 
+        private void menuRegistroSalida_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrarSalida registroSalida = new RegistrarSalida();
+            registroSalida.Show();
+        }
+
         
       
     }

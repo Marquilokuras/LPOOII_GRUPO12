@@ -51,10 +51,30 @@ namespace Vistas
 
             try
             {
-                TrabajarTicket.saveTicket(oTicket);
-                Console.WriteLine("Ticket guardado exitosamente.");
-                TicketWindow ticketWindow = new TicketWindow();
-                ticketWindow.Show();
+                DateTime fechaEntrada = ObtenerFechaHoraEntrada();
+                DateTime fechaSalida = DateTime.Now;
+                if (fechaEntrada != DateTime.MinValue && fechaEntrada <= fechaSalida)
+                {
+                    oTicket.Tkt_FechaHoraEnt = fechaEntrada;
+                    oTicket.Tkt_FechaHoraSal = fechaSalida;
+
+                    // Resto del código para calcular y guardar el ticket
+
+                    TrabajarTicket.saveTicket(oTicket);
+                    TicketWindow ticketWindow = new TicketWindow();
+                    ticketWindow.Show();
+                }
+                else
+                {
+                    if (fechaEntrada > fechaSalida)
+                    {
+                        System.Windows.MessageBox.Show("La fecha y hora de entrada no pueden ser posteriores a la fecha y hora actual.", "Error de fecha", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                    else
+                    {
+                        System.Windows.MessageBox.Show("Error: La fecha de entrada no es válida o no se ha seleccionado.", "Error de fecha", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -68,7 +88,6 @@ namespace Vistas
             // Obtener los valores seleccionados de los ComboBox para horas y minutos de entrada
             int horas = int.Parse(((ComboBoxItem)comboHorasEntrada.SelectedItem).Content.ToString());
             int minutos = int.Parse(((ComboBoxItem)comboMinutosEntrada.SelectedItem).Content.ToString());
-
             // Obtener la fecha y hora actual
             DateTime? fechaSeleccionada = datePickerFechaEntrada.SelectedDate;
             DateTime fechaHoraActual = fechaSeleccionada.Value;
@@ -78,10 +97,9 @@ namespace Vistas
                 fechaHoraActual.Year,
                 fechaHoraActual.Month,
                 fechaHoraActual.Day,
-                horas, // Utilizar la hora seleccionada
-                minutos, // Utilizar los minutos seleccionados
-                0); // Segundos en 0 por ejemplo
-
+                horas,
+                minutos, 
+                0);
             return fechaHoraEntrada;
         }
     }
