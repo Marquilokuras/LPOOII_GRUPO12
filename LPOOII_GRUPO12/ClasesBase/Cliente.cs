@@ -50,22 +50,46 @@ namespace ClasesBase
                         {
                             error = "El DNI del cliente es obligatorio.";
                         }
-                        else if (!IsNumeric(cli_ClienteDNI))
+                        else if (!IsNumeric(cli_ClienteDNI,10))
                         {
-                            error = "El DNI debe contener solo números.";
+                            if(cli_ClienteDNI.Length > 10)
+                                error = "Maximo 10 caracteres";
+                            else
+                                error = "El DNI debe contener solo números.";
                         }
                         break;
                     case "Cli_Apellido":
                         if (string.IsNullOrEmpty(cli_Apellido))
+                        {
                             error = "El apellido del cliente es obligatorio.";
+                        }
+                        else if (!IsAlphaWithSpaces(cli_Apellido))
+                        {
+                            error = "El apellido debe contener solo letras y espacios.";
+                        }
                         break;
                     case "Cli_Nombre":
                         if (string.IsNullOrEmpty(cli_Nombre))
+                        {
                             error = "El nombre del cliente es obligatorio.";
+                        }
+                        else if (!IsAlphaWithSpaces(cli_Nombre))
+                        {
+                            error = "El nombre debe contener solo letras y espacios.";
+                        }
                         break;
                     case "Cli_Telefono":
                         if (string.IsNullOrEmpty(cli_Telefono))
+                        {
                             error = "El teléfono del cliente es obligatorio.";
+                        }
+                        else if (!IsNumeric(cli_Telefono,20))
+                        {
+                            if (cli_Telefono.Length > 20)
+                                error = "Maximo 20 caracteres";
+                            else
+                                error = "El telefono debe contener solo números";
+                        }
                         break;
                 }
                 return error;
@@ -74,10 +98,20 @@ namespace ClasesBase
 
         public string Error { get { return null; } }
 
-        private bool IsNumeric(string text)
+        private bool IsNumeric(string text, int maxLength)
         {
-            int numero;
-            return int.TryParse(text, out numero);
+            if (text.Length > maxLength)
+            {
+                return false;
+            }
+
+            long numero;
+            return long.TryParse(text, out numero);
+        }
+
+        private bool IsAlphaWithSpaces(string text)
+        {
+            return text.All(char.IsLetter) || text.All(c => char.IsLetter(c) || char.IsWhiteSpace(c));
         }
 
         public override string ToString()

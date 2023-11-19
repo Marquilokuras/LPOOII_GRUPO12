@@ -359,3 +359,5 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.g.cs

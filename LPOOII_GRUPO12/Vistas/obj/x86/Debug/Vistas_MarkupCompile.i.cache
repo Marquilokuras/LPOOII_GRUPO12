@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\App.xaml
-171994968590
+18475340293
 
-231298487935
+24451655551
 132124898362
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
 
