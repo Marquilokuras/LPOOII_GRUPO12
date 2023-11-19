@@ -73,6 +73,9 @@
     <Compile Include="EstadoSector.xaml.cs">
       <DependentUpon>EstadoSector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GrillaClientes.xaml.cs">
+      <DependentUpon>GrillaClientes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GrillaVehiculos.xaml.cs">
       <DependentUpon>GrillaVehiculos.xaml</DependentUpon>
     </Compile>
@@ -124,6 +127,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ABMVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GrillaClientes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

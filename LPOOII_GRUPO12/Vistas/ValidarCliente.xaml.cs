@@ -30,11 +30,7 @@ namespace Vistas
         {
             if (txtDni.Text != "")
             {
-                // Crear una instancia de TrabajarCliente
-                TrabajarCliente trabajarCliente = new TrabajarCliente();
-
-                // Llamar al método TraerCliente en la instancia creada
-                Cliente cliente = trabajarCliente.TraerCliente(txtDni.Text);
+                Cliente cliente = TrabajarCliente.TraerCliente(txtDni.Text);
                 if (cliente != null)
                 {
                     Console.WriteLine("Apellido: " + cliente.Cli_Apellido);
