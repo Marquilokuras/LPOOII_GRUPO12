@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\App.xaml
-18475340293
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
+19-194856100
 
-24451655551
-132124898362
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+25-164833418
+13-246830503
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;RegistrarEntrada.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
-False
+True
 
