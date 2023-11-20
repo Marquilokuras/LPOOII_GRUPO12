@@ -1,0 +1,73 @@
+﻿<Window x:Class="Vistas.RegistrarEntrada"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registrar Entrada" Height="508" Width="296">
+
+    <Grid Height="478">
+        <StackPanel Margin="20,20,20,22">
+            <TextBlock Text="Registrar Entrada" HorizontalAlignment="Center" FontSize="20" Margin="0,0,0,20" />
+
+            <!-- Cliente -->
+            <Label Content="Dni Cliente:" Foreground="Black" />
+            <TextBox x:Name="txtDniCliente" Margin="0,0,0,10" Width="200" />
+
+            <!-- Patente -->
+            <Label Content="Patente:" Foreground="Black" />
+            <TextBox x:Name="txtPatente" Margin="0,0,0,10" Width="200" />
+
+            <!-- Tipo de Vehículo -->
+            <Label Content="Tipo de Vehículo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Width="194" Foreground="Black" />
+            <ComboBox x:Name="comboTiposVehiculo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="0,0,0,0" Foreground="Black"/>
+
+            <!-- Fecha de Entrada -->
+            <Label Content="Fecha de Entrada:" Foreground="Black"/>
+            <DatePicker x:Name="datePickerFechaEntrada" Margin="0,0,0,10" Width="200" />
+            <Label Content="Hora:" Foreground="Black"/>
+            <StackPanel Grid.Row="9" Orientation="Horizontal" Margin="15,0,33,0" Height="29">
+                <ComboBox x:Name="comboHorasEntrada" Width="50" Margin="0,0,5,0">
+                    <ComboBoxItem Content="00"/>
+                    <ComboBoxItem Content="01"/>
+                    <ComboBoxItem Content="02"/>
+                    <ComboBoxItem Content="03"/>
+                    <ComboBoxItem Content="04"/>
+                    <ComboBoxItem Content="05"/>
+                    <ComboBoxItem Content="06"/>
+                    <ComboBoxItem Content="07"/>
+                    <ComboBoxItem Content="08"/>
+                    <ComboBoxItem Content="09"/>
+                    <ComboBoxItem Content="10"/>
+                    <ComboBoxItem Content="11"/>
+                    <ComboBoxItem Content="12"/>
+                    <ComboBoxItem Content="13"/>
+                    <ComboBoxItem Content="14"/>
+                    <ComboBoxItem Content="15"/>
+                    <ComboBoxItem Content="16"/>
+                    <ComboBoxItem Content="17"/>
+                    <ComboBoxItem Content="18"/>
+                    <ComboBoxItem Content="19"/>
+                    <ComboBoxItem Content="20"/>
+                    <ComboBoxItem Content="21"/>
+                    <ComboBoxItem Content="22"/>
+                    <ComboBoxItem Content="23"/>
+                </ComboBox>
+                <TextBlock Text=":" VerticalAlignment="Center"/>
+                <ComboBox x:Name="comboMinutosEntrada" Width="50" Margin="5,0,0,0">
+                    <ComboBoxItem Content="00"/>
+                    <ComboBoxItem Content="05"/>
+                    <ComboBoxItem Content="10"/>
+                    <ComboBoxItem Content="15"/>
+                    <ComboBoxItem Content="20"/>
+                    <ComboBoxItem Content="25"/>
+                    <ComboBoxItem Content="30"/>
+                    <ComboBoxItem Content="35"/>
+                    <ComboBoxItem Content="40"/>
+                    <ComboBoxItem Content="45"/>
+                    <ComboBoxItem Content="50"/>
+                    <ComboBoxItem Content="55"/>
+                </ComboBox>
+            </StackPanel>
+            <!-- Botón de Registrar Entrada -->
+            <Button Content="Registrar Entrada"  Width="150" Margin="0,20,0,0" Click="btnRegistrarEntrada_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

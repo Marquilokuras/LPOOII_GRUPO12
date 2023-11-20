@@ -141,21 +141,15 @@ C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCli
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.baml
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.baml
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.g.cs
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MainWindow.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.g.cs
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\test.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
-C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
@@ -361,3 +355,17 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
