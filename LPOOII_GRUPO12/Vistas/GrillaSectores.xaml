@@ -1,0 +1,32 @@
+﻿<Window x:Class="Vistas.GrillaSectores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:svc="clr-namespace:ClasesBase;assembly=ClasesBase"
+        Title="GrillaSectores"
+        Height="367" Width="934"
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}">
+    
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="list_sectores"
+            ObjectType="{x:Type svc:TrabajarSector}"
+            MethodName="TraerSectores">
+        </ObjectDataProvider>
+        
+    </Window.Resources>
+    
+    <Grid>
+        <ListView Name="Sectores" Height="Auto" ItemsSource="{Binding Source={StaticResource list_sectores}}" VerticalAlignment="Top" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="80" Header="Codigo Sector" DisplayMemberBinding="{Binding Path=sec_SectorCodigo}"/>
+                    <GridViewColumn Width="150" Header="Codigo Zona" DisplayMemberBinding="{Binding Path=sec_ZonaCodigo}"/>
+                    <GridViewColumn Width="80" Header="Identificador" DisplayMemberBinding="{Binding Path=sec_Identificador}"/>
+                    <GridViewColumn Width="80" Header="Descripcion" DisplayMemberBinding="{Binding Path=sec_Descripcion}"/>
+                    <GridViewColumn Width="80" Header="Habilitado" DisplayMemberBinding="{Binding Path=sec_Habilitado}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
