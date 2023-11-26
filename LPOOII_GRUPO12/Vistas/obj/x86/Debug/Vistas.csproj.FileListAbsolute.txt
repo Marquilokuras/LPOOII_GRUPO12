@@ -369,3 +369,7 @@ C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sector
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.baml
+C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.g.cs

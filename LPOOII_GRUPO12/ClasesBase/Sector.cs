@@ -53,5 +53,10 @@ namespace ClasesBase
             Sec_Habilitado = habilitado;
             Sec_ZonaCodigo = zonaCodigo;
         }
+
+        public override string ToString()
+        {
+            return "SectorCodigo: " + Sec_SectorCodigo + ",\nDescripcion: " + Sec_Descripcion + ",\nIdentificador: " + Sec_Identificador + ",\nHabilitado: " + Sec_Habilitado + ",\nZonaCodigo: " + Sec_ZonaCodigo;
+        }
     }
 }

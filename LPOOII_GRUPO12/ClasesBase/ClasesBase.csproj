@@ -65,6 +65,7 @@
     <Compile Include="TrabajarTicket.cs" />
     <Compile Include="TrabajarTiposVehiculo.cs" />
     <Compile Include="TrabajarUsuario.cs" />
+    <Compile Include="TrabajarZonas.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="VentanaManager.cs" />
     <Compile Include="Zona.cs" />
