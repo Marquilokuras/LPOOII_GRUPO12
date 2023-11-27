@@ -389,3 +389,9 @@ C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a 
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.g.cs

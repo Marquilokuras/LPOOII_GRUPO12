@@ -95,6 +95,9 @@
     <Compile Include="RegistrarSalida.xaml.cs">
       <DependentUpon>RegistrarSalida.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SectoresOcupados.xaml.cs">
+      <DependentUpon>SectoresOcupados.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TicketEntrada.xaml.cs">
       <DependentUpon>TicketEntrada.xaml</DependentUpon>
     </Compile>
@@ -148,6 +151,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RegistrarEntrada.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectoresOcupados.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

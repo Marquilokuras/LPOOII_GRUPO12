@@ -1,0 +1,14 @@
+﻿<Window x:Class="Vistas.SectoresOcupados"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SectoresOcupados" Height="416" Width="619">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Listado de Sectores Ocupados" HorizontalAlignment="Center" FontSize="20" Margin="0,0,0,20" />
+
+            <DataGrid x:Name="dgSectoresOcupados" AutoGenerateColumns="True" CanUserAddRows="False" IsReadOnly="True" />
+
+            <Button Content="Imprimir Listado" Click="btnImprimirListado_Click" Width="150" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
