@@ -234,7 +234,8 @@ namespace ClasesBase
         LEFT JOIN 
             TipoVehiculo TV ON tkt.tv_TVCodigo = TV.tv_TVCodigo
         WHERE 
-            tkt.sec_SectorCodigo IS NOT NULL"; // Solo incluir sectores con tickets
+            tkt.sec_SectorCodigo IS NOT NULL
+            AND tkt.tkt_FechaHoraSal IS NULL"; // Solo incluir sectores con tickets y que no tengan fecha de salida
 
             cmd.CommandType = CommandType.Text;
             cmd.Connection = cnn;
@@ -247,6 +248,7 @@ namespace ClasesBase
             da.Fill(dt);
             return dt;
         }
+
 
     }
 
