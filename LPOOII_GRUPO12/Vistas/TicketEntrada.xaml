@@ -1,0 +1,42 @@
+﻿<Window x:Class="Vistas.TicketEntrada"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen" 
+        Icon="/Vistas;component/Images/logoParking.png"
+        Title="Ticket Ingreso" Height="447" Width="342" Loaded="Window_Loaded" ResizeMode="NoResize">
+    
+    <FixedDocument>
+        <PageContent>
+            <FixedPage>
+                <Grid>
+                    <TextBlock Height="38" HorizontalAlignment="Center" Name="textBlock1" Text="Playa de Estacionamiento" VerticalAlignment="Top" Margin="10" FontWeight="Bold" FontFamily="Gill Sans MT" FontSize="20" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,40,0,0" Name="textBox1" VerticalAlignment="Top" Width="156" Text="San Salvador de Jujuy, Jujuy" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,70,0,0" Name="textBlock3" Text="Ticket #" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,70,0,0" Name="txtNumeroTicket" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,100,0,0" Name="textBlock9" Text="Sector:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="55,100,0,0" Name="txtSector" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,130,0,0" Name="textBlock2" Text="DNI:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="42,130,0,0" Name="txtDNI" Text="" VerticalAlignment="Top" />
+
+                    <Separator Height="5" HorizontalAlignment="Left" Margin="10,155,0,0" Name="separator1" VerticalAlignment="Top" Width="298" />
+
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,170,0,0" Name="textBlock4" Text="Cliente:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="55,170,0,0" Name="txtCliente" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,200,0,0" Name="textBlock5" Text="Patente:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,200,0,0" Name="txtPatente" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,230,0,0" Name="textBlock6" Text="Ingreso:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,230,0,0" Name="txtIngreso" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,260,0,0" Name="textBlock7" Text="Tipo Vehiculo:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="90,260,0,0" Name="txtTipoVehiculo" Text="" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,290,0,0" Name="textBlock8" Text="Tarifa:" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="47,290,0,0" Name="txtTarifa" Text="" VerticalAlignment="Top" />
+
+                    <Separator Height="5" HorizontalAlignment="Left" Margin="10,315,0,0" Name="separator2" VerticalAlignment="Top" Width="298" />
+
+                </Grid>
+                
+            </FixedPage>
+        </PageContent>
+    </FixedDocument>
+    
+</Window>

@@ -243,7 +243,6 @@ C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a 
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.baml
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.baml
-C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.baml
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.g.cs
@@ -254,7 +253,6 @@ C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a 
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.g.cs
-C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
@@ -373,3 +371,21 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
