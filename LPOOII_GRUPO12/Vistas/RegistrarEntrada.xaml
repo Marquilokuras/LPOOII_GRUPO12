@@ -1,6 +1,9 @@
 ﻿<Window x:Class="Vistas.RegistrarEntrada"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen" 
+        Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}"
         Title="Registrar Entrada" Height="508" Width="296">
 
     <Grid Height="478">
@@ -17,7 +20,7 @@
 
             <!-- Tipo de Vehículo -->
             <Label Content="Tipo de Vehículo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Width="194" Foreground="Black" />
-            <ComboBox x:Name="comboTiposVehiculo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="0,0,0,0" Foreground="Black"/>
+            <ComboBox x:Name="comboTiposVehiculo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="200" Margin="0,0,0,10" Foreground="Black"/>
 
             <!-- Fecha de Entrada -->
             <Label Content="Fecha de Entrada:" Foreground="Black"/>

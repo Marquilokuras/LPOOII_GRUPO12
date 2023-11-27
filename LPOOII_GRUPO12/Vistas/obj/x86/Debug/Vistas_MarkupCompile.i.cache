@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\App.xaml
-201709350090
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\App.xaml
+21-1512209288
 
-26249377422
-132124898362
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;GrillaSectores.xaml;RegistrarEntrada.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+27-1081642343
+13-35268074
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;GrillaSectores.xaml;RegistrarEntrada.xaml;TicketEntrada.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
-False
+True
 
