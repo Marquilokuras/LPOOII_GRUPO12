@@ -86,8 +86,8 @@
                 <TextBlock Text="{Binding Usr_UserName}" Foreground="White" Height="20" Padding="5"/>
                 <TextBlock Text="{Binding Usr_Password}" Foreground="White" Height="20" Padding="5"/>
             </StackPanel>
-            <TextBlock Height="20" Name="textBlock1" Text="Username:" Foreground="White" Canvas.Left="5" Canvas.Top="7" />
-            <TextBlock Height="20" Name="textBlock2" Text="Password:" Foreground="White" Canvas.Left="7" Canvas.Top="27" />
+            <TextBlock Height="20" Name="textBlock1" Text="Username:" Foreground="White" Canvas.Left="6" Canvas.Top="10" />
+            <TextBlock Height="20" Name="textBlock2" Text="Password:" Foreground="White" Canvas.Left="8" Canvas.Top="30" />
         </Canvas>
         <Label Content="LISTA DE USUARIOS" FontSize="14" Foreground="White" Margin="45,262,213,66" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" />
         <Button Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Listado de Usuarios" Foreground="White" Grid.Row="7" Margin="12,7,28,21" Name="listadoUsuario" Click="listadoUsuario_Click" />
