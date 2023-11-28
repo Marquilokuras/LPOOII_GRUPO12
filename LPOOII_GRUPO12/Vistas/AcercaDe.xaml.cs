@@ -9,7 +9,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.IO;
 
 namespace Vistas
 {
@@ -21,6 +21,20 @@ namespace Vistas
         public AcercaDe()
         {
             InitializeComponent();
+
+           // mediaElement.Source = new Uri(@"RUTA ABSOLUTA Vistas\Media\bg-video.wmv");
+
+            string carpetaBase = AppDomain.CurrentDomain.BaseDirectory;
+            Console.WriteLine("carpetaBase: " + carpetaBase);
+
+            string rutaDirecta = Path.Combine(carpetaBase, "..", "..", "Media", "bg-video.wmv");
+            Console.WriteLine("rutaDirecta: " + rutaDirecta);
+
+            mediaElement.Source = new Uri(rutaDirecta);
+
+            // Configurar la reproducción en bucle
+            mediaElement.MediaEnded += (sender, e) => mediaElement.Position = TimeSpan.Zero;
+
         }
     }
 }

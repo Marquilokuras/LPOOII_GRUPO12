@@ -278,7 +278,6 @@ C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\bin\Debug\ClasesBase.pdb
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.baml
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMUsuario.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.baml
@@ -288,10 +287,8 @@ C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.baml
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.baml
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMCliente.g.cs
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMEstacionamiento.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMSector.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMUsuario.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ABMVehiculo.g.cs
@@ -301,7 +298,6 @@ C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\MenuPrincipalWindow.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\User Controls\Login.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\ValidarCliente.g.cs
-C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VEP.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinLogin.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\App.g.cs
 C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
@@ -478,3 +474,29 @@ C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\o
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Ventas.g.cs
 C:\Users\B\Desktop\School\APU III\LPOO II\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaVentas.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Ventas.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaVentas.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.baml
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaClientes.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\GrillaSectores.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarEntrada.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketWindow.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Ventas.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaVentas.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Zonas.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\RegistrarSalida.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Sectores.g.cs
+C:\Users\chevi\Downloads\Nael\LPOO\projects\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\VistaPreviaImpresion.g.cs
