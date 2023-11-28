@@ -38,7 +38,7 @@
     </Window.Resources>
 
     <Grid>
-        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#FF454444" />
+        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#fff"/>
         
         <Grid Margin="0,7" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid.RowDefinitions>
@@ -81,9 +81,9 @@
                 <ColumnDefinition Width="202*" />
                 <ColumnDefinition Width="99*" />
             </Grid.ColumnDefinitions>
-            <TextBox Height="23" HorizontalAlignment="Center" Name="textBuscar" Text="{Binding Path=Cli_ClienteDNI, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" VerticalAlignment="Center" Width="163" Margin="0,0,3,0" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" LostFocus="textDni_LostFocus" TextChanged="textBuscar_TextChanged" />
+            <TextBox Height="23" HorizontalAlignment="Center" Name="textBuscar" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" VerticalAlignment="Center" Width="163" Margin="0,0,3,0" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" LostFocus="textDni_LostFocus" TextChanged="textBuscar_TextChanged" />
             <Button Content="Buscar" Height="33" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Name="btnBuscar" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="71" VerticalContentAlignment="Center" FontSize="16" MinWidth="0" Grid.Column="1" Click="btnBuscar_Click" />
         </Grid>
-
+        <Button Content="Validar Clientes" Height="35" HorizontalAlignment="Center" Margin="12,42,599,225" Name="btnValidarCliente" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="127" Click="btnValidarCliente_Click" />
     </Grid>
 </Window>

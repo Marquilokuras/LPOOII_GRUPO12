@@ -7,18 +7,13 @@
         Style="{StaticResource MyWindowDefault}">
     <Grid>
         <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top" Width="Auto" Margin="0,0,0,0" Background="#FFFFE775">
-            <MenuItem Header="Sectores" x:Name="menuSectores" Click="menuSectores_Click" />
+            <MenuItem Header="Gestion Sectores" x:Name="menuSectores" Click="menuSectores_Click" />
             <MenuItem Header="Zonas" x:Name="menuZonas" Click="menuZonas_Click" />
             <MenuItem Header="Tipos de Vehiculo" x:Name="menuTiposVehiculo" Click="menuTiposVehiculo_Click" />
             <MenuItem Header="Gestion Clientes" x:Name="menuGestionClientes" Click="menuGestionClientes_Click" />
-            <MenuItem Header="Gestion Estacionamiento" x:Name="menuGestionEstacionamiento" Click="menuGestionEstacionamiento_Click" />
-            <MenuItem Header="Validar Usuario" x:Name="menuValidarUsuario" Click="menuValidarUsuario_Click" />
             <MenuItem Header="Gestion Usuarios" x:Name="menuGestionUsuarios" Click="menuGestionUsuarios_Click" />
-            <MenuItem Header="Estado Sector" x:Name="menuEstadoSector" Click="menuEstadoSector_Click" />
-            <MenuItem Header="Listado Usuarios" x:Name="menuListadoUsuarios" Click="menuListadoUsuarios_Click" />
-            <MenuItem Header="Registrar Salida" x:Name="menuRegistroSalida" Click="menuRegistroSalida_Click" />
-            <MenuItem Header="Usuario" x:Name="usuarioDatos" Click="usuarioDatos_Click" />
-            <MenuItem Header="Listado de Ventas" x:Name="ventas" Click="ventas_Click" />
+            <MenuItem Header="Venta de Tickets" x:Name="ventas" Click="ventas_Click" />
+            <MenuItem Header="Usuario Actual" x:Name="usuarioDatos" Click="usuarioDatos_Click" />
             <MenuItem Header="Cerrar Sesion" x:Name="menuSalir" Click="menuSalir_Click"/>
         </Menu>
         <ContentControl x:Name="contentControl" Margin="0,18,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">

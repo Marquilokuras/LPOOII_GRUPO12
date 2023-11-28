@@ -243,5 +243,17 @@ namespace Vistas
             btnBuscar.IsEnabled = !string.IsNullOrEmpty(textBuscar.Text);
         }
 
+        private void sectoresOcupados_Click(object sender, RoutedEventArgs e)
+        {
+            SectoresOcupados sectoresOcupadosWindow = new SectoresOcupados();
+            sectoresOcupadosWindow.Show();
+        }
+
+        private void estadoSector_Click(object sender, RoutedEventArgs e)
+        {
+            EstadoSector estadoSector = new EstadoSector();
+            estadoSector.Show();
+        }
+
     }
 }

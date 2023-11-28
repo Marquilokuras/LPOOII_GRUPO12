@@ -21,13 +21,15 @@ namespace Vistas
     public partial class RegistrarSalida : Window
     {
         public int codigoSector;
+        public int zona;
         public int duracionH;
         public decimal totalCobro;
 
-        public RegistrarSalida(int sectorId)
+        public RegistrarSalida(int sectorId, int zonaCodigo)
         {
             InitializeComponent();
             codigoSector = sectorId;
+            zona = zonaCodigo;
             DataTable oTicket = TrabajarTicket.TraerUltimoTicketPorSector(sectorId);
             lblFechaHora.Content = DateTime.Now.ToString();
 
@@ -67,6 +69,21 @@ namespace Vistas
                 TrabajarTicket.ModificarTicket(oTicket);
                 TicketWindow ticketWindow = new TicketWindow(numero);
                 ticketWindow.Show();
+
+
+                this.Close();
+
+                Sectores SectorWindow = new Sectores(numero);
+                SectorWindow.Close();
+
+                if (SectorWindow != null && SectorWindow.IsVisible)
+                {
+                    SectorWindow.Close();
+                }
+
+                SectorWindow.Show();
+
+
             }
             catch (Exception ex)
             {

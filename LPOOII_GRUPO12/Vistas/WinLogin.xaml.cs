@@ -44,13 +44,19 @@ namespace Vistas
                 }
                 else
                 {
-                    MessageBox.Show("Usuario no encontrado", "Ingresar Usuario");
+                    MessageBox.Show("Credenciales incorrectas", "Ingresar Usuario");
                     Console.WriteLine("No se encontro el usuario: " + username);
                 }
             }
 
             else
                 MessageBox.Show("Ingrese un usuario y contraseña");
+        }
+
+        private void sobreNostros_Click(object sender, RoutedEventArgs e)
+        {
+            AcercaDe acercaDe = new AcercaDe();
+            acercaDe.Show();
         }
     }
 }

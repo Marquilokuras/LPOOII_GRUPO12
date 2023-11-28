@@ -167,11 +167,12 @@ namespace Vistas
         {
             if (btnE1.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(1, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE1.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(1);
+                RegistrarSalida registrarSalida = new RegistrarSalida(1,this.zona);
                 registrarSalida.Show();
             }
             else if (btnE1.Background == grayBrush)
@@ -184,11 +185,12 @@ namespace Vistas
         {
             if (btnE2.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(2, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE2.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(2);
+                RegistrarSalida registrarSalida = new RegistrarSalida(2,this.zona);
                 registrarSalida.Show();
             }
             else if (btnE2.Background == grayBrush)
@@ -201,11 +203,12 @@ namespace Vistas
         {
             if (btnE3.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(3, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE3.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(3);
+                RegistrarSalida registrarSalida = new RegistrarSalida(3, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE3.Background == grayBrush)
@@ -218,11 +221,12 @@ namespace Vistas
         {
             if (btnE4.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(4, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE4.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(4);
+                RegistrarSalida registrarSalida = new RegistrarSalida(4, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE4.Background == grayBrush)
@@ -235,11 +239,12 @@ namespace Vistas
         {
             if (btnE5.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(5, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE5.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(5);
+                RegistrarSalida registrarSalida = new RegistrarSalida(5, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE5.Background == grayBrush)
@@ -252,11 +257,12 @@ namespace Vistas
         {
             if (btnE6.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(6, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE6.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(6);
+                RegistrarSalida registrarSalida = new RegistrarSalida(6, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE6.Background == grayBrush)
@@ -269,11 +275,12 @@ namespace Vistas
         {
             if (btnE7.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(7, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE7.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(7);
+                RegistrarSalida registrarSalida = new RegistrarSalida(7, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE7.Background == grayBrush)
@@ -286,11 +293,12 @@ namespace Vistas
         {
             if (btnE8.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(8, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE8.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(8);
+                RegistrarSalida registrarSalida = new RegistrarSalida(8, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE8.Background == grayBrush)
@@ -303,11 +311,12 @@ namespace Vistas
         {
             if (btnE9.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(9, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE9.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(9);
+                RegistrarSalida registrarSalida = new RegistrarSalida(9, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE9.Background == grayBrush)
@@ -320,11 +329,12 @@ namespace Vistas
         {
             if (btnE10.Background == greenBrush)
             {
-                MessageBox.Show("Sector Disponible. Registrar Entrada", "Disponibilidad");
+                RegistrarEntrada registrarEntrada = new RegistrarEntrada(10, this.zona);
+                registrarEntrada.Show();
             }
             else if (btnE10.Background == redBrush)
             {
-                RegistrarSalida registrarSalida = new RegistrarSalida(10);
+                RegistrarSalida registrarSalida = new RegistrarSalida(10, this.zona);
                 registrarSalida.Show();
             }
             else if (btnE10.Background == grayBrush)

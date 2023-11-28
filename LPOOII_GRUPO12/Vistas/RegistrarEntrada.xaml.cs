@@ -11,9 +11,15 @@ namespace Vistas
     /// </summary>
     public partial class RegistrarEntrada : Window
     {
-        public RegistrarEntrada()
+
+        public int codigoSector;
+        public int zona;
+
+        public RegistrarEntrada(int sectorId, int zonaCodigo)
         {
             InitializeComponent();
+            codigoSector = sectorId;
+            this.zona = zonaCodigo;
 
             // Cargar tipos de vehículo en el ComboBox
             CargarTiposVehiculo();
@@ -67,7 +73,7 @@ namespace Vistas
                 oTv = TrabajarTiposVehiculo.BuscarTipoVehiculo(Convert.ToInt32(comboTiposVehiculo.SelectedValue));
 
                 //Se debe añadir el sector y con el sector la zona
-                oTicket.Sec_SectorCodigo = 1;
+                oTicket.Sec_SectorCodigo = codigoSector;
                 oTicket.Cli_ClienteDNI = Convert.ToInt32(txtDniCliente.Text);
                 oTicket.Tkt_Patente = txtPatente.Text;
                 oTicket.Tkt_FechaHoraEnt = fechaHoraEntrada;
