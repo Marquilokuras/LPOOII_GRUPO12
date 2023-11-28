@@ -5,46 +5,47 @@
         WindowStartupLocation="CenterScreen" 
         Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}" Loaded="Window_Loaded">
+
+
     <FixedDocument>
         <PageContent>
             <FixedPage>
                 <Grid>
-                    <TextBlock Text="TICKET DE ESTACIONAMIENTO" FontWeight="Bold" FontSize="16" Margin="67,0,83,0" />
+                    <TextBlock Text="TICKET DE ESTACIONAMIENTO" FontWeight="Bold" FontSize="16" Margin="67,0,83,444" />
 
                     <Border BorderBrush="Silver" BorderThickness="1" Height="7" HorizontalAlignment="Left" Margin="12,79,0,0" Name="border1" VerticalAlignment="Top" Width="374" />
 
                     <TextBlock Text="Cliente DNI:" Margin="12,92,233,0" Grid.ColumnSpan="2" />
-                    <TextBlock x:Name="ultimoClienteDNI_TextBlock" Height="19" Margin="78,92,0,0" />
+                    <TextBlock x:Name="ultimoClienteDNI_TextBlock" Height="19" Margin="79,92,167,355" />
 
-                    <TextBlock Text="Codigo Sector:" Margin="12,28,233,0"  />
-                    <TextBlock x:Name="ultimoCodigoSector_TextBlock" Height="19" Margin="92,28,233,0"   />
+                    <TextBlock Text="Codigo Sector:" Margin="12,28,298,419" />
+                    <TextBlock x:Name="ultimoCodigoSector_TextBlock" Height="19" Margin="98,28,227,419" />
 
-                    <TextBlock Text="Ticket:" Margin="12,54,233,0"/>
-                    <TextBlock x:Name="ultimoTicketNro_TextBlock" Height="19" Margin="48,54,9,0" />
+                    <TextBlock Text="Ticket:" Margin="12,54,337,393" />
+                    <TextBlock x:Name="ultimoTicketNro_TextBlock" Height="19" Margin="57,54,213,392" />
 
-                    <TextBlock Text="Patente:" Margin="12,117,233,0" />
-                    <TextBlock x:Name="ultimoPatente_TextBlock" Height="19" Margin="57,117,0,0" />
+                    <TextBlock Text="Patente:" Margin="12,117,337,330" />
+                    <TextBlock x:Name="ultimoPatente_TextBlock" Height="19" Margin="57,117,175,330" />
 
-                    <TextBlock Text="Fecha de Entrada:" Margin="12,142,233,0"/>
-                    <TextBlock x:Name="ultimoEntrada_TextBlock" Height="19" Margin="107,142,233,0" />
+                    <TextBlock Text="Fecha de Entrada:" Margin="12,142,233,305" />
+                    <TextBlock x:Name="ultimoEntrada_TextBlock" Height="19" Margin="113,142,109,304" />
 
-                    <TextBlock Text="Fecha de Salida:" Margin="12,167,233,0"  />
-                    <TextBlock x:Name="ultimoSalida_TextBlock" Height="19" Margin="98,167,233,0" />
+                    <TextBlock Text="Fecha de Salida:" Margin="12,167,233,280" />
+                    <TextBlock x:Name="ultimoSalida_TextBlock" Height="19" Margin="104,167,109,280" />
 
-                    <TextBlock Text="Duracion en Horas:" Margin="12,192,233,0"/>
-                    <TextBlock x:Name="ultimoDuracion_TextBlock" Height="19" Margin="115,192,233,0" />
+                    <TextBlock Text="Duracion en Horas:" Margin="12,192,272,255" />
+                    <TextBlock x:Name="ultimoDuracion_TextBlock" Height="19" Margin="121,192,118,256" />
 
-                    <TextBlock Text="Codigo Tipo Vehiculo:" Margin="12,217,233,0" />
-                    <TextBlock x:Name="ultimoCodigoVehiculo_TextBlock" Height="19" Margin="130,217,233,0"  />
+                    <TextBlock Text="Codigo Tipo Vehiculo:" Margin="12,217,262,222" />
+                    <TextBlock x:Name="ultimoCodigoVehiculo_TextBlock" Height="19" Margin="136,217,118,230" />
 
-                    <TextBlock Text="Tarifa:" Margin="12,239,233,0"  />
-                    <TextBlock x:Name="ultimoTarifa_TextBlock" Height="19" Margin="45,239,9,0" VerticalAlignment="Top" />
+                    <TextBlock Text="Tarifa:" Margin="12,239,337,210" />
+                    <TextBlock x:Name="ultimoTarifa_TextBlock" Height="19" Margin="46,239,167,0" VerticalAlignment="Top" />
 
-                    <TextBlock Text="Importe Total:" Margin="12,264,233,0" />
-                    <TextBlock x:Name="ultimoTotal_TextBlock" Height="19" Margin="89,264,233,0" />
+                    <TextBlock Text="Importe Total:" Margin="12,264,312,178" />
+                    <TextBlock x:Name="ultimoTotal_TextBlock" Height="19" Margin="89,264,83,184" />
                 </Grid>
             </FixedPage>
         </PageContent>
     </FixedDocument>
-
 </Window>

@@ -121,7 +121,7 @@ namespace ClasesBase
         public static DataTable TraerUltimoTicketPorSector(int sectorCodigo)
         {
             SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
-
+            
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = "SELECT TOP 1 * FROM Ticket WHERE sec_SectorCodigo = @SectorCodigo ORDER BY tkt_FechaHoraEnt DESC";
             cmd.CommandType = CommandType.Text;
@@ -180,6 +180,41 @@ namespace ClasesBase
             da.Fill(dt);
 
             return dt;
+        }
+
+        public static void ModificarTicket(DataTable ticketModificado)
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+            try
+            {
+                cnn.Open();
+
+                foreach (DataRow row in ticketModificado.Rows)
+                {
+                    SqlCommand cmd = new SqlCommand();
+                    cmd.CommandText = "UPDATE Ticket SET tkt_Duracion = @Duracion, tkt_Total = @Total, tkt_FechaHoraSal = @HoraSalida WHERE tkt_TicketNro = @TNumero";
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Connection = cnn;
+
+                    cmd.Parameters.AddWithValue("@TNumero", row["tkt_TicketNro"]); // Suponiendo que hay una columna 'Tkt_TicketNro'
+                    cmd.Parameters.AddWithValue("@Total", row["tkt_Total"]); // Suponiendo que hay una columna 'Tkt_Total'
+                    cmd.Parameters.AddWithValue("@HoraSalida", row["tkt_FechaHoraSal"]); // Suponiendo que hay una columna 'Tkt_FechaHoraSal'
+                    cmd.Parameters.AddWithValue("@Duracion", row["tkt_Duracion"]); // Suponiendo que hay una columna 'Tkt_Duracion'
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error modifying Ticket: " + ex.Message);
+            }
+            finally
+            {
+                if (cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
         }
 
     }
