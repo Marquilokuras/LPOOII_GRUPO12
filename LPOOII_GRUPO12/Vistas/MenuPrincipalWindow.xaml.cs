@@ -49,15 +49,14 @@ namespace Vistas
                         // Oculta elementos del menú que no necesita
                         menuSectores.Visibility = Visibility.Collapsed;
                         menuTiposVehiculo.Visibility = Visibility.Collapsed;
+                        menuGestionUsuarios.Visibility = Visibility.Collapsed;  
                         break;
 
                     default:
                         // Oculta todos los elementos del menú si el rol no coincide con ninguno de los casos anteriores
                         menuSectores.Visibility = Visibility.Collapsed;
                         menuTiposVehiculo.Visibility = Visibility.Collapsed;
-                        menuGestionClientes.Visibility = Visibility.Collapsed;
-                        menuGestionEstacionamiento.Visibility = Visibility.Collapsed;
-             
+                        menuGestionClientes.Visibility = Visibility.Collapsed;      
                         break;
                 }
             
@@ -105,34 +104,10 @@ namespace Vistas
             clienteWindow.Show();
         }
 
-        private void menuGestionEstacionamiento_Click(object sender, RoutedEventArgs e)
-        {
-            ABMEstacionamiento estacionamientoWindow = new ABMEstacionamiento();
-            estacionamientoWindow.Show();
-        }
-
-        private void menuValidarUsuario_Click(object sender, RoutedEventArgs e)
-        {
-            ValidarCliente validarClienteWindow = new ValidarCliente();
-            validarClienteWindow.Show();
-        }
         private void menuGestionUsuarios_Click(object sender, RoutedEventArgs e)
         {
             ABMUsuario abmUsuario = new ABMUsuario();
             abmUsuario.Show();
-        }
-
-
-        private void menuEstadoSector_Click(object sender, RoutedEventArgs e)
-        {
-            EstadoSector estadoSector = new EstadoSector();
-            estadoSector.Show();
-        }
-
-        private void menuListadoUsuarios_Click(object sender, RoutedEventArgs e)
-        {
-            ListadoUsuario listadoUsuario = new ListadoUsuario();
-            listadoUsuario.Show();
         }
 
         private void menuZonas_Click(object sender, RoutedEventArgs e)
@@ -147,12 +122,5 @@ namespace Vistas
             ventasVista.Show();
         }
 
-        private void menuRegistroSalida_Click(object sender, RoutedEventArgs e)
-        {/*
-            RegistrarSalida registroSalida = new RegistrarSalida();
-            registroSalida.Show();*/
-        }
-
-      
     }
 }

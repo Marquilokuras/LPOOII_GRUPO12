@@ -4,7 +4,7 @@
         Title="AcercaDe" Height="666" Width="498">
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <MediaElement Source="/Media/bg-video.wmv" Width="400" Height="225" LoadedBehavior="Play"/>
+            <MediaElement Source="pack://application:,,,/Vistas;component/Media/bg-video.wmv" Width="400" Height="225" LoadedBehavior="Play"/>
         </StackPanel>
         <Label Content="GRUPO 12" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,12,0,0" Name="label1" VerticalAlignment="Top" Width="400" FontSize="16" FontWeight="Bold" />
         <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="38,94,0,0" Name="label2" VerticalAlignment="Top" />

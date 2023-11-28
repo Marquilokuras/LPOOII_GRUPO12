@@ -319,6 +319,12 @@ namespace Vistas
             }
         }
 
+        private void listadoUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            ListadoUsuario listadoUsuario = new ListadoUsuario();
+            listadoUsuario.Show();
+        }
+
 
     }
 }

@@ -49,12 +49,13 @@
                 <ColumnDefinition Width="104*" />
                 <ColumnDefinition Width="104*" />
             </Grid.ColumnDefinitions>
-            <Button Content="Ver Sectores" Name="btnVerSectores" Style="{StaticResource ButtonStyle}" Height="35" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="93" Click="btnVerSectores_Click" />
-            <Button Content="Eliminar" Name="btnEliminar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="80" Grid.Column="1" Margin="0" Click="btnEliminar_Click" />
-            <Button Content="Modificar" Name="btnModificar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="80" Grid.Column="2" Click="btnModificar_Click" />
-            <Button Content="Registrar" Name="btnRegistrar" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="80" Height="35" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0" Margin="0" Grid.Column="3" Click="btnRegistrar_Click" />
-            <Button Content="Cancelar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0" Name="btnCancelar" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="80" Grid.Column="4" Click="btnCancelar_Click" />
+            <Button Content="Eliminar" Name="btnEliminar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="80" Margin="54,0,70,0" Click="btnEliminar_Click" Grid.ColumnSpan="2" />
+            <Button Content="Modificar" Name="btnModificar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="45,0,65,0" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="80" Grid.Column="1" Click="btnModificar_Click" Grid.ColumnSpan="2" />
+            <Button Content="Registrar" Name="btnRegistrar" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="80" Height="35" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0" Margin="50,0,60,0" Grid.Column="2" Click="btnRegistrar_Click" Grid.ColumnSpan="2" />
+            <Button Content="Cancelar" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="57,0,53,0" Name="btnCancelar" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="80" Grid.Column="3" Click="btnCancelar_Click" Grid.ColumnSpan="2" />
         </Grid>
-
+        <Button Content="Ver Sectores Ocupados" Height="35" HorizontalAlignment="Center" Margin="534,95,5,172" Name="sectoresOcupados" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="199" Click="sectoresOcupados_Click" />
+        <Button Content="Ver Todos los Sectores" Name="btnVerSectores" Style="{StaticResource ButtonStyle}" Height="35" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="534,51,5,216" Width="199" Click="btnVerSectores_Click" />
+        <Button Content="Ver Estados de un Sector" Height="35" HorizontalAlignment="Center" Margin="534,137,5,130" Name="estadoSector" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="199" Click="estadoSector_Click" />
     </Grid>
 </Window>

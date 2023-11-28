@@ -72,7 +72,7 @@
             <TextBox Name="txtPassword" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Margin="6,20,0,14" Background="White" Foreground="Black" Grid.ColumnSpan="3" BorderBrush="White" BorderThickness="1"/>
         </Grid>
 
-        <Button Name="btnSeleccionar" Grid.Row="7" Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Seleccionar" Foreground="White" Margin="110,5,9,23" Grid.Column="2" Click="btnSeleccionar_Click" />
+        <Button Name="btnSeleccionar" Grid.Row="7" Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Seleccionar" Foreground="White" Margin="98,7,21,21" Grid.Column="2" Click="btnSeleccionar_Click" />
 
         <!-- Botones de Paginación -->
         <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1" Margin="115,0,30,0"></StackPanel>
@@ -90,5 +90,6 @@
             <TextBlock Height="20" Name="textBlock2" Text="Password:" Foreground="White" Canvas.Left="7" Canvas.Top="27" />
         </Canvas>
         <Label Content="LISTA DE USUARIOS" FontSize="14" Foreground="White" Margin="45,262,213,66" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" />
+        <Button Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Listado de Usuarios" Foreground="White" Grid.Row="7" Margin="12,7,28,21" Name="listadoUsuario" Click="listadoUsuario_Click" />
     </Grid>
 </Window>

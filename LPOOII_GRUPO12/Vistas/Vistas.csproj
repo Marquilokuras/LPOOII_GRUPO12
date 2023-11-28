@@ -58,9 +58,6 @@
     <Compile Include="ABMCliente.xaml.cs">
       <DependentUpon>ABMCliente.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ABMEstacionamiento.xaml.cs">
-      <DependentUpon>ABMEstacionamiento.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ABMSector.xaml.cs">
       <DependentUpon>ABMSector.xaml</DependentUpon>
     </Compile>
@@ -132,10 +129,6 @@
       <DependentUpon>Zonas.xaml</DependentUpon>
     </Compile>
     <Page Include="ABMCliente.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ABMEstacionamiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -282,8 +275,9 @@
   <ItemGroup>
     <Resource Include="Images\iconoAlerta1.ico" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Media\" />
+    <Resource Include="Media\bg-video.wmv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

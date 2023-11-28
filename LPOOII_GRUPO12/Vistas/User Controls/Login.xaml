@@ -10,7 +10,6 @@
         <Label Content="Contraseña" FontSize="10" Foreground="Black" Height="22" HorizontalAlignment="Left" Margin="12,0,0,44" Name="password" VerticalAlignment="Bottom" Width="59" />
         <PasswordBox BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,0,12,44" Name="textPassword" VerticalAlignment="Bottom" Width="129" />
         <TextBox  Name="PasswordUnmask" Visibility="Hidden" BorderBrush="#FFAB7D00" Height="22" HorizontalAlignment="Right" Margin="0,0,12,44" VerticalAlignment="Bottom" Width="129"  />
-        <CheckBox Content="Mostrar Contraseña" FontSize="10" Name="chkMostrarContrasena" VerticalAlignment="Bottom" Margin="92,0,12,23" Checked="chkMostrarContrasena_Checked" Unchecked="chkMostrarContrasena_Unchecked"/>
         
     </Grid>
 </UserControl>

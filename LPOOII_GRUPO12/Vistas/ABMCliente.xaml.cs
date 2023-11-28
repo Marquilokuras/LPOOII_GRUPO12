@@ -230,5 +230,11 @@ namespace Vistas
             btnBuscar.IsEnabled = !string.IsNullOrEmpty(textBuscar.Text);
         }
 
+        private void btnValidarCliente_Click(object sender, RoutedEventArgs e)
+        {
+            ValidarCliente validarClienteWindow = new ValidarCliente();
+            validarClienteWindow.Show();
+        }
+
     }
 }

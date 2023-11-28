@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/alert-16.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/bg-video.wmv")]
 
 
