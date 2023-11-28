@@ -454,3 +454,5 @@ C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\WinL
 C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.g.resources
 C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.baml
+C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.g.cs
