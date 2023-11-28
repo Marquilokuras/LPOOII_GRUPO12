@@ -20,7 +20,7 @@ namespace Vistas
     /// </summary>
     public partial class GrillaVehiculos : Window
     {
-        private CollectionView Vista;
+        //private CollectionView Vista;
 
         public GrillaVehiculos()
         {

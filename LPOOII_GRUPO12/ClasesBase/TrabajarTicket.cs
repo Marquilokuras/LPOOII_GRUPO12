@@ -217,5 +217,63 @@ namespace ClasesBase
             }
         }
 
+        public static DataTable TraerTicketsVendidos()
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = @"SELECT tkt.*, 
+zon.zona_Descripcion, sec.sec_Descripcion, cli.cli_Apellido + ', ' + cli.cli_Nombre AS Cliente, 
+tv.tv_Descripcion AS TipoVehiculo 
+FROM Ticket tkt 
+INNER JOIN Cliente cli ON tkt.cli_ClienteDNI = cli.cli_ClienteDNI 
+INNER JOIN TipoVehiculo tv ON tkt.tv_TVCodigo = tv.tv_TVCodigo 
+INNER JOIN Sector sec ON tkt.sec_SectorCodigo = sec.sec_SectorCodigo 
+INNER JOIN Zonas zon ON sec.sec_ZonaCodigo = zon.zona_ZonaCodigo 
+WHERE tkt.tkt_Total IS NOT NULL";
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+
+            // Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            // Llena los datos de la consulta en el DataTable
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            return dt;
+        }
+
+        public static DataTable TraerTicketsVendidosPorFecha(DateTime desde, DateTime hasta)
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = @"SELECT tkt.*, 
+zon.zona_Descripcion, sec.sec_Descripcion, cli.cli_Apellido + ', ' + cli.cli_Nombre AS Cliente, 
+tv.tv_Descripcion AS TipoVehiculo 
+FROM Ticket tkt 
+INNER JOIN Cliente cli ON tkt.cli_ClienteDNI = cli.cli_ClienteDNI 
+INNER JOIN TipoVehiculo tv ON tkt.tv_TVCodigo = tv.tv_TVCodigo 
+INNER JOIN Sector sec ON tkt.sec_SectorCodigo = sec.sec_SectorCodigo 
+INNER JOIN Zonas zon ON sec.sec_ZonaCodigo = zon.zona_ZonaCodigo 
+WHERE tkt.tkt_Total IS NOT NULL 
+AND tkt.tkt_FechaHoraEnt >= @FechaDesde AND tkt.tkt_FechaHoraSal <= @FechaHasta";
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+
+            cmd.Parameters.AddWithValue("@FechaDesde", desde);
+            cmd.Parameters.AddWithValue("@FechaHasta", hasta);
+
+            // Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            // Llena los datos de la consulta en el DataTable
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            return dt;
+        }
+
     }
 }

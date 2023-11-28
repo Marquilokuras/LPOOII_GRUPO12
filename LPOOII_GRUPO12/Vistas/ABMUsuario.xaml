@@ -82,10 +82,12 @@
         <Button Name="btnPrimero" Content="|&lt;" Click="Primero_Click" Margin="153,295,121,28" Grid.Row="6" Grid.ColumnSpan="2" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
 
         <Canvas Grid.ColumnSpan="3" Grid.Row="7" Height="50" HorizontalAlignment="Left" Margin="153,0,0,0" Name="canvas_content" VerticalAlignment="Top" Width="258" DataContext="{Binding Source={StaticResource ResourceKey=list_user}}">
-            <StackPanel Margin="0 5 0 0">
+            <StackPanel Margin="0 5 0 0" Canvas.Left="66" Canvas.Top="0">
                 <TextBlock Text="{Binding Usr_UserName}" Foreground="White" Height="20" Padding="5"/>
                 <TextBlock Text="{Binding Usr_Password}" Foreground="White" Height="20" Padding="5"/>
             </StackPanel>
+            <TextBlock Height="20" Name="textBlock1" Text="Username:" Foreground="White" Canvas.Left="5" Canvas.Top="7" />
+            <TextBlock Height="20" Name="textBlock2" Text="Password:" Foreground="White" Canvas.Left="7" Canvas.Top="27" />
         </Canvas>
         <Label Content="LISTA DE USUARIOS" FontSize="14" Foreground="White" Margin="45,262,213,66" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" />
     </Grid>
