@@ -141,13 +141,18 @@ namespace Vistas
             zonasVista.Show();
         }
 
+        private void ventas_Click(object sender, RoutedEventArgs e)
+        {
+            Ventas ventasVista = new Ventas();
+            ventasVista.Show();
+        }
+
         private void menuRegistroSalida_Click(object sender, RoutedEventArgs e)
         {/*
             RegistrarSalida registroSalida = new RegistrarSalida();
             registroSalida.Show();*/
         }
 
-        
       
     }
 }
