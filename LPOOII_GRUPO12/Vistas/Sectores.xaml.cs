@@ -171,7 +171,8 @@ namespace Vistas
             }
             else if (btnE1.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(1);
+                registrarSalida.Show();
             }
             else if (btnE1.Background == grayBrush)
             {
@@ -187,7 +188,8 @@ namespace Vistas
             }
             else if (btnE2.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(2);
+                registrarSalida.Show();
             }
             else if (btnE2.Background == grayBrush)
             {
@@ -203,7 +205,8 @@ namespace Vistas
             }
             else if (btnE3.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(3);
+                registrarSalida.Show();
             }
             else if (btnE3.Background == grayBrush)
             {
@@ -219,7 +222,8 @@ namespace Vistas
             }
             else if (btnE4.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(4);
+                registrarSalida.Show();
             }
             else if (btnE4.Background == grayBrush)
             {
@@ -235,7 +239,8 @@ namespace Vistas
             }
             else if (btnE5.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(5);
+                registrarSalida.Show();
             }
             else if (btnE5.Background == grayBrush)
             {
@@ -251,7 +256,8 @@ namespace Vistas
             }
             else if (btnE6.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(6);
+                registrarSalida.Show();
             }
             else if (btnE6.Background == grayBrush)
             {
@@ -267,7 +273,8 @@ namespace Vistas
             }
             else if (btnE7.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(7);
+                registrarSalida.Show();
             }
             else if (btnE7.Background == grayBrush)
             {
@@ -283,7 +290,8 @@ namespace Vistas
             }
             else if (btnE8.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(8);
+                registrarSalida.Show();
             }
             else if (btnE8.Background == grayBrush)
             {
@@ -299,7 +307,8 @@ namespace Vistas
             }
             else if (btnE9.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(9);
+                registrarSalida.Show();
             }
             else if (btnE9.Background == grayBrush)
             {
@@ -315,7 +324,8 @@ namespace Vistas
             }
             else if (btnE10.Background == redBrush)
             {
-                MessageBox.Show("Sector Ocupado. Registrar Salida", "Disponibilidad");
+                RegistrarSalida registrarSalida = new RegistrarSalida(10);
+                registrarSalida.Show();
             }
             else if (btnE10.Background == grayBrush)
             {

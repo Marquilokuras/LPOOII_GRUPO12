@@ -214,6 +214,41 @@ namespace ClasesBase
             }
         }
 
+        public static DataTable TraerSectoresOcupados()
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.playaConnection);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = @"
+        SELECT 
+            sec.*, 
+            tkt.tkt_FechaHoraEnt,
+            cli.cli_Apellido + ', ' + cli.cli_Nombre AS Cliente,
+            TV.tv_Descripcion AS TipoVehiculo,
+            tkt.tkt_Patente
+        FROM 
+            Sector sec
+        LEFT JOIN 
+            Ticket tkt ON sec.sec_SectorCodigo = tkt.sec_SectorCodigo
+        LEFT JOIN 
+            Cliente cli ON tkt.cli_ClienteDNI = cli.cli_ClienteDNI
+        LEFT JOIN 
+            TipoVehiculo TV ON tkt.tv_TVCodigo = TV.tv_TVCodigo
+        WHERE 
+            tkt.sec_SectorCodigo IS NOT NULL
+            AND tkt.tkt_FechaHoraSal IS NULL"; // Solo incluir sectores con tickets y que no tengan fecha de salida
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+
+            // Agregar la columna TiempoTranscurrido al DataTable
+            dt.Columns.Add("TiempoTranscurrido", typeof(string));
+
+            da.Fill(dt);
+            return dt;
+        }
+
 
     }
 

@@ -21,15 +21,17 @@ namespace Vistas
     public partial class TicketWindow : Window
     {
         public string UltimoClienteDNI { get; set; }
+        public int numero;
 
-        public TicketWindow()
+        public TicketWindow(int ticketNro)
         {
             InitializeComponent();
+            numero = ticketNro;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            DataTable tablaTickets = TrabajarTicket.TraerTickets();
+            DataTable tablaTickets = TrabajarTicket.TraerTicketPorNumero(numero);
 
             if (tablaTickets.Rows.Count > 0)
             {
