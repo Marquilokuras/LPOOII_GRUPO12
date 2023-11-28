@@ -1,0 +1,18 @@
+﻿<Window x:Class="Vistas.AcercaDe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AcercaDe" Height="666" Width="498">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <MediaElement Source="/Media/bg-video.wmv" Width="400" Height="225" LoadedBehavior="Play"/>
+        </StackPanel>
+        <Label Content="GRUPO 12" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,12,0,0" Name="label1" VerticalAlignment="Top" Width="400" FontSize="16" FontWeight="Bold" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="38,94,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Integrantes" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,46,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="Cruz, Martin Ignacio - DNI: 4537608 - LU: 5545" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,71,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="Quinteros, Marcos: - DNI: 45085907 - LU: 5487" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,94,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="Romero, Facundo Jose - DNI: 44898160 - LU: 5609" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,116,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="Velasquez, Nicolas Santiago - DNI: 45761625 - LU: 5804" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,138,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="Virreyra Ruiz, Josue Natanael - DNI: 44857371 - LU: 5613" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,164,0,0" Name="label8" VerticalAlignment="Top" />
+    </Grid>
+</Window>

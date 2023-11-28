@@ -395,3 +395,5 @@ C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Grilla
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\TicketEntrada.g.cs
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.baml
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\SectoresOcupados.g.cs
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.baml
+C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\obj\x86\Debug\AcercaDe.g.cs

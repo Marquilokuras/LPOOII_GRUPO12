@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\admin\Desktop\LPOOII_GRUPO12\LPOOII_GRUPO12\Vistas\App.xaml
-221450425046
+23950397233
 
-271403624260
+28-999925277
 13-246830503
-ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;GrillaClientes.xaml;GrillaSectores.xaml;RegistrarEntrada.xaml;SectoresOcupados.xaml;TicketEntrada.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
+ABMCliente.xaml;ABMEstacionamiento.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;AcercaDe.xaml;GrillaClientes.xaml;GrillaSectores.xaml;RegistrarEntrada.xaml;SectoresOcupados.xaml;TicketEntrada.xaml;TicketWindow.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
 
