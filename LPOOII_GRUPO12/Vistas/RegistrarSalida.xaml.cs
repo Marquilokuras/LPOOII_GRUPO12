@@ -29,6 +29,7 @@ namespace Vistas
         {
             InitializeComponent();
             codigoSector = sectorId;
+            Console.WriteLine("codigo sector " + codigoSector);
             zona = zonaCodigo;
             DataTable oTicket = TrabajarTicket.TraerUltimoTicketPorSector(sectorId);
             lblFechaHora.Content = DateTime.Now.ToString();
