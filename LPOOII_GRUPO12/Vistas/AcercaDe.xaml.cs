@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.IO;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -21,6 +22,9 @@ namespace Vistas
         public AcercaDe()
         {
             InitializeComponent();
+
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
 
            // mediaElement.Source = new Uri(@"RUTA ABSOLUTA Vistas\Media\bg-video.wmv");
 

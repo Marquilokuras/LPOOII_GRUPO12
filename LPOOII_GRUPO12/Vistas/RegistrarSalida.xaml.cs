@@ -28,6 +28,10 @@ namespace Vistas
         public RegistrarSalida(int sectorId, int zonaCodigo)
         {
             InitializeComponent();
+            
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
+
             codigoSector = sectorId;
             Console.WriteLine("codigo sector " + codigoSector);
             zona = zonaCodigo;

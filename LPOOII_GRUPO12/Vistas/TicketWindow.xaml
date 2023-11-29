@@ -1,8 +1,8 @@
 ﻿<Window x:Class="Vistas.TicketWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Ticket" Height="505" Width="420" MinHeight="401" MinWidth="200"
-        WindowStartupLocation="CenterScreen" 
+        Title="Ticket de Salida" Height="505" Width="420" MinHeight="401" MinWidth="200"
+        WindowStartupLocation="Manual" 
         Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}" Loaded="Window_Loaded">
 

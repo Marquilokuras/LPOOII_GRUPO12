@@ -33,6 +33,9 @@ namespace Vistas
         {
             InitializeComponent();
 
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
+
             redBrush = new SolidColorBrush(Colors.Red);
             greenBrush = new SolidColorBrush(Colors.Green);
             grayBrush = new SolidColorBrush(Colors.Gray);

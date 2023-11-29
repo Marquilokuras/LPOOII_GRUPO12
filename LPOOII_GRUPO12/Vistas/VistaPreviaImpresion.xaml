@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
         xmlns:data="clr-namespace:ClasesBase;assembly=ClasesBase"
-        Title="Vista Previa de Impresion" Height="401" Width="588" MinHeight="401" MinWidth="588"
-        WindowStartupLocation="CenterScreen" Style="{StaticResource MyWindowDefault}"
+        Title="Vista Previa de Impresion" Height="433" Width="619" MinHeight="401" MinWidth="588"
+        WindowStartupLocation="CenterScreen"
         Icon="/Vistas;component/Images/logoParking.png">
     <Window.Resources>
         <ObjectDataProvider x:Key="LIST_USERS"
@@ -18,7 +18,7 @@
         </CollectionViewSource>
     </Window.Resources>
 
-    <StackPanel Width="539" Height="346">
+    <StackPanel Width="567" Height="369">
 
         <FlowDocumentReader Canvas.Left="12" Canvas.Top="28"  Height="280">
             <FlowDocument Name="DocPrueba" >

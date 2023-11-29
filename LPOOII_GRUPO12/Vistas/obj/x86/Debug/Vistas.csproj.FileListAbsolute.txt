@@ -514,3 +514,9 @@ C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.baml
 C:\Nael 2\LPOO2\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.g.cs
 C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.baml
 C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.baml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.exe.manifest
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\bin\Debug\Vistas.application
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.exe.manifest
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\Vistas.application

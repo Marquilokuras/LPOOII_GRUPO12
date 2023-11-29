@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         WindowStartupLocation="Manual" 
         Icon="/Vistas;component/Images/logoParking.png"  Left="950" Top="100"
-        Title="Ticket Ingreso" Height="447" Width="342" Loaded="Window_Loaded" ResizeMode="NoResize">
+        Title="Ticket de Entrada" Height="447" Width="342" Loaded="Window_Loaded" ResizeMode="NoResize">
     
     <FixedDocument>
         <PageContent>

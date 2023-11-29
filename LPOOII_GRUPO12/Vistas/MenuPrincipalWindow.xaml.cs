@@ -28,8 +28,8 @@ namespace Vistas
         {
             InitializeComponent();
             usuarioLogueado = u;
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
+            //VentanaManager.Instance.agregarVentanaPrincipal(this);
+            //VentanaManager.Instance.mostrarVentanasPrincipalesAbiertas();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -77,9 +77,10 @@ namespace Vistas
 
         private void menuSalir_Click(object sender, RoutedEventArgs e)
         {
-            VentanaManager.Instance.cerrarTodasLasVentanas();
+            //VentanaManager.Instance.cerrarTodasLasVentanas();
             WinWelcome loginWindow = new WinWelcome();
             loginWindow.Show();
+            this.Close();
         }
 
         private void menuSectores_Click(object sender, RoutedEventArgs e)
@@ -120,6 +121,12 @@ namespace Vistas
         {
             Ventas ventasVista = new Ventas();
             ventasVista.Show();
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            //VentanaManager.Instance.cerrarTodasLasVentanasPrincipales();
+            VentanaManager.Instance.cerrarTodasLasVentanas();
         }
 
     }

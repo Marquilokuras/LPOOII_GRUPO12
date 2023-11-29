@@ -2,8 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:my="clr-namespace:Vistas.User_Controls"
-        Title="WinWelcome" Height="396" Width="491"  MinHeight="317" MinWidth="372"
-        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png" >
+        Title="Login" Height="396" Width="491"  MinHeight="317" MinWidth="372"
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png" Closed="Window_Closed">
     <Window.Background>
         <ImageBrush ImageSource="/Vistas;component/Images/Fondo%20Login.png" />
     </Window.Background>

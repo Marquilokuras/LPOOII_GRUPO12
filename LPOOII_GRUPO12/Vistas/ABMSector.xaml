@@ -1,11 +1,11 @@
 ﻿<Window x:Class="Vistas.ABMSector"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMSector" Height="341" Width="760" MinHeight="335" MinWidth="500"
+        Title="Gestion de Sectores" Height="341" Width="760" MinHeight="335" MinWidth="500"
          WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
     <Grid>
-        <Label Content="ABM de Sectores" Foreground="Black" FontSize="20" Height="36" HorizontalAlignment="Left" Margin="10,10,0,0" Name="lblSectores" VerticalAlignment="Top" />
+        <Label Content="Gestion de Sectores" Foreground="White" FontSize="20" Height="36" HorizontalAlignment="Left" Margin="10,10,0,0" Name="lblSectores" VerticalAlignment="Top" />
 
         <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
             <Grid.ColumnDefinitions>

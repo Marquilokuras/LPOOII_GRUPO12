@@ -7,6 +7,7 @@ namespace ClasesBase
     public class VentanaManager
     {
         private List<Window> ventanasAbiertas = new List<Window>();
+        private List<Window> ventanasPrincipalesAbiertas = new List<Window>();
 
         // Variable estática privada para almacenar la instancia única
         private static VentanaManager instance;
@@ -35,19 +36,72 @@ namespace ClasesBase
 
         public void cerrarTodasLasVentanas()
         {
-            foreach (var ventana in ventanasAbiertas)
+            try
             {
-                ventana.Close();
+                foreach (var ventana in ventanasAbiertas)
+                {
+                    ventana.Close();
+                }
+                ventanasAbiertas.Clear();
+                Console.WriteLine("Todas las ventanas han sido cerradas");
             }
-            ventanasAbiertas.Clear();
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error : " + ex.Message);
+            }
         }
 
         public void mostrarVentanasAbiertas()
         {
-            Console.WriteLine("Ventanas abiertas:");
-            foreach (var ventana in ventanasAbiertas)
+            try
             {
-                Console.WriteLine(ventana.Title);
+                Console.WriteLine("Ventanas abiertas:");
+                foreach (var ventana in ventanasAbiertas)
+                {
+                    Console.WriteLine(ventana.Title);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error : " + ex.Message);
+            }
+        }
+
+        public void agregarVentanaPrincipal(Window ventana)
+        {
+            ventanasPrincipalesAbiertas.Add(ventana);
+        }
+
+        public void cerrarTodasLasVentanasPrincipales()
+        {
+            try
+            {
+                foreach (var ventana in ventanasPrincipalesAbiertas)
+                {
+                    ventana.Close();
+                }
+                ventanasPrincipalesAbiertas.Clear();
+                Console.WriteLine("Todas las ventanas principales han sido cerradas");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error : " + ex.Message);
+            }
+        }
+
+        public void mostrarVentanasPrincipalesAbiertas()
+        {
+            try
+            {
+                Console.WriteLine("Ventanas principales abiertas:");
+                foreach (var ventana in ventanasPrincipalesAbiertas)
+                {
+                    Console.WriteLine(ventana.Title);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error : " + ex.Message);
             }
         }
 

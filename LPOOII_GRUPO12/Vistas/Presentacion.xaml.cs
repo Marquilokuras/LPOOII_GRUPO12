@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using System.IO;
+using ClasesBase;
 
 namespace Vistas
 {
@@ -19,11 +20,15 @@ namespace Vistas
     /// </summary>
     public partial class Presentacion : Window
     {
-        private bool audioLoaded = false;
+        //private bool audioLoaded = false;
 
         public Presentacion()
         {
             InitializeComponent();
+
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
+
             try
             {
                 
