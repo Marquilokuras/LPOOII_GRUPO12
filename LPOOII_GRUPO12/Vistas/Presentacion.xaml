@@ -1,0 +1,9 @@
+﻿<Window x:Class="Vistas.Presentacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Presentacion" Height="300" Width="300">
+    <Grid>
+        <MediaElement x:Name="mediaPlayer" LoadedBehavior="Play" UnloadedBehavior="Stop" />
+        <Image x:Name="mainImage" Visibility="Collapsed" Stretch="Fill" />
+    </Grid>
+</Window>

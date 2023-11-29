@@ -58,5 +58,10 @@ namespace Vistas
             AcercaDe acercaDe = new AcercaDe();
             acercaDe.Show();
         }
+        private void presentacion_Click(object sender, RoutedEventArgs e)
+        {
+            Presentacion presentacion = new Presentacion();
+            presentacion.Show();
+        }
     }
 }
