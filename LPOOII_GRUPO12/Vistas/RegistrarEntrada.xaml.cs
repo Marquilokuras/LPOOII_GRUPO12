@@ -85,6 +85,9 @@ namespace Vistas
                 TicketEntrada ticketEntrada = new TicketEntrada(oTicket);
                 ticketEntrada.Show();
                 Console.WriteLine(oTicket.ToString());
+
+                
+                
             }
         }
 

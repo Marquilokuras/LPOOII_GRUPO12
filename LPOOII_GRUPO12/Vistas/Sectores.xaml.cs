@@ -32,8 +32,6 @@ namespace Vistas
         public Sectores(int zonaCodigo)
         {
             InitializeComponent();
-            VentanaManager.Instance.agregarVentana(this);
-            VentanaManager.Instance.mostrarVentanasAbiertas();
 
             redBrush = new SolidColorBrush(Colors.Red);
             greenBrush = new SolidColorBrush(Colors.Green);
@@ -165,7 +163,7 @@ namespace Vistas
         {
             if (btnE1.Background == greenBrush)
             {
-                 string contenidoBtnE1 = btnE1.Content.ToString();
+                string contenidoBtnE1 = btnE1.Content.ToString();
                 SectorExtendido sectorEncontrado = listaDeSectoresExtendidos.FirstOrDefault(s => s.Sec_Identificador == contenidoBtnE1);
                 RegistrarEntrada registrarEntrada = new RegistrarEntrada(sectorEncontrado.Sec_SectorCodigo, this.zona);
                 registrarEntrada.Show();
@@ -544,6 +542,14 @@ namespace Vistas
             {
                 Console.WriteLine("No se encontró ningún sector con el identificador " + identificadorSector);
             }
+
+        }
+
+        private void btnRefresh_Click(object sender, RoutedEventArgs e)
+        {
+            Sectores sector = new Sectores(this.zona);
+            sector.Show();
+            this.Close();
 
         }
 

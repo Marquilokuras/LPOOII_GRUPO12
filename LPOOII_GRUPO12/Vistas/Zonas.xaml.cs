@@ -27,18 +27,21 @@ namespace Vistas
         {
             Sectores sector = new Sectores(1);
             sector.Show();
+            this.Close();
         }
 
         private void btnZ2_Click(object sender, RoutedEventArgs e)
         {
             Sectores sector = new Sectores(2);
             sector.Show();
+            this.Close();
         }
 
         private void btnZ3_Click(object sender, RoutedEventArgs e)
         {
             Sectores sector = new Sectores(3);
             sector.Show();
+            this.Close();
         }
     }
 }
