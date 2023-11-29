@@ -88,6 +88,9 @@
     <Compile Include="MenuPrincipalWindow.xaml.cs">
       <DependentUpon>MenuPrincipalWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion.xaml.cs">
+      <DependentUpon>Presentacion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PrintDocumentPaginator.cs" />
     <Compile Include="RegistrarEntrada.xaml.cs">
       <DependentUpon>RegistrarEntrada.xaml</DependentUpon>
@@ -155,6 +158,10 @@
     <Page Include="GrillaSectores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentacion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RegistrarEntrada.xaml">
       <SubType>Designer</SubType>
@@ -275,11 +282,16 @@
   <ItemGroup>
     <Resource Include="Images\iconoAlerta1.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\img-audio.jpeg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Media\bg-video.wmv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\audio-1.mpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
