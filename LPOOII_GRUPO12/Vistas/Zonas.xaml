@@ -1,7 +1,7 @@
 ﻿﻿<Window x:Class="Vistas.Zonas"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Zonas" Height="300" Width="352">
+        Title="Zonas" Height="300" Width="352" WindowStartupLocation="CenterScreen" >
     <Grid>
         <Button Content="Z1" Height="56" HorizontalAlignment="Left" Margin="12,59,0,0" Name="btnZ1" VerticalAlignment="Top" Width="76" Click="btnZ1_Click"></Button>
         <Button Content="Z2" Height="56" HorizontalAlignment="Left" Margin="126,59,0,0" Name="btnZ2" VerticalAlignment="Top" Width="76" Click="btnZ2_Click"></Button>
