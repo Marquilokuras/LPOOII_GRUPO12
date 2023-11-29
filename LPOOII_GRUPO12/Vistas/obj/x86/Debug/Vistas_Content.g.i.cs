@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/audio-1.mpeg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/yamaha-r6-race-2022.jpg")]
 
 
