@@ -32,11 +32,11 @@
         <DatePicker Height="25" HorizontalAlignment="Left" Margin="30,10,0,0" Name="datePickerFechaEntrada" VerticalAlignment="Top" Width="115" />
         <TextBlock Height="25" HorizontalAlignment="Left" Margin="148,14,0,0" Name="textBlock2" Text="A: " VerticalAlignment="Top" />
         <DatePicker Height="25" HorizontalAlignment="Left" Margin="168,10,0,0" Name="datePickerFechaSalida" VerticalAlignment="Top" Width="115" />
-        <Button Content="Buscar" Height="23" HorizontalAlignment="Left" Margin="308,12,0,0" Name="btnBuscar" VerticalAlignment="Top" Width="75" Click="btnBuscar_Click" />
+        <Button Content="Buscar" Height="23" HorizontalAlignment="Left" Margin="308,12,0,0" Name="btnBuscar" VerticalAlignment="Top" Width="75" Click="btnBuscar_Click" Style="{StaticResource ButtonStyle}" FontSize="14" />
 
         <TextBlock Height="25" HorizontalAlignment="Left" Margin="809,0,0,14" Name="textBlock3" Text="Total Ventas: $" VerticalAlignment="Bottom" Grid.Row="2" FontSize="18" />
         <TextBlock Height="25" HorizontalAlignment="Left" Margin="935,0,0,14" Name="txtTotal" Text="" VerticalAlignment="Bottom" Grid.Row="2" FontSize="18" />
 
-        <Button Name="btnImprimir" Content="Vista Previa" Width="150" Margin="0,0,0,12" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="34" Grid.Row="2" Click="btnImprimir_Click" />
+        <Button Name="btnImprimir" Content="Vista Previa" Width="150" Margin="0,0,0,12" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="34" Grid.Row="2" Click="btnImprimir_Click" Style="{StaticResource ButtonStyle}"/>
     </Grid>
 </Window>

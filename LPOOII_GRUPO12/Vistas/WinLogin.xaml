@@ -20,7 +20,7 @@
             <ImageBrush ImageSource="/Vistas;component/Images/Fondo%20Login1.png" />
         </Grid.Background>
         <my:Login Grid.ColumnSpan="2" Height="107" HorizontalAlignment="Left" Margin="12,0,0,148" x:Name="login" VerticalAlignment="Bottom" Width="224" Grid.RowSpan="2" />
-        <Button Content="Ingresar" Height="20" HorizontalAlignment="Left" Margin="82,10,0,0" Name="btnSession" VerticalAlignment="Top" Width="84" Click="btnSession_Click" FontSize="10" ClickMode="Release" Background="White" BorderBrush="#FFAB7D00" Foreground="#FF030305" Grid.Row="1" />
+        <Button Content="Ingresar" Height="30" HorizontalAlignment="Left" Margin="78,0,0,0" Name="btnSession" VerticalAlignment="Top" Width="96" Click="btnSession_Click" FontSize="12" ClickMode="Release" Background="White" BorderBrush="#FFAB7D00" Foreground="#FF030305" Grid.Row="1"  Style="{StaticResource ButtonStyle}" />
         <Button Content="Sobre nosotros" Height="35" HorizontalAlignment="Center" Margin="87,12,12,131" Name="sobreNostros" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="146" Grid.Column="1" Click="sobreNostros_Click" />
     </Grid>
 </Window>

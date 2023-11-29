@@ -10,7 +10,7 @@
             <RowDefinition Height="183*" />
             <RowDefinition Height="86*" />
         </Grid.RowDefinitions>
-        <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Center"  Foreground="#FF454444" Margin="10" Padding="5" />
+        <Label Content="Formulario de Vehiculos" FontSize="20" Height="36" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Center"  Foreground="White" Margin="10" Padding="5"/>
         
         <Grid Margin="0,7" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center">
             <Grid.RowDefinitions>

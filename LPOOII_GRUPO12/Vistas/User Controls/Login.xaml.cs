@@ -31,19 +31,5 @@ namespace Vistas.User_Controls
         public String Password{
             get { return textPassword.Password; }
         }
-        /*
-        private void chkMostrarContrasena_Checked(object sender, RoutedEventArgs e)
-        {
-            PasswordUnmask.Visibility = Visibility.Visible;
-            textPassword.Visibility = Visibility.Hidden;
-            //PasswordUnmask.Text = textPassword.Password;
-        }
-
-        private void chkMostrarContrasena_Unchecked(object sender, RoutedEventArgs e)
-        {
-            PasswordUnmask.Visibility = Visibility.Hidden;
-            textPassword.Visibility = Visibility.Visible;
-        }
-         */ 
     }
 }

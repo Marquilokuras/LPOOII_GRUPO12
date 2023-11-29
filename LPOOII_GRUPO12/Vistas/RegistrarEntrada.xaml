@@ -70,7 +70,7 @@
                 </ComboBox>
             </StackPanel>
             <!-- Botón de Registrar Entrada -->
-            <Button Content="Registrar Entrada"  Width="150" Margin="0,20,0,0" Click="btnRegistrarEntrada_Click" />
+            <Button Content="Registrar Entrada"  Width="152" Margin="0,20,0,0" Click="btnRegistrarEntrada_Click" Style="{StaticResource ButtonStyle}" Height="30" />
         </StackPanel>
     </Grid>
 </Window>

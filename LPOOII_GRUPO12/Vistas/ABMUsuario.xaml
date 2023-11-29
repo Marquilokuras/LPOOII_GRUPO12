@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:svc="clr-namespace:ClasesBase;assembly=ClasesBase"
         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
-        Title="ABM de Usuarios" Height="470" Width="600" Loaded="Window_Loaded"
+        Title="ABM de Usuarios" Height="500" Width="701" Loaded="Window_Loaded"
         Style="{StaticResource MyWindowDefault}">
 
     <Window.Resources>
@@ -15,73 +15,42 @@
     </Window.Resources>
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="174*" />
-            <ColumnDefinition Width="145*" />
-            <ColumnDefinition Width="248*" />
-            <ColumnDefinition Width="11*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="346*" />
-
-            <RowDefinition Height="65*" />
-        </Grid.RowDefinitions>
+        <Label Content="ABM de Usuarios" Height="62" FontSize="22" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Foreground="#fff" Width="266" />
 
         <!-- Botones -->
-
-        <Button Name="btnNuevo" Content="Nuevo" Click="Nuevo_Click" Margin="49,41,16,287" Grid.Row="6" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
-        <Button Name="btnGuardar" Content="Guardar" Click="Guardar_Click" Margin="110,41,45,287" Grid.Column="2" Grid.Row="6" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
-        <Button Name="btnCancelar" Content="Cancelar" Click="Cancelar_Click" Margin="133,41,156,287" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
-        <Button Name="btnEliminar" Content="Eliminar" Click="Eliminar_Click" Margin="0,41,36,287" Grid.Column="1" Grid.Row="6" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1" />
-
-
-        <!-- Datos del Usuario -->
-        <Grid Grid.Row="6" Margin="20,96,9,87" Grid.ColumnSpan="3">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="14*" />
-                <RowDefinition Height="20*" />
-            </Grid.RowDefinitions>
-
+        <Grid Margin="75,0,80,354" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="524" Height="55">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="31*" />
-                <ColumnDefinition Width="341*" />
-                <ColumnDefinition Width="94*" />
+                <ColumnDefinition Width="120*" />
+                <ColumnDefinition Width="104*" />
+                <ColumnDefinition Width="104*" />
+                <ColumnDefinition Width="104*" />
             </Grid.ColumnDefinitions>
-
-            <Label Content="Apellido" VerticalAlignment="Center" FontSize="14" Foreground="White" Background="Purple" Margin="0,6,0,57" Width="72" Grid.RowSpan="5" BorderBrush="Black" BorderThickness="1"/>
-            <TextBox Name="txtApellido" Grid.Column="1" VerticalAlignment="Center" Margin="6,12,0,3" Background="White" Foreground="Black" Grid.ColumnSpan="3" Height="16" BorderBrush="White" BorderThickness="1" />
-
-            <Label Content="Nombre" Grid.Row="4" VerticalAlignment="Center" FontSize="14" Foreground="White" Background="Purple" Margin="0,12,0,19" BorderBrush="Black" BorderThickness="1"/>
-            <TextBox Name="txtNombre" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Margin="6,19,0,24" Background="White" Foreground="Black" Grid.ColumnSpan="3" BorderBrush="White" BorderThickness="1" />
-
-            <Label Content="Username" Grid.Row="4" VerticalAlignment="Center" FontSize="14" Foreground="White" Background="Purple" Margin="0,37,0,52" Grid.RowSpan="2" BorderBrush="Black" BorderThickness="1"/>
-            <TextBox Name="txtUsername" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Margin="6,43,0,56" Background="White" Foreground="Black" Grid.RowSpan="2" Grid.ColumnSpan="3" BorderBrush="White" BorderThickness="1"/>
-
-            <Label Content="Password" Grid.Row="5" VerticalAlignment="Center" FontSize="14" Foreground="White" Background="Purple" Margin="0,14,0,9" BorderBrush="Black" BorderThickness="1" />
-            <TextBox Name="txtPassword" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Margin="6,20,0,14" Background="White" Foreground="Black" Grid.ColumnSpan="3" BorderBrush="White" BorderThickness="1"/>
+            <Button Name="btnNuevo" Content="Nuevo" Click="Nuevo_Click" BorderThickness="1"  Style="{StaticResource ButtonStyle}" Height="35" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button Name="btnGuardar" Content="Guardar" Click="Guardar_Click" Grid.Column="1" BorderThickness="1"  Style="{StaticResource ButtonStyle}" Height="35" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button Name="btnCancelar" Content="Cancelar" Click="Cancelar_Click" Grid.Column="3" BorderThickness="1"  Style="{StaticResource ButtonStyle}" Height="35" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button Name="btnEliminar" Content="Eliminar" Click="Eliminar_Click" Grid.Column="2" BorderThickness="1"  Style="{StaticResource ButtonStyle}" Height="35" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Grid>
 
-        <Button Name="btnSeleccionar" Grid.Row="7" Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Seleccionar" Foreground="White" Margin="98,7,21,21" Grid.Column="2" Click="btnSeleccionar_Click" />
 
-        <!-- Botones de Paginación -->
-        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1" Margin="115,0,30,0"></StackPanel>
-        <Button Name="btnUltimo" Content="&gt;|" Click="Ultimo_Click" Width="39" Margin="53,295,156,28" Grid.Row="6" Grid.Column="2" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
-        <Button Name="btnSiguiente" Content="Siguiente &gt;" Click="Siguiente_Click" Margin="116,295,201,28" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
-        <Button Name="btnAnterior" Content="&lt; Anterior" Click="Anterior_Click" Margin="35,295,36,28" Grid.Row="6" Grid.Column="1" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1" />
-        <Button Name="btnPrimero" Content="|&lt;" Click="Primero_Click" Margin="153,295,121,28" Grid.Row="6" Grid.ColumnSpan="2" Background="Purple" Foreground="White" BorderBrush="Black" BorderThickness="1"/>
+        <Grid Margin="175,0,152,109" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="352" Height="59">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*" />
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="20*" />
+            </Grid.ColumnDefinitions>
+            
+            <!-- Botones de Paginación -->
+            <Button Name="btnUltimo" Content="&gt;|" Click="Ultimo_Click" Width="40" BorderThickness="1" Style="{StaticResource ButtonStyle}" Height="30" FontSize="12" HorizontalContentAlignment="Center" Grid.Column="3" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight" />
+            <Button Name="btnSiguiente" Content="Siguiente &gt;" Click="Siguiente_Click" BorderThickness="1" Style="{StaticResource ButtonStyle}" Height="30" FontSize="12" HorizontalContentAlignment="Center" Grid.Column="2" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight" />
+            <Button Name="btnAnterior" Content="&lt; Anterior" Click="Anterior_Click" BorderThickness="1" Style="{StaticResource ButtonStyle}" Height="30" FontSize="12" HorizontalContentAlignment="Center" Grid.Column="1" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight" />
+            <Button Name="btnPrimero" Content="|&lt;" Click="Primero_Click" BorderThickness="1" Style="{StaticResource ButtonStyle}" Height="30" FontSize="12" HorizontalContentAlignment="Center" Width="40" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight" />
+        </Grid>
+            <!-- Datos del Usuario -->
+        <Button Name="btnSeleccionar" BorderThickness="1" Content="Seleccionar"  Click="btnSeleccionar_Click" Style="{StaticResource ButtonStyle}" Width="100" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="499,408,80,23" FontSize="15" />
 
-        <Canvas Grid.ColumnSpan="3" Grid.Row="7" Height="50" HorizontalAlignment="Left" Margin="153,0,0,0" Name="canvas_content" VerticalAlignment="Top" Width="258" DataContext="{Binding Source={StaticResource ResourceKey=list_user}}">
+        
+        <Canvas Height="50" Margin="275,381,279,0" Name="canvas_content" VerticalAlignment="Top" DataContext="{Binding Source={StaticResource ResourceKey=list_user}}">
             <StackPanel Margin="0 5 0 0" Canvas.Left="66" Canvas.Top="0">
                 <TextBlock Text="{Binding Usr_UserName}" Foreground="White" Height="20" Padding="5"/>
                 <TextBlock Text="{Binding Usr_Password}" Foreground="White" Height="20" Padding="5"/>
@@ -89,7 +58,27 @@
             <TextBlock Height="20" Name="textBlock1" Text="Username:" Foreground="White" Canvas.Left="6" Canvas.Top="10" />
             <TextBlock Height="20" Name="textBlock2" Text="Password:" Foreground="White" Canvas.Left="8" Canvas.Top="30" />
         </Canvas>
-        <Label Content="LISTA DE USUARIOS" FontSize="14" Foreground="White" Margin="45,262,213,66" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" />
-        <Button Background="Purple" BorderBrush="Black" BorderThickness="1" Content="Listado de Usuarios" Foreground="White" Grid.Row="7" Margin="12,7,28,21" Name="listadoUsuario" Click="listadoUsuario_Click" />
+        <Label Content="LISTA DE USUARIOS" FontSize="14" Foreground="White" Margin="275,350,240,81" />
+        <Grid Margin="0,122,179,174" HorizontalAlignment="Right" Width="310">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="10*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="103*" />
+                <ColumnDefinition Width="352*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="Apellido" VerticalAlignment="Center" FontSize="13" Foreground="White" Background="Purple" Margin="0" Width="75" BorderBrush="Black" BorderThickness="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Padding="5" FlowDirection="LeftToRight" />
+            <TextBox Name="txtApellido" Grid.Column="1" VerticalAlignment="Center" Margin="21,7,31,7" Background="White" Foreground="Black" Height="23" BorderBrush="White" BorderThickness="1" Width="200" HorizontalAlignment="Center" VerticalContentAlignment="Center" />
+            <Label Content="Nombre" Grid.Row="1" VerticalAlignment="Center" FontSize="13" Foreground="White" Background="Purple" Margin="0" BorderBrush="Black" BorderThickness="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Padding="5" FlowDirection="LeftToRight" Width="75" />
+            <TextBox Name="txtNombre" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="21,7,31,7" Background="White" Foreground="Black" BorderBrush="White" BorderThickness="1" Width="200" Height="23" HorizontalAlignment="Center" VerticalContentAlignment="Center" />
+            <Label Content="Username" Grid.Row="2" VerticalAlignment="Center" FontSize="13" Foreground="White" Background="Purple" Margin="0" BorderBrush="Black" BorderThickness="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="Auto" HorizontalAlignment="Right" Padding="5" FlowDirection="LeftToRight" Width="75" />
+            <TextBox Name="txtUsername" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="21,7,31,7" Background="White" Foreground="Black" BorderBrush="White" BorderThickness="1" Height="23" Width="200" HorizontalAlignment="Center" VerticalContentAlignment="Center" />
+            <TextBox Name="txtPassword" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="21,7,31,7" Background="White" Foreground="Black" BorderBrush="White" BorderThickness="1" Width="200" Height="23" HorizontalAlignment="Center" VerticalContentAlignment="Center" />
+            <Label Content="Password" Grid.Row="3" VerticalAlignment="Center" FontSize="13" Foreground="White" Background="Purple" Margin="0" BorderBrush="Black" BorderThickness="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Padding="5" FlowDirection="LeftToRight" Width="75" />
+        </Grid>
+        <Button BorderThickness="1" Content="Listado de Usuarios" Name="listadoUsuario" Click="listadoUsuario_Click" Style="{StaticResource ButtonStyle}" FontSize="14" Margin="62,404,487,27" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130" Height="30" />
     </Grid>
 </Window>

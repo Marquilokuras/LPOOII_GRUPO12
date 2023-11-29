@@ -61,7 +61,7 @@
         <Label Content="Ocupado" Height="28" HorizontalAlignment="Left" Margin="12,388,0,0" Name="label1" VerticalAlignment="Top" />
         <Label Content="Disponible" Height="28" HorizontalAlignment="Left" Margin="12,424,0,0" Name="label2" VerticalAlignment="Top" />
         <Label Content="Deshabilitado" Height="28" HorizontalAlignment="Right" Margin="0,458,187,0" Name="label3" VerticalAlignment="Top" />
-        <Button Content="Actualizar" Height="23" HorizontalAlignment="Left" Margin="192,424,0,0" Name="btnRefresh" VerticalAlignment="Top" Width="75" Click="btnRefresh_Click" />
-        <Button Content="Salir" Height="23" HorizontalAlignment="Left" Margin="192,463,0,0" Name="btnExit" VerticalAlignment="Top" Width="75" Click="btnExit_Click" />
+        <Button Content="Actualizar" Height="23" HorizontalAlignment="Left" Margin="192,424,0,0" Name="btnRefresh" VerticalAlignment="Top" Width="75" Click="btnRefresh_Click" Style="{StaticResource ButtonStyle}" FontSize="14" />
+        <Button Content="Salir" Height="23" HorizontalAlignment="Left" Margin="192,463,0,0" Name="btnExit" VerticalAlignment="Top" Width="75" Click="btnExit_Click" Style="{StaticResource ButtonStyle}" FontSize="14" />
     </Grid>
 </Window>
