@@ -22,5 +22,6 @@
         <my:Login Grid.ColumnSpan="2" Height="107" HorizontalAlignment="Left" Margin="12,0,0,148" x:Name="login" VerticalAlignment="Bottom" Width="224" Grid.RowSpan="2" />
         <Button Content="Ingresar" Height="30" HorizontalAlignment="Left" Margin="78,0,0,0" Name="btnSession" VerticalAlignment="Top" Width="96" Click="btnSession_Click" FontSize="12" ClickMode="Release" Background="White" BorderBrush="#FFAB7D00" Foreground="#FF030305" Grid.Row="1"  Style="{StaticResource ButtonStyle}" />
         <Button Content="Sobre nosotros" Height="35" HorizontalAlignment="Center" Margin="87,12,12,131" Name="sobreNostros" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="146" Grid.Column="1" Click="sobreNostros_Click" />
+        <Button Content="Presentacion" Height="35" HorizontalAlignment="Center" Margin="87,53,12,91" Name="presentacion" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="146" Grid.Column="1" Click="presentacion_Click" />
     </Grid>
 </Window>
