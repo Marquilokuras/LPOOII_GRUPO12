@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/bg-video.wmv")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/audio-1.mpeg")]
 
 
