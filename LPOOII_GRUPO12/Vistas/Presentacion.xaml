@@ -1,7 +1,9 @@
 ﻿<Window x:Class="Vistas.Presentacion"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Presentacion" Height="300" Width="300" WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png">
+        Title="Presentacion" Height="300" Width="300" 
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Style="{StaticResource MyWindowDefault}">
     <Grid>
         <MediaElement Name="mediaPlayer" LoadedBehavior="Play" Margin="0,0,128,215" UnloadedBehavior="Close"/>
         <Image Name="mainImage" Source="/Vistas;component/Images/img-audio.jpeg" Margin="40,69,45,25" />

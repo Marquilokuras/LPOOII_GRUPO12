@@ -26,6 +26,8 @@ namespace Vistas
         public TicketWindow(int ticketNro)
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
             numero = ticketNro;
         }
 

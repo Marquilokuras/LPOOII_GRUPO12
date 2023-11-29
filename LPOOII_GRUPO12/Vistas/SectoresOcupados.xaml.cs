@@ -19,6 +19,8 @@ namespace Vistas
         public SectoresOcupados()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
             CargarSectoresOcupados();
         }
 

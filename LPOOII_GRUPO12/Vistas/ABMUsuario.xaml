@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:svc="clr-namespace:ClasesBase;assembly=ClasesBase"
         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
-        Title="ABM de Usuarios" Height="500" Width="701" Loaded="Window_Loaded"
+        Title="Gestion de Usuarios" Height="500" Width="701" Loaded="Window_Loaded"
         Style="{StaticResource MyWindowDefault}">
 
     <Window.Resources>
@@ -15,7 +15,7 @@
     </Window.Resources>
 
     <Grid>
-        <Label Content="ABM de Usuarios" Height="62" FontSize="22" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Foreground="#fff" Width="266" />
+        <Label Content="Gestion de Usuarios" Height="34" FontSize="20" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Foreground="#fff" Width="197" Margin="12,12,0,0" />
 
         <!-- Botones -->
         <Grid Margin="75,0,80,354" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="524" Height="55">

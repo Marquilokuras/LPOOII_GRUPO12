@@ -1,8 +1,8 @@
 ﻿<Window x:Class="Vistas.ABMCliente"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ABMCliente" Height="341" Width="760" MinHeight="300" MinWidth="300"
-         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
+        Title="Gestion de Clientes" Height="374" Width="760" MinHeight="300" MinWidth="300"
+        WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
     
     <Window.Resources>
@@ -38,7 +38,7 @@
     </Window.Resources>
 
     <Grid>
-        <Label Content="ABM de Clientes" Height="36" HorizontalAlignment="Left" Margin="0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#fff"/>
+        <Label Content="Gestion de Clientes" Height="36" HorizontalAlignment="Left" Margin="12,5,0,0" Name="label1" VerticalAlignment="Top" Style="{StaticResource MyTitle}" Foreground="#fff"/>
         
         <Grid Margin="0,7" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid.RowDefinitions>
@@ -61,7 +61,7 @@
             <TextBox Height="23" HorizontalAlignment="Center" Margin="5,0" Name="textTelefono" VerticalAlignment="Center" Width="163" Text="{Binding Path=Cli_Telefono, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="3" VerticalContentAlignment="Center" TextChanged="CamposForm_TextChanged" />
         </Grid>
 
-        <Grid Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="489">
+        <Grid Margin="0,10,0,10" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="489">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120*" />
                 <ColumnDefinition Width="104*" />
@@ -84,6 +84,6 @@
             <TextBox Height="23" HorizontalAlignment="Center" Name="textBuscar" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" VerticalAlignment="Center" Width="163" Margin="0,0,3,0" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" LostFocus="textDni_LostFocus" TextChanged="textBuscar_TextChanged" />
             <Button Content="Buscar" Height="33" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Name="btnBuscar" Padding="0" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="71" VerticalContentAlignment="Center" FontSize="16" MinWidth="0" Grid.Column="1" Click="btnBuscar_Click" />
         </Grid>
-        <Button Content="Validar Clientes" Height="35" HorizontalAlignment="Center" Margin="12,42,599,225" Name="btnValidarCliente" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="127" Click="btnValidarCliente_Click" />
+        <Button Content="Validar Clientes" Height="35" HorizontalAlignment="Center" Margin="12,47,599,220" Name="btnValidarCliente" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" Width="127" Click="btnValidarCliente_Click" />
     </Grid>
 </Window>

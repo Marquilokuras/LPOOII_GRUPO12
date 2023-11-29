@@ -30,6 +30,8 @@ namespace Vistas
         public VistaPreviaImpresion()
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
 
             UsuariosFiltrados = new List<Usuario>();
 

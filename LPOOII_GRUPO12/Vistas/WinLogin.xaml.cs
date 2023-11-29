@@ -25,6 +25,8 @@ namespace Vistas
         public WinWelcome()
         {
             InitializeComponent();
+            //VentanaManager.Instance.agregarVentanaPrincipal(this);
+            //VentanaManager.Instance.mostrarVentanasPrincipalesAbiertas();
         }
 
         private void btnSession_Click(object sender, RoutedEventArgs e)
@@ -40,7 +42,7 @@ namespace Vistas
                     Console.WriteLine(usuarioLogueado.ToString());
                     MenuPrincipalWindow menuWindow = new MenuPrincipalWindow(usuarioLogueado);
                     menuWindow.Show();
-                    this.Hide();
+                    this.Close();
                 }
                 else
                 {
@@ -62,6 +64,12 @@ namespace Vistas
         {
             Presentacion presentacion = new Presentacion();
             presentacion.Show();
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            //VentanaManager.Instance.cerrarTodasLasVentanasPrincipales();
+            VentanaManager.Instance.cerrarTodasLasVentanas();
         }
     }
 }

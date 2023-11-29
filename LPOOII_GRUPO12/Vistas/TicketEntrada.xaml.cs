@@ -24,6 +24,8 @@ namespace Vistas
         public TicketEntrada(Ticket tic)
         {
             InitializeComponent();
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
             ticket = tic;
         }
 

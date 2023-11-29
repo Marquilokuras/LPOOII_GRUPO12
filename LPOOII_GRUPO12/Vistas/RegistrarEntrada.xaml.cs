@@ -18,6 +18,10 @@ namespace Vistas
         public RegistrarEntrada(int sectorId, int zonaCodigo)
         {
             InitializeComponent();
+
+            VentanaManager.Instance.agregarVentana(this);
+            VentanaManager.Instance.mostrarVentanasAbiertas();
+            
             codigoSector = sectorId;
             this.zona = zonaCodigo;
 

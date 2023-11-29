@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\obj\x86\Debug\
 Vistas
 none
 false
 DEBUG;TRACE
-C:\Users\Marcos\Documents\TP FINAL LPOO\LPOOII_GRUPO12\Vistas\App.xaml
+C:\Users\Nicolas\Documents\APU 3° Año\Laboratorio de Programacion Orientada a Objetos II\Practicos\LPOOII_GRUPO12\Vistas\App.xaml
 251556609297
 
-31200808023
-13647228451
+31-1023026479
+13-35268074
 ABMCliente.xaml;ABMSector.xaml;ABMUsuario.xaml;ABMVehiculo.xaml;AcercaDe.xaml;GrillaClientes.xaml;GrillaSectores.xaml;Presentacion.xaml;RegistrarEntrada.xaml;SectoresOcupados.xaml;TicketEntrada.xaml;TicketWindow.xaml;Ventas.xaml;VistaPreviaVentas.xaml;Zonas.xaml;EstadoSector.xaml;GrillaVehiculos.xaml;ListadoUsuario.xaml;MenuPrincipalWindow.xaml;RegistrarSalida.xaml;User Controls\Login.xaml;ValidarCliente.xaml;Sectores.xaml;VistaPreviaImpresion.xaml;WinLogin.xaml;
 
 False
