@@ -15,18 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_51A861E634894579880CFAF893FF15BB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5AA92AAC4FDD4236987EC13CFDCEDDB8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6B5368F8116D43899A25EDAE907B7940"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,8 +27,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9839798902A3412AB359BFCE0372BF1F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F3D219526B26AB7228B0EF5827807F09"
         "OwnerKey" = "8:_6B5368F8116D43899A25EDAE907B7940"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F587E0DE9AA247599590CBC857EC0E05"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -160,52 +160,32 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_51A861E634894579880CFAF893FF15BB"
-            {
-            "SourcePath" = "8:..\\playa.mdf"
-            "TargetName" = "8:playa.mdf"
-            "Tag" = "8:"
-            "Folder" = "8:_4DB1F7D8E60E472CAFB0CE92F657DBA8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5AA92AAC4FDD4236987EC13CFDCEDDB8"
-            {
-            "SourcePath" = "8:..\\playa_log.LDF"
-            "TargetName" = "8:playa_log.LDF"
-            "Tag" = "8:"
-            "Folder" = "8:_4DB1F7D8E60E472CAFB0CE92F657DBA8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_884E0CEB8D21435B92B14E127EA4B002"
             {
             "SourcePath" = "8:..\\Vistas\\Images\\logoParking.ico"
             "TargetName" = "8:logoParking.ico"
             "Tag" = "8:"
             "Folder" = "8:_4DB1F7D8E60E472CAFB0CE92F657DBA8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9839798902A3412AB359BFCE0372BF1F"
+            {
+            "SourcePath" = "8:..\\playa_log.LDF"
+            "TargetName" = "8:playa_log.LDF"
+            "Tag" = "8:"
+            "Folder" = "8:_2FB3EA5643C94229B3ADAF2DD72D2118"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -249,6 +229,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F587E0DE9AA247599590CBC857EC0E05"
+            {
+            "SourcePath" = "8:..\\playa.mdf"
+            "TargetName" = "8:playa.mdf"
+            "Tag" = "8:"
+            "Folder" = "8:_2FB3EA5643C94229B3ADAF2DD72D2118"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -319,7 +319,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Instalador SGE"
         "ProductCode" = "8:{920DEC00-DE5D-4597-9562-1A275AD7855A}"
-        "PackageCode" = "8:{10DA75D7-4FFF-4951-BAEF-E6B3518165FB}"
+        "PackageCode" = "8:{0D6CA324-FD21-4C8E-83A2-61D0E2F9A548}"
         "UpgradeCode" = "8:{062CBF27-A572-4968-806B-863F2CE285E5}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
