@@ -7,7 +7,10 @@
     <Grid>
 
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!--
             <MediaElement Name="mediaElement" LoadedBehavior="Play" Stretch="Fill" Height="244" Width="462" Source="/Vistas;Resource/Media/bg-video.wmv" />
+            -->
+            <MediaElement Name="mediaElement" LoadedBehavior="Play" Stretch="Fill" Height="244" Width="462" Source="C:\Grupo12\Instalador SGE\datos\bg-video.wmv" />
         </StackPanel>
 
         <Label Content="GRUPO 12" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="38,12,0,0" Name="label1" VerticalAlignment="Top" Width="400" FontSize="16" FontWeight="Bold" />

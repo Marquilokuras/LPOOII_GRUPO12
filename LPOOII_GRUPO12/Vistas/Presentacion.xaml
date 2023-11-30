@@ -5,7 +5,11 @@
         WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Images/logoParking.png"
         Style="{StaticResource MyWindowDefault}">
     <Grid>
+        <!--
         <MediaElement Name="mediaPlayer" LoadedBehavior="Play" Margin="0,0,128,215" UnloadedBehavior="Close"/>
+        -->
+        <MediaElement Name="mediaPlayer" LoadedBehavior="Play" Margin="0,0,128,215" UnloadedBehavior="Close" Source="C:\Grupo12\Instalador SGE\datos\audio-1.mpeg"/>
+
         <Image Name="mainImage" Source="/Vistas;component/Images/img-audio.jpeg" Margin="40,69,45,25" />
     </Grid>
 </Window>

@@ -31,7 +31,8 @@ namespace Vistas
             string carpetaBase = AppDomain.CurrentDomain.BaseDirectory;
             Console.WriteLine("carpetaBase: " + carpetaBase);
 
-            string rutaDirecta = Path.Combine(carpetaBase, "..", "..", "Media", "bg-video.wmv");
+            //string rutaDirecta = Path.Combine(carpetaBase, "..", "..", "Media", "bg-video.wmv");
+            string rutaDirecta = Path.Combine(carpetaBase, "datos", "bg-video.wmv");
             Console.WriteLine("rutaDirecta: " + rutaDirecta);
 
             mediaElement.Source = new Uri(rutaDirecta);

@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vistas.exe" size="3526144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vistas.exe" size="3527168">
       <assemblyIdentity name="Vistas" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JJ4omnvnII0CrweWURSCFAkyM50=</dsig:DigestValue>
+        <dsig:DigestValue>zO2thxAxebpld7U14AwTcoq6ad4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
