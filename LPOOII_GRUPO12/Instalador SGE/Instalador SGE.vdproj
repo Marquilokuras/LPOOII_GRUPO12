@@ -27,20 +27,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_820592E995C74CFFA7C58B43AC504EA2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_884E0CEB8D21435B92B14E127EA4B002"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_B4DFB709EEA840AC82513D7721F8DC53"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F3D219526B26AB7228B0EF5827807F09"
-        "OwnerKey" = "8:_820592E995C74CFFA7C58B43AC504EA2"
+        "OwnerKey" = "8:_B4DFB709EEA840AC82513D7721F8DC53"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_820592E995C74CFFA7C58B43AC504EA2"
+        "OwnerKey" = "8:_B4DFB709EEA840AC82513D7721F8DC53"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -89,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -217,7 +233,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_2FB3EA5643C94229B3ADAF2DD72D2118"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:Parking\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -397,7 +413,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_288D25C94C53478C852CDC2D93D97108"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BAC66DE83B114C6C923AD1D4A45A5233"
             {
             "Name" = "8:Parking"
             "Arguments" = "8:"
@@ -405,13 +421,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_820592E995C74CFFA7C58B43AC504EA2"
+            "Target" = "8:_B4DFB709EEA840AC82513D7721F8DC53"
             "Folder" = "8:_2FB3EA5643C94229B3ADAF2DD72D2118"
             "WorkingFolder" = "8:_2FB3EA5643C94229B3ADAF2DD72D2118"
             "Icon" = "8:_884E0CEB8D21435B92B14E127EA4B002"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_916E019FCD244144BAD79242BED10C79"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F5797E148EED4903A5C0AD420412BF52"
             {
             "Name" = "8:Parking"
             "Arguments" = "8:"
@@ -419,7 +435,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_820592E995C74CFFA7C58B43AC504EA2"
+            "Target" = "8:_B4DFB709EEA840AC82513D7721F8DC53"
             "Folder" = "8:_F4401A52396041D78E1A01DA5264A97C"
             "WorkingFolder" = "8:_2FB3EA5643C94229B3ADAF2DD72D2118"
             "Icon" = "8:_884E0CEB8D21435B92B14E127EA4B002"
@@ -824,7 +840,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_820592E995C74CFFA7C58B43AC504EA2"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B4DFB709EEA840AC82513D7721F8DC53"
             {
             "SourcePath" = "8:..\\Vistas\\obj\\x86\\Debug\\Vistas.exe"
             "TargetName" = "8:"
